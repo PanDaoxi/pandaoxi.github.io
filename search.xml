@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>初中生物重要知识点总结</title>
-    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
-    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
-大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
-<span id="more"></span>
-<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
-<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
-<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
-<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
-<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
-<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
-<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>文化课</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C++ 排序和去重</title>
     <url>/2023/09/15/c-pai-xu-he-qu-chong/</url>
     <content><![CDATA[<p>排序和去重是数据分析中对数据常见的两种操作。</p>
@@ -108,6 +87,104 @@
       </tags>
   </entry>
   <entry>
+    <title>长白山一游</title>
+    <url>/2023/07/30/chang-bai-shan-yi-you-tu-ce/</url>
+    <content><![CDATA[<p>谨以此诗，记录山河之壮美！<br />
+游记，启动！</p>
+<h2 id="-more-"><a class="markdownIt-Anchor" href="#-more-"></a> <span id="more"></span></h2>
+<p>白山黑水真福地，青山悠悠心飞扬。<br />
+漫漫红滩昭夏日，滔滔大江奔远方。<br />
+天池湖里映白云，长白山下育三江。<br />
+鸡鸣一声三国晓，将士国门卫边防。</p>
+<p><img src="/post-images/aaa5315259319547925ae80bf4e5a8b0.jpg" alt="" /><br />
+<img src="/post-images/03c79d6630464f40ac6b47c8b88d9713.jpg" alt="" /><br />
+<img src="/post-images/31e94e974cfd394cf461dcd4fcfc0c4c.jpg" alt="" /><br />
+<img src="/post-images/c329bfa1bf7d58edb4fd83de4447f872.jpg" alt="" /><br />
+<img src="/post-images/092d65a122b6a31413ec9f7f0f36b210.jpg" alt="" /><br />
+<img src="/post-images/1d7ff3c3f9b31c1c5a1dd28a6617d9cb.jpg" alt="" /><br />
+<img src="/post-images/929c22a833af64330d8bd552b489bcf3.jpg" alt="" /><br />
+<img src="/post-images/ab503c8e51c9da2540d27174c586162c.jpg" alt="" /><br />
+<img src="/post-images/f2ed628344cf44864eebcf25588a98c4.jpg" alt="" /></p>
+<hr />
+<p>吃得好！~😁</p>
+<p><img src="/post-images/7cd3614223a94f5e798503750e0f649c.jpg" alt="" /><br />
+<img src="/post-images/87cde153a356496fdd1395bfe49419dd.jpg" alt="" /><br />
+<img src="/post-images/dc230d9c580dd030d10babc323579627.jpg" alt="" /><br />
+<img src="/post-images/fc266e3c497c50bfef4e646ca823f147.jpg" alt="" /><br />
+<img src="/post-images/17dc3d44997874f8831e0840cb92bbd1.jpg" alt="" /><br />
+<img src="/post-images/446ed8391431b36a4cc72ab2b1239919.jpg" alt="" /><br />
+<img src="/post-images/e25d5383fd12b0bb81b3057d854c9e1a.jpg" alt="" /><br />
+<img src="/post-images/35038e816b481de843c02546afff7a8a.jpg" alt="" /><br />
+<img src="/post-images/0a8ea0829824920f573f5cb1a9f94eb8.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重新排列 Windows“新建”菜单的顺序</title>
+    <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
+    <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
+<span id="more"></span>
+<p>如下图：</p>
+<p><img src="/post-images/c511e8ade6ec61131d685d9d9871abcc.png" alt="image-20240620192146449" /></p>
+<p>那么我是如何做到的呢？</p>
+<p></p>
+<hr />
+<h1 id="注册表修改"><a class="markdownIt-Anchor" href="#注册表修改"></a> 注册表修改</h1>
+<p>首先，你需要这样一个注册表地址：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew</span><br></pre></td></tr></table></figure>
+<p>该项下面有一个名为 <code>Classes</code> 的 <code>REG_MULTI_SZ</code> 值。</p>
+<p>我的是这样的，就是现在的新建菜单的顺序，仅供参考：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Folder</span><br><span class="line">.lnk</span><br><span class="line">.bmp</span><br><span class="line">.txt</span><br><span class="line">.md</span><br><span class="line">.bat</span><br><span class="line">.cpp</span><br><span class="line">.py</span><br><span class="line">.html</span><br><span class="line">.docx</span><br><span class="line">.pptx</span><br><span class="line">.xlsx</span><br></pre></td></tr></table></figure>
+<p>你需要做的是修改值，符合你的需求。</p>
+<p><img src="/post-images/57110f74f23bc68d35d0b26135756d2a.png" alt="Clip_2024-06-20_19-30-37" /></p>
+<p>这个错误忽略即可。</p>
+<h1 id="禁用继承"><a class="markdownIt-Anchor" href="#禁用继承"></a> 禁用继承</h1>
+<p>你刚刚做出的修改可能会被系统修改回去。为此需要禁用继承。</p>
+<p><img src="/post-images/ae74466edaf22d1f8ce33e7ce7f56f72.png" alt="Clip_2024-06-20_19-32-29" /></p>
+<p><img src="/post-images/3087b46bb4cd6160ba7aaff423423634.png" alt="Clip_2024-06-20_19-33-25" /></p>
+<p><img src="/post-images/2f0483e6858ae431fa24230e8979c776.png" alt="Clip_2024-06-20_19-33-46" /></p>
+<p><img src="/post-images/a7b351b572c00e2b61a3ae0c4ec6bea2.png" alt="Clip_2024-06-20_19-34-08" /></p>
+<p><img src="/post-images/1e4985e91927831211dd96cc18f986ea.png" alt="Clip_2024-06-20_19-37-07" /></p>
+<p><img src="/post-images/4ff3e255f9719432763b227d9dce61ca.png" alt="Clip_2024-06-20_19-38-21" /></p>
+<p><img src="/post-images/2a64f003e00eb8b10eeecc812ad9e496.png" alt="Clip_2024-06-20_19-39-40" /></p>
+<p><img src="/post-images/ebfa5c60bcf0f1ddaa832c8ff022779c.png" alt="Clip_2024-06-20_19-40-17" /></p>
+<p>分配完成，检查结果。</p>
+<p>完成。</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初中生物重要知识点总结</title>
+    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
+    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
+大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
+<span id="more"></span>
+<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
+<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
+<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
+<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
+<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
+<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
+<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>冀少版七年级生物知识点思维导图</title>
     <url>/2023/07/30/ji-jiao-ban-qi-nian-ji-sheng-wu-zhi-shi-dian-si-wei-dao-tu/</url>
     <content><![CDATA[<p>仅供参考，对复习可能有一定效果。推荐使用下面的电子课本：</p>
@@ -186,26 +263,6 @@
 <img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
 </ol>
 ]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>逃脱“红蜘蛛”等多媒体网络教室工具的方法</title>
-    <url>/2024/03/30/tao-tuo-hong-zhi-zhu-deng-duo-mei-ti-wang-luo-jiao-shi-gong-ju-de-fang-fa/</url>
-    <content><![CDATA[<p>关于什么是“红蜘蛛”：<a href="http://www.3000soft.net/products/product1.php">http://www.3000soft.net/products/product1.php</a></p>
-<span id="more"></span>
-<ul>
-<li>如果老师正在锁定你的屏幕，你需要锁定屏幕（<kbd>Win</kbd>+<kbd>L</kbd>），点击切换用户；但是你还是需要回到刚才的用户，并快速进行下一步。</li>
-<li><strong>以管理员身份</strong>，输入命令：</li>
-</ul>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">taskkill /im redagent.exe /im rscheck.exe /im checkrs.exe /f</span><br></pre></td></tr></table></figure>
-<p>但是我不敢承诺你的老师是否会来线下找你。如果来找，我就帮不了你啦！</p>
-<p>此外，我制作了一个全平台破解工具，如果你不想敲命令，也可以带上 U 盘，运行以下批处理文件。</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">echo</span> off</span><br><span class="line">title 机房软件杀手</span><br><span class="line">net session &gt;nul <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">    <span class="keyword">goto</span> main</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 错误：</span><br><span class="line">	<span class="keyword">echo</span>. </span><br><span class="line">	<span class="keyword">echo</span> 您需要使用管理员权限运行此程序！</span><br><span class="line">	<span class="keyword">echo</span> 解决方法：</span><br><span class="line">	<span class="keyword">echo</span> ①退出此程序（按键盘上任意键退出程序）；</span><br><span class="line">	<span class="keyword">echo</span> ②右键单击此程序，选择“以管理员身份运行”；</span><br><span class="line">	<span class="keyword">echo</span> ③授予运行权限即可。</span><br><span class="line">	pause &gt; nul</span><br><span class="line">	<span class="keyword">exit</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">:main</span><br><span class="line"><span class="keyword">echo</span> 程序将自动选择计算机上已经安装的电子课堂，但不保证一定退出成功。</span><br><span class="line"><span class="keyword">echo</span> 目前支持的机房软件：极域（青葡萄）电子教室、红蜘蛛、伽卡他卡、苏亚星。</span><br><span class="line"><span class="keyword">echo</span> 是否要立即开始关闭机房软件？（按键盘上任意键继续）</span><br><span class="line"><span class="keyword">echo</span> （请小心老师私下武力解决）</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;StudentMain.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：极域（青葡萄）电子教室</span><br><span class="line">	taskkill /im <span class="string">&quot;StudentMain.exe&quot;</span> /t /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：极域（青葡萄）电子教室</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;redAgent.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：红蜘蛛软件</span><br><span class="line">	taskkill /im <span class="string">&quot;redAgent.exe&quot;</span> /im <span class="string">&quot;checkrs.exe&quot;</span> /im <span class="string">&quot;rscheck.exe&quot;</span> /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：红蜘蛛软件</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;student.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：伽卡他卡、苏亚星</span><br><span class="line">	taskkill /im <span class="string">&quot;student.exe&quot;</span> /f /t</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：伽卡他卡、苏亚星</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"><span class="keyword">echo</span> 处理完成。（按键盘上任意键退出程序）</span><br><span class="line"><span class="keyword">echo</span> 程序作者：Luogu @PanDaoxi</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>计算机</category>
       </categories>
@@ -318,6 +375,26 @@
 <p><img src="./post-images/48c8d521ee64406ee8b58882fd45556e.webp" alt="" /><br />
 另附一非弹窗版，速度更快：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Author:PanDaoxi</span></span><br><span class="line"><span class="keyword">from</span> os <span class="keyword">import</span> system, environ</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint, shuffle</span><br><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> exit</span><br><span class="line"></span><br><span class="line">names_char, p1, p2 = [], <span class="string">&quot;&quot;</span>, <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">97</span>, <span class="number">123</span>):</span><br><span class="line">    names_char.append(<span class="built_in">chr</span>(i))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">65</span>, <span class="number">91</span>):</span><br><span class="line">    names_char.append(<span class="built_in">chr</span>(i))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">48</span>, <span class="number">58</span>):</span><br><span class="line">    names_char.append(<span class="built_in">chr</span>(i))</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">makeNames</span>():</span><br><span class="line">    name, temp = <span class="string">&quot;&quot;</span>, names_char</span><br><span class="line">    shuffle(temp)</span><br><span class="line">    name = <span class="string">&quot;&quot;</span>.join(temp)</span><br><span class="line">    </span><br><span class="line">    start = randint(<span class="number">0</span>, <span class="built_in">len</span>(name) - <span class="number">1</span>)</span><br><span class="line">    end = randint(start, <span class="built_in">len</span>(name) - <span class="number">1</span>) + <span class="number">1</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> name[start : end]</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(__file__, <span class="string">&quot;rb&quot;</span>) <span class="keyword">as</span> source:</span><br><span class="line">        pandaoxi = source.read()</span><br><span class="line">        tPath = environ[<span class="string">&quot;UserProFile&quot;</span>]</span><br><span class="line">        p1, p2 = tPath + <span class="string">&quot;\\%s.py&quot;</span> % makeNames(), tPath + <span class="string">&quot;\\%s.py&quot;</span> % makeNames()</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(p1, <span class="string">&quot;wb&quot;</span>) <span class="keyword">as</span> w1:</span><br><span class="line">            w1.write(pandaoxi)</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(p2, <span class="string">&quot;wb&quot;</span>) <span class="keyword">as</span> w2:</span><br><span class="line">            w2.write(pandaoxi)</span><br><span class="line">            </span><br><span class="line">    system(<span class="string">&quot;start /min python \&quot;%s\&quot;&quot;</span> % p1)</span><br><span class="line">    system(<span class="string">&quot;start /min python \&quot;%s\&quot;&quot;</span> % p2)</span><br><span class="line">    </span><br><span class="line">    exit()</span><br><span class="line"><span class="keyword">except</span>:</span><br><span class="line">    exit()</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>逃脱“红蜘蛛”等多媒体网络教室工具的方法</title>
+    <url>/2024/03/30/tao-tuo-hong-zhi-zhu-deng-duo-mei-ti-wang-luo-jiao-shi-gong-ju-de-fang-fa/</url>
+    <content><![CDATA[<p>关于什么是“红蜘蛛”：<a href="http://www.3000soft.net/products/product1.php">http://www.3000soft.net/products/product1.php</a></p>
+<span id="more"></span>
+<ul>
+<li>如果老师正在锁定你的屏幕，你需要锁定屏幕（<kbd>Win</kbd>+<kbd>L</kbd>），点击切换用户；但是你还是需要回到刚才的用户，并快速进行下一步。</li>
+<li><strong>以管理员身份</strong>，输入命令：</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">taskkill /im redagent.exe /im rscheck.exe /im checkrs.exe /f</span><br></pre></td></tr></table></figure>
+<p>但是我不敢承诺你的老师是否会来线下找你。如果来找，我就帮不了你啦！</p>
+<p>此外，我制作了一个全平台破解工具，如果你不想敲命令，也可以带上 U 盘，运行以下批处理文件。</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">echo</span> off</span><br><span class="line">title 机房软件杀手</span><br><span class="line">net session &gt;nul <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">    <span class="keyword">goto</span> main</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 错误：</span><br><span class="line">	<span class="keyword">echo</span>. </span><br><span class="line">	<span class="keyword">echo</span> 您需要使用管理员权限运行此程序！</span><br><span class="line">	<span class="keyword">echo</span> 解决方法：</span><br><span class="line">	<span class="keyword">echo</span> ①退出此程序（按键盘上任意键退出程序）；</span><br><span class="line">	<span class="keyword">echo</span> ②右键单击此程序，选择“以管理员身份运行”；</span><br><span class="line">	<span class="keyword">echo</span> ③授予运行权限即可。</span><br><span class="line">	pause &gt; nul</span><br><span class="line">	<span class="keyword">exit</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">:main</span><br><span class="line"><span class="keyword">echo</span> 程序将自动选择计算机上已经安装的电子课堂，但不保证一定退出成功。</span><br><span class="line"><span class="keyword">echo</span> 目前支持的机房软件：极域（青葡萄）电子教室、红蜘蛛、伽卡他卡、苏亚星。</span><br><span class="line"><span class="keyword">echo</span> 是否要立即开始关闭机房软件？（按键盘上任意键继续）</span><br><span class="line"><span class="keyword">echo</span> （请小心老师私下武力解决）</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;StudentMain.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：极域（青葡萄）电子教室</span><br><span class="line">	taskkill /im <span class="string">&quot;StudentMain.exe&quot;</span> /t /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：极域（青葡萄）电子教室</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;redAgent.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：红蜘蛛软件</span><br><span class="line">	taskkill /im <span class="string">&quot;redAgent.exe&quot;</span> /im <span class="string">&quot;checkrs.exe&quot;</span> /im <span class="string">&quot;rscheck.exe&quot;</span> /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：红蜘蛛软件</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;student.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：伽卡他卡、苏亚星</span><br><span class="line">	taskkill /im <span class="string">&quot;student.exe&quot;</span> /f /t</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：伽卡他卡、苏亚星</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"><span class="keyword">echo</span> 处理完成。（按键盘上任意键退出程序）</span><br><span class="line"><span class="keyword">echo</span> 程序作者：Luogu @PanDaoxi</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>计算机</category>
       </categories>
@@ -662,41 +739,50 @@
       </tags>
   </entry>
   <entry>
-    <title>长白山一游</title>
-    <url>/2023/07/30/chang-bai-shan-yi-you-tu-ce/</url>
-    <content><![CDATA[<p>谨以此诗，记录山河之壮美！<br />
-游记，启动！</p>
-<h2 id="-more-"><a class="markdownIt-Anchor" href="#-more-"></a> <span id="more"></span></h2>
-<p>白山黑水真福地，青山悠悠心飞扬。<br />
-漫漫红滩昭夏日，滔滔大江奔远方。<br />
-天池湖里映白云，长白山下育三江。<br />
-鸡鸣一声三国晓，将士国门卫边防。</p>
-<p><img src="/post-images/aaa5315259319547925ae80bf4e5a8b0.jpg" alt="" /><br />
-<img src="/post-images/03c79d6630464f40ac6b47c8b88d9713.jpg" alt="" /><br />
-<img src="/post-images/31e94e974cfd394cf461dcd4fcfc0c4c.jpg" alt="" /><br />
-<img src="/post-images/c329bfa1bf7d58edb4fd83de4447f872.jpg" alt="" /><br />
-<img src="/post-images/092d65a122b6a31413ec9f7f0f36b210.jpg" alt="" /><br />
-<img src="/post-images/1d7ff3c3f9b31c1c5a1dd28a6617d9cb.jpg" alt="" /><br />
-<img src="/post-images/929c22a833af64330d8bd552b489bcf3.jpg" alt="" /><br />
-<img src="/post-images/ab503c8e51c9da2540d27174c586162c.jpg" alt="" /><br />
-<img src="/post-images/f2ed628344cf44864eebcf25588a98c4.jpg" alt="" /></p>
+    <title>用 Flash 制作 PanDaoxi 同款校徽封面</title>
+    <url>/2024/06/30/yong-flash-zhi-zuo-pandaoxi-tong-kuan-tou-tu/</url>
+    <content><![CDATA[<p>发扬吾校精神！</p>
+<span id="more"></span>
+<p><img src="/post-images/e61fc195c9cde018de3ba612f321463b.png" alt="1" /></p>
 <hr />
-<p>吃得好！~😁</p>
-<p><img src="/post-images/7cd3614223a94f5e798503750e0f649c.jpg" alt="" /><br />
-<img src="/post-images/87cde153a356496fdd1395bfe49419dd.jpg" alt="" /><br />
-<img src="/post-images/dc230d9c580dd030d10babc323579627.jpg" alt="" /><br />
-<img src="/post-images/fc266e3c497c50bfef4e646ca823f147.jpg" alt="" /><br />
-<img src="/post-images/17dc3d44997874f8831e0840cb92bbd1.jpg" alt="" /><br />
-<img src="/post-images/446ed8391431b36a4cc72ab2b1239919.jpg" alt="" /><br />
-<img src="/post-images/e25d5383fd12b0bb81b3057d854c9e1a.jpg" alt="" /><br />
-<img src="/post-images/35038e816b481de843c02546afff7a8a.jpg" alt="" /><br />
-<img src="/post-images/0a8ea0829824920f573f5cb1a9f94eb8.jpg" alt="" /></p>
+<h1 id="准备工作"><a class="markdownIt-Anchor" href="#准备工作"></a> 准备工作</h1>
+<h2 id="软件"><a class="markdownIt-Anchor" href="#软件"></a> 软件</h2>
+<p>下载 Flash 8 软件：<a href="https://www.123pan.com/s/njglVv-rWRKA.html">https://www.123pan.com/s/njglVv-rWRKA.html</a></p>
+<p>密钥：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">WPD880-52632-87832-55330</span><br></pre></td></tr></table></figure>
+<h2 id="图片"><a class="markdownIt-Anchor" href="#图片"></a> 图片</h2>
+<p>这个要靠您自己搜集了。</p>
+<p><img src="/post-images/145f5171524a6a568d5bcf60192ad5da.png" alt="Clip_2024-06-30_14-41-07" /></p>
+<p>我可以提供帮助的是：<a href="https://www.remove.bg/">Remove Background from Image for Free – remove.bg</a></p>
+<h2 id="字体"><a class="markdownIt-Anchor" href="#字体"></a> 字体</h2>
+<p>根据您的需要，非必选。</p>
+<p>我提供免费的字体：<a href="https://www.123pan.com/s/njglVv-PBsKA.html">https://www.123pan.com/s/njglVv-PBsKA.html</a></p>
+<h1 id="在-flash-文件中完成操作"><a class="markdownIt-Anchor" href="#在-flash-文件中完成操作"></a> 在 Flash 文件中完成操作</h1>
+<p><img src="/post-images/f7bb24a6c3e509c03a06adaa20cdc087.png" alt="Clip_2024-06-30_14-46-42" /></p>
+<p><img src="/post-images/f8b0e352b57067d9734ad23baa6b322a.png" alt="Clip_2024-06-30_14-47-51" /></p>
+<p><img src="/post-images/0598432b5409fcff3b90981fa8aa2829.png" alt="Clip_2024-06-30_14-50-11" /></p>
+<p><img src="/post-images/26e7de14fa665c801d4047837d348f01.png" alt="Clip_2024-06-30_14-51-59" /></p>
+<p><img src="/post-images/8869bbce6f050f08e6c42b76cfcef5b7.png" alt="Clip_2024-06-30_14-54-32" /></p>
+<p><img src="/post-images/71c1afbb535f983619016921f1aca04d.png" alt="Clip_2024-06-30_14-56-30" /></p>
+<p><img src="/post-images/b217719955faac6e2c992025561324ce.png" alt="Clip_2024-06-30_14-58-39" /></p>
+<p><img src="/post-images/fd4c85b1060ae2a16e522e450f97bcc0.png" alt="Clip_2024-06-30_14-59-52" /></p>
+<p><img src="/post-images/e71d71f31347557fae39274763d3c1d3.png" alt="Clip_2024-06-30_15-01-55" /></p>
+<p><img src="/post-images/383292f706053b7083929cd7f6a859b1.png" alt="Clip_2024-06-30_15-02-51" /></p>
+<p><img src="/post-images/f62951690c03008d880f3cd73426df27.png" alt="Clip_2024-06-30_15-04-28" /></p>
+<p><img src="/post-images/8fba494c4606d22c96e538bab8d20658.png" alt="Clip_2024-06-30_15-06-49" /></p>
+<p><img src="/post-images/1b0051c4189fa82578b4d72a98468b5b.png" alt="Clip_2024-06-30_15-10-08" /></p>
+<p><img src="/post-images/99923628f17a545f6549a697028c8b4c.png" alt="Clip_2024-06-30_15-12-26" /></p>
+<p><img src="/post-images/f8aa7d5b9b5b9b20668ab3caaeebb3f3.png" alt="Clip_2024-06-30_15-13-47" /></p>
+<p><img src="/post-images/f319fd48313383ce2af58ed3140fd915.png" alt="Clip_2024-06-30_15-05-29" /></p>
+<p><img src="/post-images/1c59546e1382f9cbc1f2d7f29ec43282.png" alt="Clip_2024-06-30_15-14-43" /></p>
+<h1 id="最终效果"><a class="markdownIt-Anchor" href="#最终效果"></a> 最终效果</h1>
+<p><img src="/post-images/c1d4ef900c5ad45a45da72969a010eb1.png" alt="" /></p>
 ]]></content>
       <categories>
-        <category>诗词</category>
+        <category>计算机</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -1376,92 +1462,6 @@
 </ol>
 <hr />
 <p>就这样啦，拜拜！~</p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用 Flash 制作 PanDaoxi 同款校徽封面</title>
-    <url>/2024/06/30/yong-flash-zhi-zuo-pandaoxi-tong-kuan-tou-tu/</url>
-    <content><![CDATA[<p>发扬吾校精神！</p>
-<span id="more"></span>
-<p><img src="/post-images/e61fc195c9cde018de3ba612f321463b.png" alt="1" /></p>
-<hr />
-<h1 id="准备工作"><a class="markdownIt-Anchor" href="#准备工作"></a> 准备工作</h1>
-<h2 id="软件"><a class="markdownIt-Anchor" href="#软件"></a> 软件</h2>
-<p>下载 Flash 8 软件：<a href="https://www.123pan.com/s/njglVv-rWRKA.html">https://www.123pan.com/s/njglVv-rWRKA.html</a></p>
-<p>密钥：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">WPD880-52632-87832-55330</span><br></pre></td></tr></table></figure>
-<h2 id="图片"><a class="markdownIt-Anchor" href="#图片"></a> 图片</h2>
-<p>这个要靠您自己搜集了。</p>
-<p><img src="/post-images/145f5171524a6a568d5bcf60192ad5da.png" alt="Clip_2024-06-30_14-41-07" /></p>
-<p>我可以提供帮助的是：<a href="https://www.remove.bg/">Remove Background from Image for Free – remove.bg</a></p>
-<h2 id="字体"><a class="markdownIt-Anchor" href="#字体"></a> 字体</h2>
-<p>根据您的需要，非必选。</p>
-<p>我提供免费的字体：<a href="https://www.123pan.com/s/njglVv-PBsKA.html">https://www.123pan.com/s/njglVv-PBsKA.html</a></p>
-<h1 id="在-flash-文件中完成操作"><a class="markdownIt-Anchor" href="#在-flash-文件中完成操作"></a> 在 Flash 文件中完成操作</h1>
-<p><img src="/post-images/f7bb24a6c3e509c03a06adaa20cdc087.png" alt="Clip_2024-06-30_14-46-42" /></p>
-<p><img src="/post-images/f8b0e352b57067d9734ad23baa6b322a.png" alt="Clip_2024-06-30_14-47-51" /></p>
-<p><img src="/post-images/0598432b5409fcff3b90981fa8aa2829.png" alt="Clip_2024-06-30_14-50-11" /></p>
-<p><img src="/post-images/26e7de14fa665c801d4047837d348f01.png" alt="Clip_2024-06-30_14-51-59" /></p>
-<p><img src="/post-images/8869bbce6f050f08e6c42b76cfcef5b7.png" alt="Clip_2024-06-30_14-54-32" /></p>
-<p><img src="/post-images/71c1afbb535f983619016921f1aca04d.png" alt="Clip_2024-06-30_14-56-30" /></p>
-<p><img src="/post-images/b217719955faac6e2c992025561324ce.png" alt="Clip_2024-06-30_14-58-39" /></p>
-<p><img src="/post-images/fd4c85b1060ae2a16e522e450f97bcc0.png" alt="Clip_2024-06-30_14-59-52" /></p>
-<p><img src="/post-images/e71d71f31347557fae39274763d3c1d3.png" alt="Clip_2024-06-30_15-01-55" /></p>
-<p><img src="/post-images/383292f706053b7083929cd7f6a859b1.png" alt="Clip_2024-06-30_15-02-51" /></p>
-<p><img src="/post-images/f62951690c03008d880f3cd73426df27.png" alt="Clip_2024-06-30_15-04-28" /></p>
-<p><img src="/post-images/8fba494c4606d22c96e538bab8d20658.png" alt="Clip_2024-06-30_15-06-49" /></p>
-<p><img src="/post-images/1b0051c4189fa82578b4d72a98468b5b.png" alt="Clip_2024-06-30_15-10-08" /></p>
-<p><img src="/post-images/99923628f17a545f6549a697028c8b4c.png" alt="Clip_2024-06-30_15-12-26" /></p>
-<p><img src="/post-images/f8aa7d5b9b5b9b20668ab3caaeebb3f3.png" alt="Clip_2024-06-30_15-13-47" /></p>
-<p><img src="/post-images/f319fd48313383ce2af58ed3140fd915.png" alt="Clip_2024-06-30_15-05-29" /></p>
-<p><img src="/post-images/1c59546e1382f9cbc1f2d7f29ec43282.png" alt="Clip_2024-06-30_15-14-43" /></p>
-<h1 id="最终效果"><a class="markdownIt-Anchor" href="#最终效果"></a> 最终效果</h1>
-<p><img src="/post-images/c1d4ef900c5ad45a45da72969a010eb1.png" alt="" /></p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重新排列 Windows“新建”菜单的顺序</title>
-    <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
-    <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
-<span id="more"></span>
-<p>如下图：</p>
-<p><img src="/post-images/c511e8ade6ec61131d685d9d9871abcc.png" alt="image-20240620192146449" /></p>
-<p>那么我是如何做到的呢？</p>
-<p></p>
-<hr />
-<h1 id="注册表修改"><a class="markdownIt-Anchor" href="#注册表修改"></a> 注册表修改</h1>
-<p>首先，你需要这样一个注册表地址：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew</span><br></pre></td></tr></table></figure>
-<p>该项下面有一个名为 <code>Classes</code> 的 <code>REG_MULTI_SZ</code> 值。</p>
-<p>我的是这样的，就是现在的新建菜单的顺序，仅供参考：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Folder</span><br><span class="line">.lnk</span><br><span class="line">.bmp</span><br><span class="line">.txt</span><br><span class="line">.md</span><br><span class="line">.bat</span><br><span class="line">.cpp</span><br><span class="line">.py</span><br><span class="line">.html</span><br><span class="line">.docx</span><br><span class="line">.pptx</span><br><span class="line">.xlsx</span><br></pre></td></tr></table></figure>
-<p>你需要做的是修改值，符合你的需求。</p>
-<p><img src="/post-images/57110f74f23bc68d35d0b26135756d2a.png" alt="Clip_2024-06-20_19-30-37" /></p>
-<p>这个错误忽略即可。</p>
-<h1 id="禁用继承"><a class="markdownIt-Anchor" href="#禁用继承"></a> 禁用继承</h1>
-<p>你刚刚做出的修改可能会被系统修改回去。为此需要禁用继承。</p>
-<p><img src="/post-images/ae74466edaf22d1f8ce33e7ce7f56f72.png" alt="Clip_2024-06-20_19-32-29" /></p>
-<p><img src="/post-images/3087b46bb4cd6160ba7aaff423423634.png" alt="Clip_2024-06-20_19-33-25" /></p>
-<p><img src="/post-images/2f0483e6858ae431fa24230e8979c776.png" alt="Clip_2024-06-20_19-33-46" /></p>
-<p><img src="/post-images/a7b351b572c00e2b61a3ae0c4ec6bea2.png" alt="Clip_2024-06-20_19-34-08" /></p>
-<p><img src="/post-images/1e4985e91927831211dd96cc18f986ea.png" alt="Clip_2024-06-20_19-37-07" /></p>
-<p><img src="/post-images/4ff3e255f9719432763b227d9dce61ca.png" alt="Clip_2024-06-20_19-38-21" /></p>
-<p><img src="/post-images/2a64f003e00eb8b10eeecc812ad9e496.png" alt="Clip_2024-06-20_19-39-40" /></p>
-<p><img src="/post-images/ebfa5c60bcf0f1ddaa832c8ff022779c.png" alt="Clip_2024-06-20_19-40-17" /></p>
-<p>分配完成，检查结果。</p>
-<p>完成。</p>
 ]]></content>
       <categories>
         <category>计算机</category>
