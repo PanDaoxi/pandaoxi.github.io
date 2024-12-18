@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>初中生物重要知识点总结</title>
+    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
+    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
+大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
+<span id="more"></span>
+<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
+<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
+<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
+<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
+<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
+<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
+<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++ 排序和去重</title>
     <url>/2023/09/15/c-pai-xu-he-qu-chong/</url>
     <content><![CDATA[<p><ul class="markdownIt-TOC">
@@ -115,63 +136,32 @@
       </tags>
   </entry>
   <entry>
-    <title>重新排列 Windows“新建”菜单的顺序</title>
-    <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
-    <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
-<span id="more"></span>
-<p>如下图：</p>
-<p><img src="/post-images/c511e8ade6ec61131d685d9d9871abcc.png" alt="image-20240620192146449" /></p>
-<p>那么我是如何做到的呢？</p>
-<p></p>
-<hr />
-<h1 id="注册表修改"><a class="markdownIt-Anchor" href="#注册表修改"></a> 注册表修改</h1>
-<p>首先，你需要这样一个注册表地址：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew</span><br></pre></td></tr></table></figure>
-<p>该项下面有一个名为 <code>Classes</code> 的 <code>REG_MULTI_SZ</code> 值。</p>
-<p>我的是这样的，就是现在的新建菜单的顺序，仅供参考：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Folder</span><br><span class="line">.lnk</span><br><span class="line">.bmp</span><br><span class="line">.txt</span><br><span class="line">.md</span><br><span class="line">.bat</span><br><span class="line">.cpp</span><br><span class="line">.py</span><br><span class="line">.html</span><br><span class="line">.docx</span><br><span class="line">.pptx</span><br><span class="line">.xlsx</span><br></pre></td></tr></table></figure>
-<p>你需要做的是修改值，符合你的需求。</p>
-<p><img src="/post-images/57110f74f23bc68d35d0b26135756d2a.png" alt="Clip_2024-06-20_19-30-37" /></p>
-<p>这个错误忽略即可。</p>
-<h1 id="禁用继承"><a class="markdownIt-Anchor" href="#禁用继承"></a> 禁用继承</h1>
-<p>你刚刚做出的修改可能会被系统修改回去。为此需要禁用继承。</p>
-<p><img src="/post-images/ae74466edaf22d1f8ce33e7ce7f56f72.png" alt="Clip_2024-06-20_19-32-29" /></p>
-<p><img src="/post-images/3087b46bb4cd6160ba7aaff423423634.png" alt="Clip_2024-06-20_19-33-25" /></p>
-<p><img src="/post-images/2f0483e6858ae431fa24230e8979c776.png" alt="Clip_2024-06-20_19-33-46" /></p>
-<p><img src="/post-images/a7b351b572c00e2b61a3ae0c4ec6bea2.png" alt="Clip_2024-06-20_19-34-08" /></p>
-<p><img src="/post-images/1e4985e91927831211dd96cc18f986ea.png" alt="Clip_2024-06-20_19-37-07" /></p>
-<p><img src="/post-images/4ff3e255f9719432763b227d9dce61ca.png" alt="Clip_2024-06-20_19-38-21" /></p>
-<p><img src="/post-images/2a64f003e00eb8b10eeecc812ad9e496.png" alt="Clip_2024-06-20_19-39-40" /></p>
-<p><img src="/post-images/ebfa5c60bcf0f1ddaa832c8ff022779c.png" alt="Clip_2024-06-20_19-40-17" /></p>
-<p>分配完成，检查结果。</p>
-<p>完成。</p>
+    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
+    <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
+    <content><![CDATA[<p>本文适用情况：</p>
+<ul>
+<li>U 盘硬件正常，原来还能用；</li>
+<li>电脑能用，计算机管理没被禁用；</li>
+<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
+</ul>
+<p>具体的解决步骤如下：</p>
+<ol>
+<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
+<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
+<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
+<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
+<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
+<li>右键：卸载设备。<br />
+<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
+<li>重新插拔 U 盘，完成。<br />
+<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
+</ol>
 ]]></content>
       <categories>
         <category>计算机</category>
       </categories>
       <tags>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初中生物重要知识点总结</title>
-    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
-    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
-大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
-<span id="more"></span>
-<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
-<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
-<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
-<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
-<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
-<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
-<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>文化课</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -199,73 +189,6 @@
       </categories>
       <tags>
         <tag>OI 系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>长白山一游</title>
-    <url>/2023/07/30/chang-bai-shan-yi-you-tu-ce/</url>
-    <content><![CDATA[<p>谨以此诗，记录山河之壮美！<br />
-游记，启动！</p>
-<h2 id="-more-"><a class="markdownIt-Anchor" href="#-more-"></a> <span id="more"></span></h2>
-<p>白山黑水真福地，青山悠悠心飞扬。<br />
-漫漫红滩昭夏日，滔滔大江奔远方。<br />
-天池湖里映白云，长白山下育三江。<br />
-鸡鸣一声三国晓，将士国门卫边防。</p>
-<p><img src="/post-images/aaa5315259319547925ae80bf4e5a8b0.jpg" alt="" /><br />
-<img src="/post-images/03c79d6630464f40ac6b47c8b88d9713.jpg" alt="" /><br />
-<img src="/post-images/31e94e974cfd394cf461dcd4fcfc0c4c.jpg" alt="" /><br />
-<img src="/post-images/c329bfa1bf7d58edb4fd83de4447f872.jpg" alt="" /><br />
-<img src="/post-images/092d65a122b6a31413ec9f7f0f36b210.jpg" alt="" /><br />
-<img src="/post-images/1d7ff3c3f9b31c1c5a1dd28a6617d9cb.jpg" alt="" /><br />
-<img src="/post-images/929c22a833af64330d8bd552b489bcf3.jpg" alt="" /><br />
-<img src="/post-images/ab503c8e51c9da2540d27174c586162c.jpg" alt="" /><br />
-<img src="/post-images/f2ed628344cf44864eebcf25588a98c4.jpg" alt="" /></p>
-<hr />
-<p>吃得好！~😁</p>
-<p><img src="/post-images/7cd3614223a94f5e798503750e0f649c.jpg" alt="" /><br />
-<img src="/post-images/87cde153a356496fdd1395bfe49419dd.jpg" alt="" /><br />
-<img src="/post-images/dc230d9c580dd030d10babc323579627.jpg" alt="" /><br />
-<img src="/post-images/fc266e3c497c50bfef4e646ca823f147.jpg" alt="" /><br />
-<img src="/post-images/17dc3d44997874f8831e0840cb92bbd1.jpg" alt="" /><br />
-<img src="/post-images/446ed8391431b36a4cc72ab2b1239919.jpg" alt="" /><br />
-<img src="/post-images/e25d5383fd12b0bb81b3057d854c9e1a.jpg" alt="" /><br />
-<img src="/post-images/35038e816b481de843c02546afff7a8a.jpg" alt="" /><br />
-<img src="/post-images/0a8ea0829824920f573f5cb1a9f94eb8.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
-    <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
-    <content><![CDATA[<p>本文适用情况：</p>
-<ul>
-<li>U 盘硬件正常，原来还能用；</li>
-<li>电脑能用，计算机管理没被禁用；</li>
-<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
-</ul>
-<p>具体的解决步骤如下：</p>
-<ol>
-<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
-<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
-<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
-<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
-<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
-<li>右键：卸载设备。<br />
-<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
-<li>重新插拔 U 盘，完成。<br />
-<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -326,6 +249,83 @@
       </tags>
   </entry>
   <entry>
+    <title>长白山一游</title>
+    <url>/2023/07/30/chang-bai-shan-yi-you-tu-ce/</url>
+    <content><![CDATA[<p>谨以此诗，记录山河之壮美！<br />
+游记，启动！</p>
+<h2 id="-more-"><a class="markdownIt-Anchor" href="#-more-"></a> <span id="more"></span></h2>
+<p>白山黑水真福地，青山悠悠心飞扬。<br />
+漫漫红滩昭夏日，滔滔大江奔远方。<br />
+天池湖里映白云，长白山下育三江。<br />
+鸡鸣一声三国晓，将士国门卫边防。</p>
+<p><img src="/post-images/aaa5315259319547925ae80bf4e5a8b0.jpg" alt="" /><br />
+<img src="/post-images/03c79d6630464f40ac6b47c8b88d9713.jpg" alt="" /><br />
+<img src="/post-images/31e94e974cfd394cf461dcd4fcfc0c4c.jpg" alt="" /><br />
+<img src="/post-images/c329bfa1bf7d58edb4fd83de4447f872.jpg" alt="" /><br />
+<img src="/post-images/092d65a122b6a31413ec9f7f0f36b210.jpg" alt="" /><br />
+<img src="/post-images/1d7ff3c3f9b31c1c5a1dd28a6617d9cb.jpg" alt="" /><br />
+<img src="/post-images/929c22a833af64330d8bd552b489bcf3.jpg" alt="" /><br />
+<img src="/post-images/ab503c8e51c9da2540d27174c586162c.jpg" alt="" /><br />
+<img src="/post-images/f2ed628344cf44864eebcf25588a98c4.jpg" alt="" /></p>
+<hr />
+<p>吃得好！~😁</p>
+<p><img src="/post-images/7cd3614223a94f5e798503750e0f649c.jpg" alt="" /><br />
+<img src="/post-images/87cde153a356496fdd1395bfe49419dd.jpg" alt="" /><br />
+<img src="/post-images/dc230d9c580dd030d10babc323579627.jpg" alt="" /><br />
+<img src="/post-images/fc266e3c497c50bfef4e646ca823f147.jpg" alt="" /><br />
+<img src="/post-images/17dc3d44997874f8831e0840cb92bbd1.jpg" alt="" /><br />
+<img src="/post-images/446ed8391431b36a4cc72ab2b1239919.jpg" alt="" /><br />
+<img src="/post-images/e25d5383fd12b0bb81b3057d854c9e1a.jpg" alt="" /><br />
+<img src="/post-images/35038e816b481de843c02546afff7a8a.jpg" alt="" /><br />
+<img src="/post-images/0a8ea0829824920f573f5cb1a9f94eb8.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重新排列 Windows“新建”菜单的顺序</title>
+    <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
+    <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
+<span id="more"></span>
+<p>如下图：</p>
+<p><img src="/post-images/c511e8ade6ec61131d685d9d9871abcc.png" alt="image-20240620192146449" /></p>
+<p>那么我是如何做到的呢？</p>
+<p></p>
+<hr />
+<h1 id="注册表修改"><a class="markdownIt-Anchor" href="#注册表修改"></a> 注册表修改</h1>
+<p>首先，你需要这样一个注册表地址：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew</span><br></pre></td></tr></table></figure>
+<p>该项下面有一个名为 <code>Classes</code> 的 <code>REG_MULTI_SZ</code> 值。</p>
+<p>我的是这样的，就是现在的新建菜单的顺序，仅供参考：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Folder</span><br><span class="line">.lnk</span><br><span class="line">.bmp</span><br><span class="line">.txt</span><br><span class="line">.md</span><br><span class="line">.bat</span><br><span class="line">.cpp</span><br><span class="line">.py</span><br><span class="line">.html</span><br><span class="line">.docx</span><br><span class="line">.pptx</span><br><span class="line">.xlsx</span><br></pre></td></tr></table></figure>
+<p>你需要做的是修改值，符合你的需求。</p>
+<p><img src="/post-images/57110f74f23bc68d35d0b26135756d2a.png" alt="Clip_2024-06-20_19-30-37" /></p>
+<p>这个错误忽略即可。</p>
+<h1 id="禁用继承"><a class="markdownIt-Anchor" href="#禁用继承"></a> 禁用继承</h1>
+<p>你刚刚做出的修改可能会被系统修改回去。为此需要禁用继承。</p>
+<p><img src="/post-images/ae74466edaf22d1f8ce33e7ce7f56f72.png" alt="Clip_2024-06-20_19-32-29" /></p>
+<p><img src="/post-images/3087b46bb4cd6160ba7aaff423423634.png" alt="Clip_2024-06-20_19-33-25" /></p>
+<p><img src="/post-images/2f0483e6858ae431fa24230e8979c776.png" alt="Clip_2024-06-20_19-33-46" /></p>
+<p><img src="/post-images/a7b351b572c00e2b61a3ae0c4ec6bea2.png" alt="Clip_2024-06-20_19-34-08" /></p>
+<p><img src="/post-images/1e4985e91927831211dd96cc18f986ea.png" alt="Clip_2024-06-20_19-37-07" /></p>
+<p><img src="/post-images/4ff3e255f9719432763b227d9dce61ca.png" alt="Clip_2024-06-20_19-38-21" /></p>
+<p><img src="/post-images/2a64f003e00eb8b10eeecc812ad9e496.png" alt="Clip_2024-06-20_19-39-40" /></p>
+<p><img src="/post-images/ebfa5c60bcf0f1ddaa832c8ff022779c.png" alt="Clip_2024-06-20_19-40-17" /></p>
+<p>分配完成，检查结果。</p>
+<p>完成。</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>南柯子·游甘肃</title>
     <url>/2024/08/04/nan-ke-zi-you-gan-su/</url>
     <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
@@ -359,26 +359,6 @@
       </tags>
   </entry>
   <entry>
-    <title>逃脱“红蜘蛛”等多媒体网络教室工具的方法</title>
-    <url>/2024/03/30/tao-tuo-hong-zhi-zhu-deng-duo-mei-ti-wang-luo-jiao-shi-gong-ju-de-fang-fa/</url>
-    <content><![CDATA[<p>关于什么是“红蜘蛛”：<a href="http://www.3000soft.net/products/product1.php">http://www.3000soft.net/products/product1.php</a></p>
-<span id="more"></span>
-<ul>
-<li>如果老师正在锁定你的屏幕，你需要锁定屏幕（<kbd>Win</kbd>+<kbd>L</kbd>），点击切换用户；但是你还是需要回到刚才的用户，并快速进行下一步。</li>
-<li><strong>以管理员身份</strong>，输入命令：</li>
-</ul>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">taskkill /im redagent.exe /im rscheck.exe /im checkrs.exe /f</span><br></pre></td></tr></table></figure>
-<p>但是我不敢承诺你的老师是否会来线下找你。如果来找，我就帮不了你啦！</p>
-<p>此外，我制作了一个全平台破解工具，如果你不想敲命令，也可以带上 U 盘，运行以下批处理文件。</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">echo</span> off</span><br><span class="line">title 机房软件杀手</span><br><span class="line">net session &gt;nul <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">    <span class="keyword">goto</span> main</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 错误：</span><br><span class="line">	<span class="keyword">echo</span>. </span><br><span class="line">	<span class="keyword">echo</span> 您需要使用管理员权限运行此程序！</span><br><span class="line">	<span class="keyword">echo</span> 解决方法：</span><br><span class="line">	<span class="keyword">echo</span> ①退出此程序（按键盘上任意键退出程序）；</span><br><span class="line">	<span class="keyword">echo</span> ②右键单击此程序，选择“以管理员身份运行”；</span><br><span class="line">	<span class="keyword">echo</span> ③授予运行权限即可。</span><br><span class="line">	pause &gt; nul</span><br><span class="line">	<span class="keyword">exit</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">:main</span><br><span class="line"><span class="keyword">echo</span> 程序将自动选择计算机上已经安装的电子课堂，但不保证一定退出成功。</span><br><span class="line"><span class="keyword">echo</span> 目前支持的机房软件：极域（青葡萄）电子教室、红蜘蛛、伽卡他卡、苏亚星。</span><br><span class="line"><span class="keyword">echo</span> 是否要立即开始关闭机房软件？（按键盘上任意键继续）</span><br><span class="line"><span class="keyword">echo</span> （请小心老师私下武力解决）</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;StudentMain.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：极域（青葡萄）电子教室</span><br><span class="line">	taskkill /im <span class="string">&quot;StudentMain.exe&quot;</span> /t /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：极域（青葡萄）电子教室</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;redAgent.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：红蜘蛛软件</span><br><span class="line">	taskkill /im <span class="string">&quot;redAgent.exe&quot;</span> /im <span class="string">&quot;checkrs.exe&quot;</span> /im <span class="string">&quot;rscheck.exe&quot;</span> /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：红蜘蛛软件</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;student.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：伽卡他卡、苏亚星</span><br><span class="line">	taskkill /im <span class="string">&quot;student.exe&quot;</span> /f /t</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：伽卡他卡、苏亚星</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"><span class="keyword">echo</span> 处理完成。（按键盘上任意键退出程序）</span><br><span class="line"><span class="keyword">echo</span> 程序作者：Luogu @PanDaoxi</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用 Python 快速占满内存（Hook 炸弹）</title>
     <url>/2023/05/14/shi-yong-python-kuai-su-zhan-man-nei-cun-hook-zha-dan/</url>
     <content><![CDATA[<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Author:PanDaoxi </span></span><br><span class="line"><span class="keyword">from</span> tkinter <span class="keyword">import</span> Tk,Label</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</span><br><span class="line"><span class="keyword">from</span> os <span class="keyword">import</span> system,name,environ</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">title = <span class="string">&quot;Message&quot;</span></span><br><span class="line">message = <span class="string">&quot;不好意思，您的电脑废了&quot;</span></span><br><span class="line">loops = []</span><br><span class="line">window = Tk()</span><br><span class="line">width = window.winfo_screenwidth()</span><br><span class="line">height = window.winfo_screenheight()</span><br><span class="line">x = randint(<span class="number">0</span>,width)</span><br><span class="line">y = randint(<span class="number">0</span>,height)</span><br><span class="line">window.geometry(<span class="string">&quot;350x50+&quot;</span> + <span class="built_in">str</span>(x) + <span class="string">&quot;+&quot;</span> + <span class="built_in">str</span>(y))</span><br><span class="line">window.title(title)</span><br><span class="line">window.resizable(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">path = environ[<span class="string">&quot;windir&quot;</span>]</span><br><span class="line">system(<span class="string">&#x27;start /min cmd /c reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v &quot;funnywindows&quot; /t REG_SZ /d &quot;%s&quot; /f&#x27;</span> % __file__)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>():</span><br><span class="line">    <span class="keyword">global</span> loops,window</span><br><span class="line">    Label(window,text=message,font=(<span class="string">&#x27;Microsoft YaHei&#x27;</span>,<span class="number">20</span>)).pack()</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(__file__,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        text = f.read()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">2</span>):</span><br><span class="line">        content = <span class="string">&quot;%s\\%d.py&quot;</span> % (path,randint(<span class="number">100000</span>,<span class="number">999999</span>))</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(content,<span class="string">&quot;w&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(text)</span><br><span class="line">        loops.append(content)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">2</span>):</span><br><span class="line">        system(<span class="string">&quot;start /min cmd /c python %s&quot;</span> % loops[i])</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span> <span class="keyword">and</span> name == <span class="string">&quot;nt&quot;</span>:</span><br><span class="line">    main()</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    showerror(<span class="string">&quot;Message&quot;</span>,<span class="string">&quot;无法运行程序，原因可能是：\n(1)您非主动运行程序。\n(2)这个程序不能在当前系统下运行，请尝试其他操作系统。&quot;</span>)</span><br><span class="line">    exit()</span><br><span class="line">window.mainloop()</span><br></pre></td></tr></table></figure>
@@ -397,332 +377,18 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows 下破解 Whale（VPN 白鲸加速器）的登录限制</title>
-    <url>/2024/01/28/windows-xia-po-jie-whalebai-jing-jia-su-qi-de-deng-lu-xian-zhi/</url>
-    <content><![CDATA[<blockquote>
-<p>声明：<br />
-本人不存在利用 VPN 进行诈骗等，涉及违反法律的任何行为。只是用来看 Gmail 的。<br />
-<strong>如果某人利用文章提供的信息实施法律所禁止的行为，与本文原作者 PanDaoxi 无关。</strong><br />
-法不可违！</p>
-</blockquote>
-<p><a href="https://m.bj1ch.com/">https://m.bj1ch.com/</a></p>
-<hr />
-<ol>
-<li>退出加速器。</li>
-<li>打开 <code>%programdata%</code> 目录。</li>
-<li>删除 <code>Whale</code> 文件夹。</li>
-<li>重新打开加速器，注册一个帐号即可白嫖。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Virtualbox 使用教程</title>
-    <url>/2023/07/02/virtualbox-shi-yong-jiao-cheng/</url>
-    <content><![CDATA[<p>也许你可能遇到过这样的问题：</p>
-<ul>
-<li>我自己开发了一款软件，在本地测试完全没问题，但是会不会在别的电脑上出现 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>bug</mtext></mrow><annotation encoding="application/x-tex">\text{bug}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">bug</span></span></span></span></span> 呐？但是我也没有其他的电脑，我也不好意思找朋友借……</li>
-<li>我是一个黑客技术爱好者，我想要在一台电脑上练习渗透技术怎么办……或者我想要研究系统的原理，但在自己电脑上直接实验代价太大，这怎么办……亦或者我想学习 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>B</mtext></mrow><annotation encoding="application/x-tex">\text{B}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">B</span></span></span></span></span> 站科技区 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>UP</mtext></mrow><annotation encoding="application/x-tex">\text{UP}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">UP</span></span></span></span></span> 主探究/修复病毒，但是不想装影子系统……</li>
-<li>……</li>
-</ul>
-<p>那么，如果你看到这篇文章并且照着做一做，就有可能实现你想要的效果。</p>
+    <title>逃脱“红蜘蛛”等多媒体网络教室工具的方法</title>
+    <url>/2024/03/30/tao-tuo-hong-zhi-zhu-deng-duo-mei-ti-wang-luo-jiao-shi-gong-ju-de-fang-fa/</url>
+    <content><![CDATA[<p>关于什么是“红蜘蛛”：<a href="http://www.3000soft.net/products/product1.php">http://www.3000soft.net/products/product1.php</a></p>
 <span id="more"></span>
-<p>（欢迎访问 <a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/PanDaoxi/websites/main/virtualbox_jc.pdf"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PDF</mtext></mrow><annotation encoding="application/x-tex">\text{PDF}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PDF</span></span></span></span></span> 版（镜像版）</a>，文件较大，请切换连接较好的网络）</p>
-<hr />
-<h1 id="文章目录"><a class="markdownIt-Anchor" href="#文章目录"></a> 文章目录</h1>
-<p><ul class="markdownIt-TOC">
-<li><a href="#11-%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1</mn></mrow><annotation encoding="application/x-tex">1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 软件的安装</a>
 <ul>
-<li><a href="#111-text-virtualbox-%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.1</mn><mtext> Virtualbox</mtext></mrow><annotation encoding="application/x-tex">1.1.1 \text{ Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord text"><span class="mord"> Virtualbox</span></span></span></span></span> 安装</a></li>
-<li><a href="#112-text-ultral-iso-%E5%AE%89%E8%A3%85%E5%92%8C%E6%BF%80%E6%B4%BB"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.2</mn><mtext> Ultral ISO</mtext></mrow><annotation encoding="application/x-tex">1.1.2 \text{ Ultral ISO}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ultral ISO</span></span></span></span></span> 安装和激活</a></li>
-<li><a href="#113text-thunders-%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.3</mn><mtext> Thunders</mtext></mrow><annotation encoding="application/x-tex">1.1.3\text{ Thunders}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">3</span><span class="mord text"><span class="mord"> Thunders</span></span></span></span></span> 下载工具的安装</a></li>
-<li><a href="#text114-pe-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%87%86%E5%A4%87"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.4 PE</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.4 PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.4 PE</span></span></span></span></span> 系统下载和准备</a></li>
-<li><a href="#text115-%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F%E5%87%86%E5%A4%87"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5 </mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5 }</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5 </span></span></span></span></span>系统镜像准备</a>
-<ul>
-<li><a href="#text1151-%E5%8E%9F%E7%89%88%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5.1</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5.1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5.1</span></span></span></span></span> 原版系统镜像</a></li>
-<li><a href="#1152-text-ghost-%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.5.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">1.1.5.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 镜像制作</a></li>
+<li>如果老师正在锁定你的屏幕，你需要锁定屏幕（<kbd>Win</kbd>+<kbd>L</kbd>），点击切换用户；但是你还是需要回到刚才的用户，并快速进行下一步。</li>
+<li><strong>以管理员身份</strong>，输入命令：</li>
 </ul>
-</li>
-</ul>
-</li>
-<li><a href="#text12-virtualbox-%E9%85%8D%E7%BD%AE"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.2 Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{1.2 Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.2 Virtualbox</span></span></span></span></span> 配置</a>
-<ul>
-<li><a href="#121-%E6%96%B0%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.1</mn></mrow><annotation encoding="application/x-tex">1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 新建虚拟机</a></li>
-<li><a href="#122-%E6%8C%82%E8%BD%BD%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.2</mn></mrow><annotation encoding="application/x-tex">1.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 挂载系统镜像</a></li>
-</ul>
-</li>
-<li><a href="#21-%E4%BB%8E-textpe-%E6%81%A2%E5%A4%8D%E7%B3%BB%E7%BB%9F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1</mn></mrow><annotation encoding="application/x-tex">2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 恢复系统</a>
-<ul>
-<li><a href="#211-%E4%BD%BF%E7%94%A8-textdg-%E5%AF%B9%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.1</mn></mrow><annotation encoding="application/x-tex">2.1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 使用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>DG</mtext></mrow><annotation encoding="application/x-tex">\text{DG}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">DG</span></span></span></span></span> 对磁盘分区</a></li>
-<li><a href="#212-%E5%AF%BC%E5%87%BA%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2</mn></mrow><annotation encoding="application/x-tex">2.1.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 导出镜像</a>
-<ul>
-<li><a href="#2121-%E5%8E%9F%E7%89%88%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.1</mn></mrow><annotation encoding="application/x-tex">2.1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 原版系统镜像</a></li>
-<li><a href="#2122-text-ghost-%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">2.1.2.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 系统安装</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#22-%E8%BF%9B%E5%85%A5%E7%B3%BB%E7%BB%9F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2</mn></mrow><annotation encoding="application/x-tex">2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 进入系统</a>
-<ul>
-<li><a href="#221-%E7%B3%BB%E7%BB%9F%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.1</mn></mrow><annotation encoding="application/x-tex">2.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 系统网络连接</a></li>
-<li><a href="#222-%E5%AE%89%E8%A3%85%E5%A2%9E%E5%BC%BA%E5%8A%9F%E8%83%BD"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.2</mn></mrow><annotation encoding="application/x-tex">2.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 安装增强功能</a></li>
-<li><a href="#223-%E6%BF%80%E6%B4%BB%E7%B3%BB%E7%BB%9F%E4%BB%85%E5%AF%B9%E4%BA%8E%E5%8E%9F%E7%89%88"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.3</mn></mrow><annotation encoding="application/x-tex">2.2.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 激活系统（仅对于原版）</a></li>
-</ul>
-</li>
-<li><a href="#31-%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.1</mn></mrow><annotation encoding="application/x-tex">3.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 桌面图标设置</a></li>
-<li><a href="#32-%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88%E8%AE%BE%E7%BD%AE"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.2</mn></mrow><annotation encoding="application/x-tex">3.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 鼠标指针设置</a></li>
-<li><a href="#33-%E5%88%86%E8%BE%A8%E7%8E%87"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.3</mn></mrow><annotation encoding="application/x-tex">3.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 分辨率</a></li>
-<li><a href="#34-%E6%98%BE%E7%A4%BA%E6%8B%93%E5%B1%95%E5%90%8D"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.4</mn></mrow><annotation encoding="application/x-tex">3.4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">4</span></span></span></span> 显示拓展名</a></li>
-<li><a href="#35-%E6%8B%8D%E6%91%84%E5%BF%AB%E7%85%A7-%E6%81%A2%E5%A4%8D%E5%BF%AB%E7%85%A7"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.5</mn></mrow><annotation encoding="application/x-tex">3.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">5</span></span></span></span> 拍摄快照、恢复快照</a></li>
-</ul>
-</p>
-<p>本文为 「<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PanDaoxi</mtext></mrow><annotation encoding="application/x-tex">\text{PanDaoxi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PanDaoxi</span></span></span></span></span>」的原创文章，遵循 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>CC 4.0 BY-SA</mtext></mrow><annotation encoding="application/x-tex">\text{CC 4.0 BY-SA}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">CC 4.0 BY-SA</span></span></span></span></span> 版权协议，转载请附上原文出处及本声明。</p>
-<hr />
-<h1 id="1-虚拟机软件安装及准备"><a class="markdownIt-Anchor" href="#1-虚拟机软件安装及准备"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.</mn></mrow><annotation encoding="application/x-tex">1.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span></span></span></span> 虚拟机软件安装及准备</h1>
-<p>在这部分，我们将安装虚拟机软件，为接下来的操作做一些准备。</p>
-<h2 id="11-软件的安装"><a class="markdownIt-Anchor" href="#11-软件的安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1</mn></mrow><annotation encoding="application/x-tex">1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 软件的安装</h2>
-<p>我们主要用到的软件有：</p>
-<ol>
-<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Virtualbox</span></span></span></span></span> 最新版本</li>
-<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Ultral ISO</mtext></mrow><annotation encoding="application/x-tex">\text{Ultral ISO}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Ultral ISO</span></span></span></span></span> （已经激活）</li>
-<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Thunders</mtext></mrow><annotation encoding="application/x-tex">\text{Thunders}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Thunders</span></span></span></span></span> 精简版迅雷下载工具</li>
-<li>自己熟悉的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统（本文以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Fir PE</mtext></mrow><annotation encoding="application/x-tex">\text{Fir PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Fir PE</span></span></span></span></span> 做演示）</li>
-<li>原版系统镜像网站或<strong>可信的</strong> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Ghost</mtext></mrow><annotation encoding="application/x-tex">\text{Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Ghost</span></span></span></span></span> 系统网站。</li>
-</ol>
-<h3 id="111-text-virtualbox-安装"><a class="markdownIt-Anchor" href="#111-text-virtualbox-安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.1</mn><mtext> Virtualbox</mtext></mrow><annotation encoding="application/x-tex">1.1.1 \text{ Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord text"><span class="mord"> Virtualbox</span></span></span></span></span> 安装</h3>
-<p>可以到<a href="https://www.virtualbox.org/">官网</a>下载，下载后一路默认设置即可。参考<a href="https://pandaoxi.blog.csdn.net/article/details/127822217">【文章】</a>的第三部分。</p>
-<h3 id="112-text-ultral-iso-安装和激活"><a class="markdownIt-Anchor" href="#112-text-ultral-iso-安装和激活"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.2</mn><mtext> Ultral ISO</mtext></mrow><annotation encoding="application/x-tex">1.1.2 \text{ Ultral ISO}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ultral ISO</span></span></span></span></span> 安装和激活</h3>
-<p>首先这是个啥？有啥用？</p>
-<p>——这是一个制作<strong>DVD刻录文件</strong>的东西，这个玩意儿有很大用处。</p>
-<p>下载可以从官网下载：</p>
-<p><a href="https://cn.ultraiso.net/xiazai.html">最新UltraISO官方免费下载 - UltraISO软碟通中文官方网站</a></p>
-<p>这里下载下来安装好，要求我们注册（提供注册名什么的），我们输入以下信息：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">注册名：Guanjiu</span><br><span class="line">激活码：A06C-83A7-701D-6CFC</span><br></pre></td></tr></table></figure>
-<p><img src="/post-images/53606d0cd7e3e5bff153f04a88d62582.png" alt="" /></p>
-<p>安装成功后的界面大概就是上图的样子了。使用过程也很简单，只要把要用的东西拖到上面去就可以了。</p>
-<p><img src="/post-images/567a4552785705c842387cad570078d9.png" alt="" /></p>
-<p><img src="/post-images/22d4012aa1f9f382235d0ff5e286a4c3.png" alt="" /></p>
-<p>等到进度条跑完，这个文件也就生成了：</p>
-<p><img src="/post-images/28fb9b61799081de04b24d6fe0f4cb13.png" alt="" /></p>
-<p>生成的文件大小，会由你选定的文件决定。</p>
-<p><img src="/post-images/3e2ad5489514c616244161a356669460.png" alt="" /></p>
-<h3 id="113text-thunders-下载工具的安装"><a class="markdownIt-Anchor" href="#113text-thunders-下载工具的安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.3</mn><mtext> Thunders</mtext></mrow><annotation encoding="application/x-tex">1.1.3\text{ Thunders}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">3</span><span class="mord text"><span class="mord"> Thunders</span></span></span></span></span> 下载工具的安装</h3>
-<p>可以从 <a href="https://hellowindows.cn/"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>HelloWindows</mtext></mrow><annotation encoding="application/x-tex">\text{HelloWindows}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">HelloWindows</span></span></span></span></span></a> 上下载，点击侧栏的“下载工具”，把这款下载下来。</p>
-<p><img src="/post-images/86ec7f2453440015032d44d2e18bd3a5.png" alt="" /></p>
-<p>下载好了以后，运行 <code>Program\thunder.exe</code> 打开迅雷，<strong>关闭所有杀毒软件</strong>！</p>
-<p><img src="/post-images/4ab9d96628c03a6afd7f173a8542092f.png" alt="" /></p>
-<h3 id="text114-pe-系统下载和准备"><a class="markdownIt-Anchor" href="#text114-pe-系统下载和准备"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.4 PE</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.4 PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.4 PE</span></span></span></span></span> 系统下载和准备</h3>
-<p>推荐：</p>
-<ul>
-<li><a href="https://www.itsk.com/thread-427560-1-1.html">优启通 v3.7.2022.1024（2022.12.08 发布）_IT天空原创软件_IT天空 (itsk.com)</a></li>
-<li><a href="https://www.wepe.com.cn/">微PE工具箱 - 超好用的装机维护工具 (wepe.com.cn)</a></li>
-<li><a href="http://www.firpe.cn/">FirPE Project - 也许是最适合年轻人使用的第三方WinPE</a></li>
-</ul>
-<p>这三款都比较纯净，安装出来的系统不会带软件，<strong>尽量别用老毛桃和大白菜</strong>，因为你得万分谨慎才能避免它在新系统里装软件。</p>
-<p>下载下来后，<strong>生成本地镜像</strong>即可。</p>
-<p><img src="/post-images/78de996f81184ab5b4aef4a16ce86d76.png" alt="" /></p>
-<p>需要注意的是，如果你的系统版本比较低，可能会导致内存不够，需要使用微 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> ；但是微 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 不支持网络连接！</p>
-<h3 id="text115-系统镜像准备"><a class="markdownIt-Anchor" href="#text115-系统镜像准备"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5 </mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5 }</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5 </span></span></span></span></span>系统镜像准备</h3>
-<h4 id="text1151-原版系统镜像"><a class="markdownIt-Anchor" href="#text1151-原版系统镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5.1</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5.1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5.1</span></span></span></span></span> 原版系统镜像</h4>
-<blockquote>
-<p>优点：</p>
-<ul>
-<li>完完全全没流氓软件；</li>
-<li>有全面的功能，不会被精简；</li>
-<li>可以选择任意的版本。</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>需要激活系统；</li>
-<li>可能要进行一系列设置。</li>
-</ul>
-</blockquote>
-<p>推荐两个网站，可以下载原版镜像：</p>
-<ul>
-<li>
-<p><a href="https://hellowindows.cn/">HelloWindows.cn - 精校 完整 极致 Windows系统下载仓储站</a></p>
-</li>
-<li>
-<p><a href="https://msdn.itellyou.cn/">MSDN, 我告诉你 - 做一个安静的工具站 (itellyou.cn)</a></p>
-</li>
-</ul>
-<p>这两个网站都提供 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>ed2k</mtext></mrow><annotation encoding="application/x-tex">\text{ed2k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">ed2k</span></span></span></span></span> 链接下载：</p>
-<p><img src="/post-images/f0d22e5e808e8aabb128c3169bd6b350.png" alt="" /></p>
-<p><img src="/post-images/a1e5f168dd989fb747705ea2ed32084e.png" alt="" /></p>
-<p>在这里我把链接放出来方便下载：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|cn_windows_7_professional_with_sp1_x64_dvd_u_677031.iso|3420557312|430BEDC0F22FA18001F717F7AF08C9D5|/</span><br></pre></td></tr></table></figure>
-<p><img src="/post-images/7253df1e9bee0e2945be529768ec31b8.png" alt="" /></p>
-<p>可能要稍等一会儿。</p>
-<p><img src="/post-images/894e4c20fe05783a842cf8cc81a05f09.png" alt="" /></p>
-<p>等它下载好就行啦，长得也是这个样：</p>
-<p><img src="/post-images/bd653063cd4289c3fbafa23e0b22aaff.png" alt="" /></p>
-<h4 id="1152-text-ghost-镜像制作"><a class="markdownIt-Anchor" href="#1152-text-ghost-镜像制作"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.5.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">1.1.5.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 镜像制作</h4>
-<blockquote>
-<p>优点：</p>
-<ul>
-<li>速度快，有精简，免激活；</li>
-<li>一般比较稳定。</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>容易被装流氓软件。</li>
-</ul>
-</blockquote>
-<p><a href="http://www.aichunjing.com/">纯净版系统_Win10纯净版64位_纯净版XP系统-爱纯净官网 (aichunjing.com)</a></p>
-<p>这个网站里收录了好多纯净版二次制作系统。找一款你想要的，下载下来就行，重点在于制作镜像，挂载到虚拟机上。</p>
-<p><img src="/post-images/9c052f734c7d896387d7fdf24e5a2cdf.png" alt="" /></p>
-<p>请参照 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.2</mn></mrow><annotation encoding="application/x-tex">1.1.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 的方法，制作镜像。</p>
-<hr />
-<h2 id="text12-virtualbox-配置"><a class="markdownIt-Anchor" href="#text12-virtualbox-配置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.2 Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{1.2 Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.2 Virtualbox</span></span></span></span></span> 配置</h2>
-<h3 id="121-新建虚拟机"><a class="markdownIt-Anchor" href="#121-新建虚拟机"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.1</mn></mrow><annotation encoding="application/x-tex">1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 新建虚拟机</h3>
-<p>打开 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Virtualbox</span></span></span></span></span> 虚拟机软件，点击左上方新建。</p>
-<p><img src="/post-images/76c981da994837190a51d02309e4dff4.png" alt="" /></p>
-<p>注意：命名不要有特殊符号，也不要用空格。</p>
-<p><img src="/post-images/0b96d452f531a4db7ba97d249e0dbb64.png" alt="" /></p>
-<p><img src="/post-images/3ab0035be8b04676f59324afe588ab5c.png" alt="" /></p>
-<p><img src="/post-images/914a49d25689a1a7ddd421c47e877618.png" alt="" /></p>
-<p>这样，你就有了一台新的虚拟机。</p>
-<h3 id="122-挂载系统镜像"><a class="markdownIt-Anchor" href="#122-挂载系统镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.2</mn></mrow><annotation encoding="application/x-tex">1.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 挂载系统镜像</h3>
-<p><img src="/post-images/c836daf0809270b5fad66839e90a9120.png" alt="" /></p>
-<p>选上你以前下载的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统和系统镜像。</p>
-<p><img src="/post-images/5dbdbe290e9349a5cacc4e756a2be812.png" alt="" /></p>
-<p>启动时选定从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 启动，进入 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统，开始系统安装。</p>
-<hr />
-<h1 id="2-操作系统安装"><a class="markdownIt-Anchor" href="#2-操作系统安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.</mn></mrow><annotation encoding="application/x-tex">2.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span></span></span></span> 操作系统安装</h1>
-<h2 id="21-从-textpe-恢复系统"><a class="markdownIt-Anchor" href="#21-从-textpe-恢复系统"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1</mn></mrow><annotation encoding="application/x-tex">2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 恢复系统</h2>
-<p>进入 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统后，可以看到一个很漂亮的环境：</p>
-<p><img src="/post-images/2228b650712bc6d037e8f0956f88ef59.png" alt="" /></p>
-<p>接下来，我们将使用这个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统安装 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows</mtext></mrow><annotation encoding="application/x-tex">\text{Windows}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows</span></span></span></span></span>。</p>
-<h3 id="211-使用-textdg-对磁盘分区"><a class="markdownIt-Anchor" href="#211-使用-textdg-对磁盘分区"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.1</mn></mrow><annotation encoding="application/x-tex">2.1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 使用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>DG</mtext></mrow><annotation encoding="application/x-tex">\text{DG}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">DG</span></span></span></span></span> 对磁盘分区</h3>
-<p>运行桌面上的 <code>DiskGenius</code>，打开分区工具。</p>
-<p><img src="/post-images/b604eaee28e9eea4431725bde3f4c35f.png" alt="" /></p>
-<p>可以自选分区数量。我没有过多的需要，我就分一个。</p>
-<p><img src="/post-images/90f2089ee1e81a91a25d94be0aac4491.png" alt="" /></p>
-<p>等待它完成后关闭即可。可以看到“此电脑”里已经有了卷：</p>
-<p><img src="/post-images/830aa64b6f3625474e9d96384f65b856.png" alt="" /></p>
-<p>现在，我们要正式开始安装系统了。</p>
-<h3 id="212-导出镜像"><a class="markdownIt-Anchor" href="#212-导出镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2</mn></mrow><annotation encoding="application/x-tex">2.1.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 导出镜像</h3>
-<h4 id="2121-原版系统镜像"><a class="markdownIt-Anchor" href="#2121-原版系统镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.1</mn></mrow><annotation encoding="application/x-tex">2.1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 原版系统镜像</h4>
-<p>挂载上原版系统镜像。</p>
-<p><img src="/post-images/8fe907a17627fe91d306de6596cf2da5.png" alt="" /></p>
-<p><img src="/post-images/6a80e7061d08db7c165738598c5e4fc6.png" alt="" /></p>
-<blockquote>
-<p>如果这里进来后是一个窗口，说是安装程序，那就先关掉，右键新窗口打开。这是 <code>autorun.inf</code> 自动运行导致的。</p>
-</blockquote>
-<p>确认无误后，打开 <code>EasyRC</code> 工具。</p>
-<blockquote>
-<p><img src="/post-images/33412d9a0a1584757eb9e9df4df9b1aa.png" alt="" /></p>
-<p>如果打不开，有可能是因为你的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 镜像和系统镜像错位了，调换一下就好。</p>
-</blockquote>
-<p>正常打开应该是这样的：</p>
-<p><img src="/post-images/eedf08ecdcb574baa7bd5a6f47c4bb6b.png" alt="" /></p>
-<p>现在，点击“浏览”，找到你的镜像磁盘中 <code>source/install.wim</code>。</p>
-<p><img src="/post-images/3b8fa44ad46847d44b857956d54ec2f9.png" alt="" /></p>
-<p><img src="/post-images/c7bda4da292e40c58b5e8fd703c7103f.png" alt="" /></p>
-<p><strong>先点中上面的<code>C:\</code>，然后让它自己安装就行</strong>。</p>
-<p><img src="/post-images/1a143fea3b1f25cbaa59f7ca2c49f8ae.png" alt="" /></p>
-<blockquote>
-<p>这小海豚和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Easy</mtext></mrow><annotation encoding="application/x-tex">\text{Easy}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Easy</span></span></span></span></span> 系列，应该是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>ITSK</mtext></mrow><annotation encoding="application/x-tex">\text{ITSK}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">ITSK</span></span></span></span></span> 出的。安装需要一段时间，耐心等待一会儿吧！</p>
-</blockquote>
-<p><img src="/post-images/90969cd909d640a8fccfe60ce305f8d7.png" alt="" /></p>
-<p>不用搭理它，它会自己安装好进入桌面。</p>
-<p><img src="/post-images/81825b4859ee3eb140cd0a304928f720.png" alt="" /></p>
-<p><img src="/post-images/772797d338477908d443d60ed929d0be.png" alt="" /></p>
-<h4 id="2122-text-ghost-系统安装"><a class="markdownIt-Anchor" href="#2122-text-ghost-系统安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">2.1.2.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 系统安装</h4>
-<p>类比于刚才的办法，同样进入 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 后，打开 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>EasyRC</mtext></mrow><annotation encoding="application/x-tex">\text{EasyRC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">EasyRC</span></span></span></span></span>，安装系统。</p>
-<p><img src="/post-images/e33f9e4158c633a4137f8eec7c4db327.png" alt="" /></p>
-<p><img src="/post-images/e4708f4007108a1bb617f222ba8f93da.png" alt="" /></p>
-<p><img src="/post-images/37c1d002c051a302b76875af38ce24e1.png" alt="" /></p>
-<p>这也是自动安装的，不用搭理它。</p>
-<h2 id="22-进入系统"><a class="markdownIt-Anchor" href="#22-进入系统"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2</mn></mrow><annotation encoding="application/x-tex">2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 进入系统</h2>
-<p>这两者终于殊途同归，进入了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows 7</mtext></mrow><annotation encoding="application/x-tex">\text{Windows 7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows 7</span></span></span></span></span> 的页面。</p>
-<p><img src="/post-images/52b93fc88ca7d6ea45a24f061fb1f87f.png" alt="" /></p>
-<h3 id="221-系统网络连接"><a class="markdownIt-Anchor" href="#221-系统网络连接"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.1</mn></mrow><annotation encoding="application/x-tex">2.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 系统网络连接</h3>
-<p>这个很简单，看你的需要，可以在设置、网络找到。这里简单解释一下：</p>
-<ul>
-<li>
-<p><code>NAT</code> ：把你的虚拟机放到了一个虚拟的网络里面，跟物理机和局域网没啥关系，但是还能正常上网。</p>
-</li>
-<li>
-<p>桥接网卡：把这台虚拟机放到了局域网内，这样可以和同在局域网内的设备共享。</p>
-</li>
-<li>
-<p>仅主机：就是切断虚拟机网络连接。</p>
-</li>
-</ul>
-<h3 id="222-安装增强功能"><a class="markdownIt-Anchor" href="#222-安装增强功能"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.2</mn></mrow><annotation encoding="application/x-tex">2.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 安装增强功能</h3>
-<p>右上方设备，点击倒数第二个。</p>
-<p>这时会挂载上一个新的磁盘，就是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Virtualbox</span></span></span></span></span> 图标的这个，进去安装这个：</p>
-<p><img src="/post-images/137bb35403d9dd2cc257b8b2a33151f2.png" alt="" /></p>
-<p><strong>全部</strong>信任来自它的软件。</p>
-<p><strong>重启以前</strong>：在”设备“中，开启所有增强功能：</p>
-<ul>
-<li>
-<p>拖动：双向</p>
-</li>
-<li>
-<p>共享粘贴板：双向</p>
-</li>
-<li>
-<p>声音：输入、输出</p>
-</li>
-<li>
-<p>共享文件夹：管理—新建（右边第一个图标）—选一个你记得住的文件夹</p>
-<p><img src="/post-images/3387d15d27e620b3ec037862f7e4a7a9.png" alt="" /></p>
-</li>
-</ul>
-<p>然后重启。</p>
-<p>这时，“我的电脑”里已经有了共享文件夹，在物理机内放的文件可以从共享文件夹复制到虚拟机上。</p>
-<p><img src="/post-images/ced94ea390491ebb4076b76fc2815bd3.png" alt="" /></p>
-<blockquote>
-<p>虚拟机有没有写入的权限，取决于上图中是否选择“只读分配”。</p>
-</blockquote>
-<p>也可以把文件拖入了：</p>
-<p><img src="/post-images/5e648057a40f63b961cf4f466aa8f74b.gif" alt="" /></p>
-<h3 id="223-激活系统仅对于原版"><a class="markdownIt-Anchor" href="#223-激活系统仅对于原版"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.3</mn></mrow><annotation encoding="application/x-tex">2.2.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 激活系统（仅对于原版）</h3>
-<p><a href="https://hellowindows.cn/">HelloWindows.cn - 精校 完整 极致 Windows系统下载仓储站</a></p>
-<p>推荐网站里面激活工具的最后一个。网址放出来：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://www.lanzouw.com/ibVCwuzvt2h</span><br></pre></td></tr></table></figure>
-<p>运行 <code>HEU_KMS_Activator_v23.1.0.exe</code>：</p>
-<p><img src="/post-images/a45ad91556542733522944f369400611.png" alt="" /></p>
-<p>重启电脑后，系统已经被激活。</p>
-<p><img src="/post-images/eee837d0c82fd3a957b493230ae567d0.png" alt="" /></p>
-<p>至此，系统设置完工。</p>
-<hr />
-<h1 id="3-系统个性化设置"><a class="markdownIt-Anchor" href="#3-系统个性化设置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.</mn></mrow><annotation encoding="application/x-tex">3.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span></span></span></span> 系统个性化设置</h1>
-<h2 id="31-桌面图标设置"><a class="markdownIt-Anchor" href="#31-桌面图标设置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.1</mn></mrow><annotation encoding="application/x-tex">3.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 桌面图标设置</h2>
-<p>由于个人审美，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows 7</mtext></mrow><annotation encoding="application/x-tex">\text{Windows 7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows 7</span></span></span></span></span> 系统我喜欢看到第一个是用户图标。如何找到？</p>
-<p>桌面—右键—个性化—更改桌面图标（左侧栏）—选你喜欢的—应用（确定）</p>
-<h2 id="32-鼠标指针设置"><a class="markdownIt-Anchor" href="#32-鼠标指针设置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.2</mn></mrow><annotation encoding="application/x-tex">3.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 鼠标指针设置</h2>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows 7</mtext></mrow><annotation encoding="application/x-tex">\text{Windows 7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows 7</span></span></span></span></span> 支持 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>XP</mtext></mrow><annotation encoding="application/x-tex">\text{XP}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">XP</span></span></span></span></span> 风格的鼠标指针，还能设置阴影。用上了成套的主题：</p>
-<p><img src="/post-images/30a4e45326b6419abff323439e82f51b.png" alt="" /></p>
-<p>如果都不喜欢，可以从网上能找到别的样式。</p>
-<h2 id="33-分辨率"><a class="markdownIt-Anchor" href="#33-分辨率"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.3</mn></mrow><annotation encoding="application/x-tex">3.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 分辨率</h2>
-<p>emm，分辨率全靠自己拖，我记得别的好像全屏的时候自动就全屏了……</p>
-<h2 id="34-显示拓展名"><a class="markdownIt-Anchor" href="#34-显示拓展名"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.4</mn></mrow><annotation encoding="application/x-tex">3.4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">4</span></span></span></span> 显示拓展名</h2>
-<p><img src="/post-images/4498be5114ca487a41ce5d7795f84a6e.png" alt="" /></p>
-<p><img src="/post-images/5635ffdfc065551392ac4a97a9e1d2d5.png" alt="" /></p>
-<p><img src="/post-images/8350935d1e95a49b9c52721e7ec86038.png" alt="" /></p>
-<h2 id="35-拍摄快照-恢复快照"><a class="markdownIt-Anchor" href="#35-拍摄快照-恢复快照"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.5</mn></mrow><annotation encoding="application/x-tex">3.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">5</span></span></span></span> 拍摄快照、恢复快照</h2>
-<p>这个快照的功能就类似于影子系统，通过快照记录当前系统的状态，避免操作不当引起系统损坏，这时就可以一键恢复。</p>
-<p>点击右侧的“备份”：</p>
-<p><img src="/post-images/559b59ca38c55c7a467033a4ad224581.png" alt="image-20230120142756208" /></p>
-<p><img src="/post-images/d0185a4e5f8f3870f16391bd30dad560.png" alt="image-20230120144718711" /></p>
-<p><img src="/post-images/21f077867222b1836645d5c4606fb0bc.png" alt="image-20230120143110072" /></p>
-<p>如需恢复，需要先关闭虚拟机，然后：</p>
-<p><img src="/post-images/ac212239ffc20be0f54d227796233c7a.png" alt="image-20230120143319224" /></p>
-<p>恢复以后应该是这种状态。再次启动，即可恢复拍摄快照时的样子。</p>
-<p><img src="/post-images/2ff0b73f2282f261de343870e113709c.png" alt="image-20230120143338860" /></p>
-<hr />
-<p>……</p>
-<p>完结撒花！✨</p>
-<p>更多内容，欢迎关注：<a href="https://www.luogu.com.cn/user/593403"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Luogu @PanDaoxi</mtext></mrow><annotation encoding="application/x-tex">\text{Luogu @PanDaoxi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Luogu @PanDaoxi</span></span></span></span></span></a></p>
-]]></content>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">taskkill /im redagent.exe /im rscheck.exe /im checkrs.exe /f</span><br></pre></td></tr></table></figure>
+<p>但是我不敢承诺你的老师是否会来线下找你。如果来找，我就帮不了你啦！</p>
+<p>此外，我制作了一个全平台破解工具，如果你不想敲命令，也可以带上 U 盘，运行以下批处理文件。</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">echo</span> off</span><br><span class="line">title 机房软件杀手</span><br><span class="line">net session &gt;nul <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">    <span class="keyword">goto</span> main</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 错误：</span><br><span class="line">	<span class="keyword">echo</span>. </span><br><span class="line">	<span class="keyword">echo</span> 您需要使用管理员权限运行此程序！</span><br><span class="line">	<span class="keyword">echo</span> 解决方法：</span><br><span class="line">	<span class="keyword">echo</span> ①退出此程序（按键盘上任意键退出程序）；</span><br><span class="line">	<span class="keyword">echo</span> ②右键单击此程序，选择“以管理员身份运行”；</span><br><span class="line">	<span class="keyword">echo</span> ③授予运行权限即可。</span><br><span class="line">	pause &gt; nul</span><br><span class="line">	<span class="keyword">exit</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">:main</span><br><span class="line"><span class="keyword">echo</span> 程序将自动选择计算机上已经安装的电子课堂，但不保证一定退出成功。</span><br><span class="line"><span class="keyword">echo</span> 目前支持的机房软件：极域（青葡萄）电子教室、红蜘蛛、伽卡他卡、苏亚星。</span><br><span class="line"><span class="keyword">echo</span> 是否要立即开始关闭机房软件？（按键盘上任意键继续）</span><br><span class="line"><span class="keyword">echo</span> （请小心老师私下武力解决）</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;StudentMain.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：极域（青葡萄）电子教室</span><br><span class="line">	taskkill /im <span class="string">&quot;StudentMain.exe&quot;</span> /t /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：极域（青葡萄）电子教室</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;redAgent.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：红蜘蛛软件</span><br><span class="line">	taskkill /im <span class="string">&quot;redAgent.exe&quot;</span> /im <span class="string">&quot;checkrs.exe&quot;</span> /im <span class="string">&quot;rscheck.exe&quot;</span> /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：红蜘蛛软件</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;student.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：伽卡他卡、苏亚星</span><br><span class="line">	taskkill /im <span class="string">&quot;student.exe&quot;</span> /f /t</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：伽卡他卡、苏亚星</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"><span class="keyword">echo</span> 处理完成。（按键盘上任意键退出程序）</span><br><span class="line"><span class="keyword">echo</span> 程序作者：Luogu @PanDaoxi</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>计算机</category>
       </categories>
@@ -767,6 +433,67 @@
 <p><img src="/post-images/1c59546e1382f9cbc1f2d7f29ec43282.png" alt="Clip_2024-06-30_15-14-43" /></p>
 <h1 id="最终效果"><a class="markdownIt-Anchor" href="#最终效果"></a> 最终效果</h1>
 <p><img src="/post-images/c1d4ef900c5ad45a45da72969a010eb1.png" alt="" /></p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线文档 Docsify 的简单应用</title>
+    <url>/2024/04/21/zai-xian-wen-dang-docsify-de-jian-dan-ying-yong/</url>
+    <content><![CDATA[<p>众所周知，我把以前我在 CSDN 的博客放在了一个新站点上——CSDN Blog，作为我技术博客的一个分站。</p>
+<p><img src="/post-images/b6eb7142da85747ced076b972ab01c25.png" alt="" /><br />
+<img src="/post-images/b848cc4ed1f610e8281f4667e45b238d.png" alt="" /></p>
+<blockquote>
+<p>链接：<br />
+<a href="https://daoxi365.github.io/csdn-blogs/">https://daoxi365.github.io/csdn-blogs/</a>（新：CSDN Blog）<br />
+<a href="https://pandaoxi.blog.csdn.net/">https://pandaoxi.blog.csdn.net/</a>（已注销的 CSDN 旧博客）</p>
+</blockquote>
+<p>为什么不直接把文章放在 Gridea 下呢？原因有两个：</p>
+<ul>
+<li>文章数量太多，不易操作；</li>
+<li>文章太多时 Gitee Page 会崩掉。</li>
+</ul>
+<p>因此我选择了 <a href="https://docsify.js.org/#/zh-cn/"><strong>Docsify</strong></a> 这一静态文档网站生成器。<br />
+如果你问我，它好用吗？<br />
+——好用是挺好用的，但是很麻烦。</p>
+<p></p>
+<hr />
+<h1 id="概况"><a class="markdownIt-Anchor" href="#概况"></a> 概况</h1>
+<p>在注销之前，我共有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 篇原创文章需要收集起来放到新网站里。<br />
+通过一些手段导出来之后（<a href="https://blog.csdn.net/qq_33417321/article/details/131342634">手段</a>）解压出来是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个 Markdown 文件。<br />
+本来 Docsify 是支持 markdown 的，但是 CSDN 的图片有防盗链设置，而且一些文件名也存在问题，不支持。比如说有一些文章标题里带空格，这是不被 Docsify 识别的。<br />
+因此我们需要克服很多困难……</p>
+<h1 id="困难-1文件名称和图片修改"><a class="markdownIt-Anchor" href="#困难-1文件名称和图片修改"></a> 困难 1：文件名称和图片修改</h1>
+<p>由于文章太多，不能一个个地把图片弄下来，也不能手动修改每一个错误的文件名。<br />
+所以我使用了 Python 做批处理的活。这个 Python 文件的目的有以下几个：</p>
+<ul>
+<li>匹配图片，替换图片；</li>
+<li>修改文件名。</li>
+</ul>
+<p>Luckily，我发现一个可以反防盗链的 API。只需要在链接前面添加上 <code>https://pic.2ge.org/cdn/?url=</code> 即可。</p>
+<p>关于匹配，我直接让 ChatGPT 写了一个，真是太有实力啦！👍</p>
+<p><img src="/post-images/4e492b1dc1df1ddffc69326396d3e2dc.png" alt="" /></p>
+<p>我把这些博客放在文件夹 <code>./1</code> 下，在上层目录添加文件夹 <code>./2</code>，创建 <code>./maker.py</code>：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">extract_image_links_from_markdown</span>(<span class="params">markdown_text</span>):</span><br><span class="line">    pattern = <span class="string">r&#x27;!\[.*?\]\((.*?)\)&#x27;</span></span><br><span class="line">    image_links = re.findall(pattern, markdown_text)</span><br><span class="line">    <span class="keyword">return</span> image_links</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">pths = []</span><br><span class="line">names = []</span><br><span class="line"><span class="keyword">for</span> i, j, k <span class="keyword">in</span> os.walk(<span class="string">&quot;1/&quot;</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">len</span>(names):</span><br><span class="line">        names = k</span><br><span class="line">    <span class="keyword">for</span> l <span class="keyword">in</span> k:</span><br><span class="line">        pths.append(os.path.join(i, l))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(pths)):</span><br><span class="line">    r = <span class="string">&quot;&quot;</span></span><br><span class="line">    names[i] = names[i].split(<span class="string">&quot;.md&quot;</span>)[<span class="number">0</span>].replace(<span class="string">&quot;~&quot;</span>, <span class="string">&quot;-&quot;</span>).replace(<span class="string">&quot; &quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(pths[i], <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        r = f.read()</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> extract_image_links_from_markdown(r):</span><br><span class="line">        r = r.replace(j, <span class="string">&quot;https://pic.2ge.org/cdn/?url=%s&quot;</span> % j)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/%s.md&quot;</span> % names[i], <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(r)</span><br><span class="line">    <span class="built_in">print</span>(i, names[i])</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">x = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> names:</span><br><span class="line">    j = i</span><br><span class="line">    x += <span class="string">&quot;- [%s](%s)\n&quot;</span> % (j, j)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/_sidebar.md&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(x)</span><br><span class="line"></span><br><span class="line"><span class="built_in">input</span>()</span><br></pre></td></tr></table></figure>
+<p>把 <code>./2</code> 的所有文件复制到新博客下就行啦。</p>
+<h1 id="困难-2docsify-美化"><a class="markdownIt-Anchor" href="#困难-2docsify-美化"></a> 困难 2：Docsify 美化</h1>
+<p>按照官网教程一步步操作后发现页面好丑……于是我自己参照网络教程，简单地美化了一下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>【PanDaoxi】CSDN Blog<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;Description&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">content</span>=<span class="string">&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;icon&quot;</span> <span class="attr">class</span>=<span class="string">&quot;js-site-favicon&quot;</span> <span class="attr">type</span>=<span class="string">&quot;image/svg+xml&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://pandaoxi.gitee.io/tech-blog/favicon.svg&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/themes/prism.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span>Loading<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">window</span>.<span class="property">$docsify</span> = &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">name</span>: <span class="string">&#x27;PanDaoxi&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadSidebar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">sidebarDisplayLevel</span>: <span class="number">1</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">alias</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;/.*/_sidebar.md&#x27;</span>: <span class="string">&#x27;/_sidebar.md&#x27;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">coverpage</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">maxLevel</span>: <span class="number">5</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">subMaxLevel</span>: <span class="number">3</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">mergeNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">auto2top</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">latex</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            inlineMath   : [[<span class="string">&#x27;$&#x27;</span>, <span class="string">&#x27;$&#x27;</span>], [<span class="string">&#x27;\\(&#x27;</span>, <span class="string">&#x27;\\)&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            displayMath  : [[<span class="string">&#x27;$$&#x27;</span>, <span class="string">&#x27;$$&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">customOptions</span>: &#123;&#125;</span></span><br><span class="line"><span class="language-javascript">          &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">pagination</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">previousText</span>: <span class="string">&#x27;上一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">nextText</span>: <span class="string">&#x27;下一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">           &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">search</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">paths</span>: <span class="string">&#x27;auto&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: <span class="string">&#x27;搜索&#x27;</span>,    </span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/zh-cn/&#x27;</span>: <span class="string">&#x27;搜索&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/&#x27;</span>: <span class="string">&#x27;Type to search&#x27;</span></span></span><br><span class="line"><span class="language-javascript">                &#125;,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">noData</span>: <span class="string">&#x27;找不到结果&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">depth</span>: <span class="number">4</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">hideOtherSidebarContent</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">namespace</span>: <span class="string">&#x27;Docsify-Guide&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="attr">count</span>:&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">countable</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">position</span>: <span class="string">&#x27;top&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">margin</span>: <span class="string">&#x27;10px&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">float</span>: <span class="string">&#x27;right&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">fontsize</span>:<span class="string">&#x27;0.9em&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">color</span>:<span class="string">&#x27;rgb(90,90,90)&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">language</span>:<span class="string">&#x27;chinese&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">isExpected</span>: <span class="literal">true</span></span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/docsify-latex@0.5.2/dist/docsify-latex.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/emoji.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/zoom-image.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-cpp.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-bash.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-python.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--&lt;script src=&quot;https://unpkg.com/docsify-pagination@2.10.1/src/index.js&quot;&gt;&lt;/script&gt;--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify-copy-code/3.0.0/docsify-copy-code.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  </span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/docsify-count/dist/countable.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="title function_">onUpdated</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">onMounted</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>还要在博客目录下创建 <code>_coverpage.md</code>、<code>_navbar.md</code>、<code>_sidebar.md</code> 等等。</p>
+<h1 id="困难-3上传到-github"><a class="markdownIt-Anchor" href="#困难-3上传到-github"></a> 困难 3：上传到 Github</h1>
+<p>我以前一直习惯于手动在 Github 上传文件，每次网页端最多可以上传 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>20</mn></mrow><annotation encoding="application/x-tex">20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个。太少了！<br />
+但是我不会用 <code>git</code>。于是就探索 Git GUI。<br />
+这里不再赘述。</p>
+<ol>
+<li><a href="https://blog.csdn.net/mo_sss/article/details/123274512?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=Git%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%88%B0%20gitee&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-0-123274512.nonecase">《通过GIT将本地项目上传到gitee》</a></li>
+<li><a href="https://blog.csdn.net/m0_67596612/article/details/124865748?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171368688816800185816542%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=171368688816800185816542&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~top_positive~default-1-124865748-null-null.nonecase&amp;utm_term=GIT%20GUI&amp;spm=1018.2226.3001.4450">《Git Gui》</a></li>
+</ol>
+<hr />
+<p>就这样啦，拜拜！~</p>
 ]]></content>
       <categories>
         <category>计算机</category>
@@ -1345,58 +1072,306 @@
       </tags>
   </entry>
   <entry>
-    <title>在线文档 Docsify 的简单应用</title>
-    <url>/2024/04/21/zai-xian-wen-dang-docsify-de-jian-dan-ying-yong/</url>
-    <content><![CDATA[<p>众所周知，我把以前我在 CSDN 的博客放在了一个新站点上——CSDN Blog，作为我技术博客的一个分站。</p>
-<p><img src="/post-images/b6eb7142da85747ced076b972ab01c25.png" alt="" /><br />
-<img src="/post-images/b848cc4ed1f610e8281f4667e45b238d.png" alt="" /></p>
-<blockquote>
-<p>链接：<br />
-<a href="https://daoxi365.github.io/csdn-blogs/">https://daoxi365.github.io/csdn-blogs/</a>（新：CSDN Blog）<br />
-<a href="https://pandaoxi.blog.csdn.net/">https://pandaoxi.blog.csdn.net/</a>（已注销的 CSDN 旧博客）</p>
-</blockquote>
-<p>为什么不直接把文章放在 Gridea 下呢？原因有两个：</p>
+    <title>Virtualbox 使用教程</title>
+    <url>/2023/07/02/virtualbox-shi-yong-jiao-cheng/</url>
+    <content><![CDATA[<p>也许你可能遇到过这样的问题：</p>
 <ul>
-<li>文章数量太多，不易操作；</li>
-<li>文章太多时 Gitee Page 会崩掉。</li>
+<li>我自己开发了一款软件，在本地测试完全没问题，但是会不会在别的电脑上出现 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>bug</mtext></mrow><annotation encoding="application/x-tex">\text{bug}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">bug</span></span></span></span></span> 呐？但是我也没有其他的电脑，我也不好意思找朋友借……</li>
+<li>我是一个黑客技术爱好者，我想要在一台电脑上练习渗透技术怎么办……或者我想要研究系统的原理，但在自己电脑上直接实验代价太大，这怎么办……亦或者我想学习 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>B</mtext></mrow><annotation encoding="application/x-tex">\text{B}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">B</span></span></span></span></span> 站科技区 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>UP</mtext></mrow><annotation encoding="application/x-tex">\text{UP}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">UP</span></span></span></span></span> 主探究/修复病毒，但是不想装影子系统……</li>
+<li>……</li>
 </ul>
-<p>因此我选择了 <a href="https://docsify.js.org/#/zh-cn/"><strong>Docsify</strong></a> 这一静态文档网站生成器。<br />
-如果你问我，它好用吗？<br />
-——好用是挺好用的，但是很麻烦。</p>
-<p></p>
+<p>那么，如果你看到这篇文章并且照着做一做，就有可能实现你想要的效果。</p>
+<span id="more"></span>
+<p>（欢迎访问 <a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/PanDaoxi/websites/main/virtualbox_jc.pdf"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PDF</mtext></mrow><annotation encoding="application/x-tex">\text{PDF}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PDF</span></span></span></span></span> 版（镜像版）</a>，文件较大，请切换连接较好的网络）</p>
 <hr />
-<h1 id="概况"><a class="markdownIt-Anchor" href="#概况"></a> 概况</h1>
-<p>在注销之前，我共有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 篇原创文章需要收集起来放到新网站里。<br />
-通过一些手段导出来之后（<a href="https://blog.csdn.net/qq_33417321/article/details/131342634">手段</a>）解压出来是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个 Markdown 文件。<br />
-本来 Docsify 是支持 markdown 的，但是 CSDN 的图片有防盗链设置，而且一些文件名也存在问题，不支持。比如说有一些文章标题里带空格，这是不被 Docsify 识别的。<br />
-因此我们需要克服很多困难……</p>
-<h1 id="困难-1文件名称和图片修改"><a class="markdownIt-Anchor" href="#困难-1文件名称和图片修改"></a> 困难 1：文件名称和图片修改</h1>
-<p>由于文章太多，不能一个个地把图片弄下来，也不能手动修改每一个错误的文件名。<br />
-所以我使用了 Python 做批处理的活。这个 Python 文件的目的有以下几个：</p>
+<h1 id="文章目录"><a class="markdownIt-Anchor" href="#文章目录"></a> 文章目录</h1>
+<p><ul class="markdownIt-TOC">
+<li><a href="#11-%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1</mn></mrow><annotation encoding="application/x-tex">1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 软件的安装</a>
 <ul>
-<li>匹配图片，替换图片；</li>
-<li>修改文件名。</li>
+<li><a href="#111-text-virtualbox-%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.1</mn><mtext> Virtualbox</mtext></mrow><annotation encoding="application/x-tex">1.1.1 \text{ Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord text"><span class="mord"> Virtualbox</span></span></span></span></span> 安装</a></li>
+<li><a href="#112-text-ultral-iso-%E5%AE%89%E8%A3%85%E5%92%8C%E6%BF%80%E6%B4%BB"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.2</mn><mtext> Ultral ISO</mtext></mrow><annotation encoding="application/x-tex">1.1.2 \text{ Ultral ISO}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ultral ISO</span></span></span></span></span> 安装和激活</a></li>
+<li><a href="#113text-thunders-%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.3</mn><mtext> Thunders</mtext></mrow><annotation encoding="application/x-tex">1.1.3\text{ Thunders}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">3</span><span class="mord text"><span class="mord"> Thunders</span></span></span></span></span> 下载工具的安装</a></li>
+<li><a href="#text114-pe-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%87%86%E5%A4%87"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.4 PE</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.4 PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.4 PE</span></span></span></span></span> 系统下载和准备</a></li>
+<li><a href="#text115-%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F%E5%87%86%E5%A4%87"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5 </mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5 }</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5 </span></span></span></span></span>系统镜像准备</a>
+<ul>
+<li><a href="#text1151-%E5%8E%9F%E7%89%88%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5.1</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5.1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5.1</span></span></span></span></span> 原版系统镜像</a></li>
+<li><a href="#1152-text-ghost-%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.5.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">1.1.5.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 镜像制作</a></li>
 </ul>
-<p>Luckily，我发现一个可以反防盗链的 API。只需要在链接前面添加上 <code>https://pic.2ge.org/cdn/?url=</code> 即可。</p>
-<p>关于匹配，我直接让 ChatGPT 写了一个，真是太有实力啦！👍</p>
-<p><img src="/post-images/4e492b1dc1df1ddffc69326396d3e2dc.png" alt="" /></p>
-<p>我把这些博客放在文件夹 <code>./1</code> 下，在上层目录添加文件夹 <code>./2</code>，创建 <code>./maker.py</code>：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">extract_image_links_from_markdown</span>(<span class="params">markdown_text</span>):</span><br><span class="line">    pattern = <span class="string">r&#x27;!\[.*?\]\((.*?)\)&#x27;</span></span><br><span class="line">    image_links = re.findall(pattern, markdown_text)</span><br><span class="line">    <span class="keyword">return</span> image_links</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">pths = []</span><br><span class="line">names = []</span><br><span class="line"><span class="keyword">for</span> i, j, k <span class="keyword">in</span> os.walk(<span class="string">&quot;1/&quot;</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">len</span>(names):</span><br><span class="line">        names = k</span><br><span class="line">    <span class="keyword">for</span> l <span class="keyword">in</span> k:</span><br><span class="line">        pths.append(os.path.join(i, l))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(pths)):</span><br><span class="line">    r = <span class="string">&quot;&quot;</span></span><br><span class="line">    names[i] = names[i].split(<span class="string">&quot;.md&quot;</span>)[<span class="number">0</span>].replace(<span class="string">&quot;~&quot;</span>, <span class="string">&quot;-&quot;</span>).replace(<span class="string">&quot; &quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(pths[i], <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        r = f.read()</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> extract_image_links_from_markdown(r):</span><br><span class="line">        r = r.replace(j, <span class="string">&quot;https://pic.2ge.org/cdn/?url=%s&quot;</span> % j)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/%s.md&quot;</span> % names[i], <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(r)</span><br><span class="line">    <span class="built_in">print</span>(i, names[i])</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">x = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> names:</span><br><span class="line">    j = i</span><br><span class="line">    x += <span class="string">&quot;- [%s](%s)\n&quot;</span> % (j, j)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/_sidebar.md&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(x)</span><br><span class="line"></span><br><span class="line"><span class="built_in">input</span>()</span><br></pre></td></tr></table></figure>
-<p>把 <code>./2</code> 的所有文件复制到新博客下就行啦。</p>
-<h1 id="困难-2docsify-美化"><a class="markdownIt-Anchor" href="#困难-2docsify-美化"></a> 困难 2：Docsify 美化</h1>
-<p>按照官网教程一步步操作后发现页面好丑……于是我自己参照网络教程，简单地美化了一下：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>【PanDaoxi】CSDN Blog<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;Description&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">content</span>=<span class="string">&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;icon&quot;</span> <span class="attr">class</span>=<span class="string">&quot;js-site-favicon&quot;</span> <span class="attr">type</span>=<span class="string">&quot;image/svg+xml&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://pandaoxi.gitee.io/tech-blog/favicon.svg&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/themes/prism.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span>Loading<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">window</span>.<span class="property">$docsify</span> = &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">name</span>: <span class="string">&#x27;PanDaoxi&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadSidebar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">sidebarDisplayLevel</span>: <span class="number">1</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">alias</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;/.*/_sidebar.md&#x27;</span>: <span class="string">&#x27;/_sidebar.md&#x27;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">coverpage</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">maxLevel</span>: <span class="number">5</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">subMaxLevel</span>: <span class="number">3</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">mergeNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">auto2top</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">latex</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            inlineMath   : [[<span class="string">&#x27;$&#x27;</span>, <span class="string">&#x27;$&#x27;</span>], [<span class="string">&#x27;\\(&#x27;</span>, <span class="string">&#x27;\\)&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            displayMath  : [[<span class="string">&#x27;$$&#x27;</span>, <span class="string">&#x27;$$&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">customOptions</span>: &#123;&#125;</span></span><br><span class="line"><span class="language-javascript">          &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">pagination</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">previousText</span>: <span class="string">&#x27;上一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">nextText</span>: <span class="string">&#x27;下一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">           &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">search</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">paths</span>: <span class="string">&#x27;auto&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: <span class="string">&#x27;搜索&#x27;</span>,    </span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/zh-cn/&#x27;</span>: <span class="string">&#x27;搜索&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/&#x27;</span>: <span class="string">&#x27;Type to search&#x27;</span></span></span><br><span class="line"><span class="language-javascript">                &#125;,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">noData</span>: <span class="string">&#x27;找不到结果&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">depth</span>: <span class="number">4</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">hideOtherSidebarContent</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">namespace</span>: <span class="string">&#x27;Docsify-Guide&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="attr">count</span>:&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">countable</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">position</span>: <span class="string">&#x27;top&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">margin</span>: <span class="string">&#x27;10px&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">float</span>: <span class="string">&#x27;right&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">fontsize</span>:<span class="string">&#x27;0.9em&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">color</span>:<span class="string">&#x27;rgb(90,90,90)&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">language</span>:<span class="string">&#x27;chinese&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">isExpected</span>: <span class="literal">true</span></span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/docsify-latex@0.5.2/dist/docsify-latex.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/emoji.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/zoom-image.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-cpp.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-bash.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-python.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--&lt;script src=&quot;https://unpkg.com/docsify-pagination@2.10.1/src/index.js&quot;&gt;&lt;/script&gt;--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify-copy-code/3.0.0/docsify-copy-code.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  </span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/docsify-count/dist/countable.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="title function_">onUpdated</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">onMounted</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>还要在博客目录下创建 <code>_coverpage.md</code>、<code>_navbar.md</code>、<code>_sidebar.md</code> 等等。</p>
-<h1 id="困难-3上传到-github"><a class="markdownIt-Anchor" href="#困难-3上传到-github"></a> 困难 3：上传到 Github</h1>
-<p>我以前一直习惯于手动在 Github 上传文件，每次网页端最多可以上传 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>20</mn></mrow><annotation encoding="application/x-tex">20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个。太少了！<br />
-但是我不会用 <code>git</code>。于是就探索 Git GUI。<br />
-这里不再赘述。</p>
+</li>
+</ul>
+</li>
+<li><a href="#text12-virtualbox-%E9%85%8D%E7%BD%AE"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.2 Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{1.2 Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.2 Virtualbox</span></span></span></span></span> 配置</a>
+<ul>
+<li><a href="#121-%E6%96%B0%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.1</mn></mrow><annotation encoding="application/x-tex">1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 新建虚拟机</a></li>
+<li><a href="#122-%E6%8C%82%E8%BD%BD%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.2</mn></mrow><annotation encoding="application/x-tex">1.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 挂载系统镜像</a></li>
+</ul>
+</li>
+<li><a href="#21-%E4%BB%8E-textpe-%E6%81%A2%E5%A4%8D%E7%B3%BB%E7%BB%9F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1</mn></mrow><annotation encoding="application/x-tex">2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 恢复系统</a>
+<ul>
+<li><a href="#211-%E4%BD%BF%E7%94%A8-textdg-%E5%AF%B9%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.1</mn></mrow><annotation encoding="application/x-tex">2.1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 使用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>DG</mtext></mrow><annotation encoding="application/x-tex">\text{DG}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">DG</span></span></span></span></span> 对磁盘分区</a></li>
+<li><a href="#212-%E5%AF%BC%E5%87%BA%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2</mn></mrow><annotation encoding="application/x-tex">2.1.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 导出镜像</a>
+<ul>
+<li><a href="#2121-%E5%8E%9F%E7%89%88%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.1</mn></mrow><annotation encoding="application/x-tex">2.1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 原版系统镜像</a></li>
+<li><a href="#2122-text-ghost-%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">2.1.2.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 系统安装</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#22-%E8%BF%9B%E5%85%A5%E7%B3%BB%E7%BB%9F"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2</mn></mrow><annotation encoding="application/x-tex">2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 进入系统</a>
+<ul>
+<li><a href="#221-%E7%B3%BB%E7%BB%9F%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.1</mn></mrow><annotation encoding="application/x-tex">2.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 系统网络连接</a></li>
+<li><a href="#222-%E5%AE%89%E8%A3%85%E5%A2%9E%E5%BC%BA%E5%8A%9F%E8%83%BD"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.2</mn></mrow><annotation encoding="application/x-tex">2.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 安装增强功能</a></li>
+<li><a href="#223-%E6%BF%80%E6%B4%BB%E7%B3%BB%E7%BB%9F%E4%BB%85%E5%AF%B9%E4%BA%8E%E5%8E%9F%E7%89%88"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.3</mn></mrow><annotation encoding="application/x-tex">2.2.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 激活系统（仅对于原版）</a></li>
+</ul>
+</li>
+<li><a href="#31-%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.1</mn></mrow><annotation encoding="application/x-tex">3.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 桌面图标设置</a></li>
+<li><a href="#32-%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88%E8%AE%BE%E7%BD%AE"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.2</mn></mrow><annotation encoding="application/x-tex">3.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 鼠标指针设置</a></li>
+<li><a href="#33-%E5%88%86%E8%BE%A8%E7%8E%87"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.3</mn></mrow><annotation encoding="application/x-tex">3.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 分辨率</a></li>
+<li><a href="#34-%E6%98%BE%E7%A4%BA%E6%8B%93%E5%B1%95%E5%90%8D"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.4</mn></mrow><annotation encoding="application/x-tex">3.4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">4</span></span></span></span> 显示拓展名</a></li>
+<li><a href="#35-%E6%8B%8D%E6%91%84%E5%BF%AB%E7%85%A7-%E6%81%A2%E5%A4%8D%E5%BF%AB%E7%85%A7"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.5</mn></mrow><annotation encoding="application/x-tex">3.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">5</span></span></span></span> 拍摄快照、恢复快照</a></li>
+</ul>
+</p>
+<p>本文为 「<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PanDaoxi</mtext></mrow><annotation encoding="application/x-tex">\text{PanDaoxi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PanDaoxi</span></span></span></span></span>」的原创文章，遵循 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>CC 4.0 BY-SA</mtext></mrow><annotation encoding="application/x-tex">\text{CC 4.0 BY-SA}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">CC 4.0 BY-SA</span></span></span></span></span> 版权协议，转载请附上原文出处及本声明。</p>
+<hr />
+<h1 id="1-虚拟机软件安装及准备"><a class="markdownIt-Anchor" href="#1-虚拟机软件安装及准备"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.</mn></mrow><annotation encoding="application/x-tex">1.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span></span></span></span> 虚拟机软件安装及准备</h1>
+<p>在这部分，我们将安装虚拟机软件，为接下来的操作做一些准备。</p>
+<h2 id="11-软件的安装"><a class="markdownIt-Anchor" href="#11-软件的安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1</mn></mrow><annotation encoding="application/x-tex">1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 软件的安装</h2>
+<p>我们主要用到的软件有：</p>
 <ol>
-<li><a href="https://blog.csdn.net/mo_sss/article/details/123274512?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=Git%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%88%B0%20gitee&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-0-123274512.nonecase">《通过GIT将本地项目上传到gitee》</a></li>
-<li><a href="https://blog.csdn.net/m0_67596612/article/details/124865748?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171368688816800185816542%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=171368688816800185816542&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~top_positive~default-1-124865748-null-null.nonecase&amp;utm_term=GIT%20GUI&amp;spm=1018.2226.3001.4450">《Git Gui》</a></li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Virtualbox</span></span></span></span></span> 最新版本</li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Ultral ISO</mtext></mrow><annotation encoding="application/x-tex">\text{Ultral ISO}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Ultral ISO</span></span></span></span></span> （已经激活）</li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Thunders</mtext></mrow><annotation encoding="application/x-tex">\text{Thunders}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Thunders</span></span></span></span></span> 精简版迅雷下载工具</li>
+<li>自己熟悉的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统（本文以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Fir PE</mtext></mrow><annotation encoding="application/x-tex">\text{Fir PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Fir PE</span></span></span></span></span> 做演示）</li>
+<li>原版系统镜像网站或<strong>可信的</strong> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Ghost</mtext></mrow><annotation encoding="application/x-tex">\text{Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Ghost</span></span></span></span></span> 系统网站。</li>
 </ol>
+<h3 id="111-text-virtualbox-安装"><a class="markdownIt-Anchor" href="#111-text-virtualbox-安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.1</mn><mtext> Virtualbox</mtext></mrow><annotation encoding="application/x-tex">1.1.1 \text{ Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord text"><span class="mord"> Virtualbox</span></span></span></span></span> 安装</h3>
+<p>可以到<a href="https://www.virtualbox.org/">官网</a>下载，下载后一路默认设置即可。参考<a href="https://pandaoxi.blog.csdn.net/article/details/127822217">【文章】</a>的第三部分。</p>
+<h3 id="112-text-ultral-iso-安装和激活"><a class="markdownIt-Anchor" href="#112-text-ultral-iso-安装和激活"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.2</mn><mtext> Ultral ISO</mtext></mrow><annotation encoding="application/x-tex">1.1.2 \text{ Ultral ISO}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ultral ISO</span></span></span></span></span> 安装和激活</h3>
+<p>首先这是个啥？有啥用？</p>
+<p>——这是一个制作<strong>DVD刻录文件</strong>的东西，这个玩意儿有很大用处。</p>
+<p>下载可以从官网下载：</p>
+<p><a href="https://cn.ultraiso.net/xiazai.html">最新UltraISO官方免费下载 - UltraISO软碟通中文官方网站</a></p>
+<p>这里下载下来安装好，要求我们注册（提供注册名什么的），我们输入以下信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">注册名：Guanjiu</span><br><span class="line">激活码：A06C-83A7-701D-6CFC</span><br></pre></td></tr></table></figure>
+<p><img src="/post-images/53606d0cd7e3e5bff153f04a88d62582.png" alt="" /></p>
+<p>安装成功后的界面大概就是上图的样子了。使用过程也很简单，只要把要用的东西拖到上面去就可以了。</p>
+<p><img src="/post-images/567a4552785705c842387cad570078d9.png" alt="" /></p>
+<p><img src="/post-images/22d4012aa1f9f382235d0ff5e286a4c3.png" alt="" /></p>
+<p>等到进度条跑完，这个文件也就生成了：</p>
+<p><img src="/post-images/28fb9b61799081de04b24d6fe0f4cb13.png" alt="" /></p>
+<p>生成的文件大小，会由你选定的文件决定。</p>
+<p><img src="/post-images/3e2ad5489514c616244161a356669460.png" alt="" /></p>
+<h3 id="113text-thunders-下载工具的安装"><a class="markdownIt-Anchor" href="#113text-thunders-下载工具的安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.3</mn><mtext> Thunders</mtext></mrow><annotation encoding="application/x-tex">1.1.3\text{ Thunders}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">3</span><span class="mord text"><span class="mord"> Thunders</span></span></span></span></span> 下载工具的安装</h3>
+<p>可以从 <a href="https://hellowindows.cn/"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>HelloWindows</mtext></mrow><annotation encoding="application/x-tex">\text{HelloWindows}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">HelloWindows</span></span></span></span></span></a> 上下载，点击侧栏的“下载工具”，把这款下载下来。</p>
+<p><img src="/post-images/86ec7f2453440015032d44d2e18bd3a5.png" alt="" /></p>
+<p>下载好了以后，运行 <code>Program\thunder.exe</code> 打开迅雷，<strong>关闭所有杀毒软件</strong>！</p>
+<p><img src="/post-images/4ab9d96628c03a6afd7f173a8542092f.png" alt="" /></p>
+<h3 id="text114-pe-系统下载和准备"><a class="markdownIt-Anchor" href="#text114-pe-系统下载和准备"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.4 PE</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.4 PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.4 PE</span></span></span></span></span> 系统下载和准备</h3>
+<p>推荐：</p>
+<ul>
+<li><a href="https://www.itsk.com/thread-427560-1-1.html">优启通 v3.7.2022.1024（2022.12.08 发布）_IT天空原创软件_IT天空 (itsk.com)</a></li>
+<li><a href="https://www.wepe.com.cn/">微PE工具箱 - 超好用的装机维护工具 (wepe.com.cn)</a></li>
+<li><a href="http://www.firpe.cn/">FirPE Project - 也许是最适合年轻人使用的第三方WinPE</a></li>
+</ul>
+<p>这三款都比较纯净，安装出来的系统不会带软件，<strong>尽量别用老毛桃和大白菜</strong>，因为你得万分谨慎才能避免它在新系统里装软件。</p>
+<p>下载下来后，<strong>生成本地镜像</strong>即可。</p>
+<p><img src="/post-images/78de996f81184ab5b4aef4a16ce86d76.png" alt="" /></p>
+<p>需要注意的是，如果你的系统版本比较低，可能会导致内存不够，需要使用微 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> ；但是微 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 不支持网络连接！</p>
+<h3 id="text115-系统镜像准备"><a class="markdownIt-Anchor" href="#text115-系统镜像准备"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5 </mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5 }</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5 </span></span></span></span></span>系统镜像准备</h3>
+<h4 id="text1151-原版系统镜像"><a class="markdownIt-Anchor" href="#text1151-原版系统镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.1.5.1</mtext></mrow><annotation encoding="application/x-tex">\text{1.1.5.1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.1.5.1</span></span></span></span></span> 原版系统镜像</h4>
+<blockquote>
+<p>优点：</p>
+<ul>
+<li>完完全全没流氓软件；</li>
+<li>有全面的功能，不会被精简；</li>
+<li>可以选择任意的版本。</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>需要激活系统；</li>
+<li>可能要进行一系列设置。</li>
+</ul>
+</blockquote>
+<p>推荐两个网站，可以下载原版镜像：</p>
+<ul>
+<li>
+<p><a href="https://hellowindows.cn/">HelloWindows.cn - 精校 完整 极致 Windows系统下载仓储站</a></p>
+</li>
+<li>
+<p><a href="https://msdn.itellyou.cn/">MSDN, 我告诉你 - 做一个安静的工具站 (itellyou.cn)</a></p>
+</li>
+</ul>
+<p>这两个网站都提供 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>ed2k</mtext></mrow><annotation encoding="application/x-tex">\text{ed2k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">ed2k</span></span></span></span></span> 链接下载：</p>
+<p><img src="/post-images/f0d22e5e808e8aabb128c3169bd6b350.png" alt="" /></p>
+<p><img src="/post-images/a1e5f168dd989fb747705ea2ed32084e.png" alt="" /></p>
+<p>在这里我把链接放出来方便下载：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|cn_windows_7_professional_with_sp1_x64_dvd_u_677031.iso|3420557312|430BEDC0F22FA18001F717F7AF08C9D5|/</span><br></pre></td></tr></table></figure>
+<p><img src="/post-images/7253df1e9bee0e2945be529768ec31b8.png" alt="" /></p>
+<p>可能要稍等一会儿。</p>
+<p><img src="/post-images/894e4c20fe05783a842cf8cc81a05f09.png" alt="" /></p>
+<p>等它下载好就行啦，长得也是这个样：</p>
+<p><img src="/post-images/bd653063cd4289c3fbafa23e0b22aaff.png" alt="" /></p>
+<h4 id="1152-text-ghost-镜像制作"><a class="markdownIt-Anchor" href="#1152-text-ghost-镜像制作"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.5.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">1.1.5.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 镜像制作</h4>
+<blockquote>
+<p>优点：</p>
+<ul>
+<li>速度快，有精简，免激活；</li>
+<li>一般比较稳定。</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>容易被装流氓软件。</li>
+</ul>
+</blockquote>
+<p><a href="http://www.aichunjing.com/">纯净版系统_Win10纯净版64位_纯净版XP系统-爱纯净官网 (aichunjing.com)</a></p>
+<p>这个网站里收录了好多纯净版二次制作系统。找一款你想要的，下载下来就行，重点在于制作镜像，挂载到虚拟机上。</p>
+<p><img src="/post-images/9c052f734c7d896387d7fdf24e5a2cdf.png" alt="" /></p>
+<p>请参照 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.1.2</mn></mrow><annotation encoding="application/x-tex">1.1.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 的方法，制作镜像。</p>
 <hr />
-<p>就这样啦，拜拜！~</p>
+<h2 id="text12-virtualbox-配置"><a class="markdownIt-Anchor" href="#text12-virtualbox-配置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>1.2 Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{1.2 Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">1.2 Virtualbox</span></span></span></span></span> 配置</h2>
+<h3 id="121-新建虚拟机"><a class="markdownIt-Anchor" href="#121-新建虚拟机"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.1</mn></mrow><annotation encoding="application/x-tex">1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 新建虚拟机</h3>
+<p>打开 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Virtualbox</span></span></span></span></span> 虚拟机软件，点击左上方新建。</p>
+<p><img src="/post-images/76c981da994837190a51d02309e4dff4.png" alt="" /></p>
+<p>注意：命名不要有特殊符号，也不要用空格。</p>
+<p><img src="/post-images/0b96d452f531a4db7ba97d249e0dbb64.png" alt="" /></p>
+<p><img src="/post-images/3ab0035be8b04676f59324afe588ab5c.png" alt="" /></p>
+<p><img src="/post-images/914a49d25689a1a7ddd421c47e877618.png" alt="" /></p>
+<p>这样，你就有了一台新的虚拟机。</p>
+<h3 id="122-挂载系统镜像"><a class="markdownIt-Anchor" href="#122-挂载系统镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.2.2</mn></mrow><annotation encoding="application/x-tex">1.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 挂载系统镜像</h3>
+<p><img src="/post-images/c836daf0809270b5fad66839e90a9120.png" alt="" /></p>
+<p>选上你以前下载的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统和系统镜像。</p>
+<p><img src="/post-images/5dbdbe290e9349a5cacc4e756a2be812.png" alt="" /></p>
+<p>启动时选定从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 启动，进入 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统，开始系统安装。</p>
+<hr />
+<h1 id="2-操作系统安装"><a class="markdownIt-Anchor" href="#2-操作系统安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.</mn></mrow><annotation encoding="application/x-tex">2.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span></span></span></span> 操作系统安装</h1>
+<h2 id="21-从-textpe-恢复系统"><a class="markdownIt-Anchor" href="#21-从-textpe-恢复系统"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1</mn></mrow><annotation encoding="application/x-tex">2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 恢复系统</h2>
+<p>进入 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统后，可以看到一个很漂亮的环境：</p>
+<p><img src="/post-images/2228b650712bc6d037e8f0956f88ef59.png" alt="" /></p>
+<p>接下来，我们将使用这个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 系统安装 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows</mtext></mrow><annotation encoding="application/x-tex">\text{Windows}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows</span></span></span></span></span>。</p>
+<h3 id="211-使用-textdg-对磁盘分区"><a class="markdownIt-Anchor" href="#211-使用-textdg-对磁盘分区"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.1</mn></mrow><annotation encoding="application/x-tex">2.1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 使用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>DG</mtext></mrow><annotation encoding="application/x-tex">\text{DG}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">DG</span></span></span></span></span> 对磁盘分区</h3>
+<p>运行桌面上的 <code>DiskGenius</code>，打开分区工具。</p>
+<p><img src="/post-images/b604eaee28e9eea4431725bde3f4c35f.png" alt="" /></p>
+<p>可以自选分区数量。我没有过多的需要，我就分一个。</p>
+<p><img src="/post-images/90f2089ee1e81a91a25d94be0aac4491.png" alt="" /></p>
+<p>等待它完成后关闭即可。可以看到“此电脑”里已经有了卷：</p>
+<p><img src="/post-images/830aa64b6f3625474e9d96384f65b856.png" alt="" /></p>
+<p>现在，我们要正式开始安装系统了。</p>
+<h3 id="212-导出镜像"><a class="markdownIt-Anchor" href="#212-导出镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2</mn></mrow><annotation encoding="application/x-tex">2.1.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 导出镜像</h3>
+<h4 id="2121-原版系统镜像"><a class="markdownIt-Anchor" href="#2121-原版系统镜像"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.1</mn></mrow><annotation encoding="application/x-tex">2.1.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 原版系统镜像</h4>
+<p>挂载上原版系统镜像。</p>
+<p><img src="/post-images/8fe907a17627fe91d306de6596cf2da5.png" alt="" /></p>
+<p><img src="/post-images/6a80e7061d08db7c165738598c5e4fc6.png" alt="" /></p>
+<blockquote>
+<p>如果这里进来后是一个窗口，说是安装程序，那就先关掉，右键新窗口打开。这是 <code>autorun.inf</code> 自动运行导致的。</p>
+</blockquote>
+<p>确认无误后，打开 <code>EasyRC</code> 工具。</p>
+<blockquote>
+<p><img src="/post-images/33412d9a0a1584757eb9e9df4df9b1aa.png" alt="" /></p>
+<p>如果打不开，有可能是因为你的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 镜像和系统镜像错位了，调换一下就好。</p>
+</blockquote>
+<p>正常打开应该是这样的：</p>
+<p><img src="/post-images/eedf08ecdcb574baa7bd5a6f47c4bb6b.png" alt="" /></p>
+<p>现在，点击“浏览”，找到你的镜像磁盘中 <code>source/install.wim</code>。</p>
+<p><img src="/post-images/3b8fa44ad46847d44b857956d54ec2f9.png" alt="" /></p>
+<p><img src="/post-images/c7bda4da292e40c58b5e8fd703c7103f.png" alt="" /></p>
+<p><strong>先点中上面的<code>C:\</code>，然后让它自己安装就行</strong>。</p>
+<p><img src="/post-images/1a143fea3b1f25cbaa59f7ca2c49f8ae.png" alt="" /></p>
+<blockquote>
+<p>这小海豚和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Easy</mtext></mrow><annotation encoding="application/x-tex">\text{Easy}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Easy</span></span></span></span></span> 系列，应该是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>ITSK</mtext></mrow><annotation encoding="application/x-tex">\text{ITSK}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">ITSK</span></span></span></span></span> 出的。安装需要一段时间，耐心等待一会儿吧！</p>
+</blockquote>
+<p><img src="/post-images/90969cd909d640a8fccfe60ce305f8d7.png" alt="" /></p>
+<p>不用搭理它，它会自己安装好进入桌面。</p>
+<p><img src="/post-images/81825b4859ee3eb140cd0a304928f720.png" alt="" /></p>
+<p><img src="/post-images/772797d338477908d443d60ed929d0be.png" alt="" /></p>
+<h4 id="2122-text-ghost-系统安装"><a class="markdownIt-Anchor" href="#2122-text-ghost-系统安装"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.1.2.2</mn><mtext> Ghost</mtext></mrow><annotation encoding="application/x-tex">2.1.2.2 \text{ Ghost}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord text"><span class="mord"> Ghost</span></span></span></span></span> 系统安装</h4>
+<p>类比于刚才的办法，同样进入 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>PE</mtext></mrow><annotation encoding="application/x-tex">\text{PE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">PE</span></span></span></span></span> 后，打开 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>EasyRC</mtext></mrow><annotation encoding="application/x-tex">\text{EasyRC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">EasyRC</span></span></span></span></span>，安装系统。</p>
+<p><img src="/post-images/e33f9e4158c633a4137f8eec7c4db327.png" alt="" /></p>
+<p><img src="/post-images/e4708f4007108a1bb617f222ba8f93da.png" alt="" /></p>
+<p><img src="/post-images/37c1d002c051a302b76875af38ce24e1.png" alt="" /></p>
+<p>这也是自动安装的，不用搭理它。</p>
+<h2 id="22-进入系统"><a class="markdownIt-Anchor" href="#22-进入系统"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2</mn></mrow><annotation encoding="application/x-tex">2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 进入系统</h2>
+<p>这两者终于殊途同归，进入了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows 7</mtext></mrow><annotation encoding="application/x-tex">\text{Windows 7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows 7</span></span></span></span></span> 的页面。</p>
+<p><img src="/post-images/52b93fc88ca7d6ea45a24f061fb1f87f.png" alt="" /></p>
+<h3 id="221-系统网络连接"><a class="markdownIt-Anchor" href="#221-系统网络连接"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.1</mn></mrow><annotation encoding="application/x-tex">2.2.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 系统网络连接</h3>
+<p>这个很简单，看你的需要，可以在设置、网络找到。这里简单解释一下：</p>
+<ul>
+<li>
+<p><code>NAT</code> ：把你的虚拟机放到了一个虚拟的网络里面，跟物理机和局域网没啥关系，但是还能正常上网。</p>
+</li>
+<li>
+<p>桥接网卡：把这台虚拟机放到了局域网内，这样可以和同在局域网内的设备共享。</p>
+</li>
+<li>
+<p>仅主机：就是切断虚拟机网络连接。</p>
+</li>
+</ul>
+<h3 id="222-安装增强功能"><a class="markdownIt-Anchor" href="#222-安装增强功能"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.2</mn></mrow><annotation encoding="application/x-tex">2.2.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 安装增强功能</h3>
+<p>右上方设备，点击倒数第二个。</p>
+<p>这时会挂载上一个新的磁盘，就是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Virtualbox</mtext></mrow><annotation encoding="application/x-tex">\text{Virtualbox}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Virtualbox</span></span></span></span></span> 图标的这个，进去安装这个：</p>
+<p><img src="/post-images/137bb35403d9dd2cc257b8b2a33151f2.png" alt="" /></p>
+<p><strong>全部</strong>信任来自它的软件。</p>
+<p><strong>重启以前</strong>：在”设备“中，开启所有增强功能：</p>
+<ul>
+<li>
+<p>拖动：双向</p>
+</li>
+<li>
+<p>共享粘贴板：双向</p>
+</li>
+<li>
+<p>声音：输入、输出</p>
+</li>
+<li>
+<p>共享文件夹：管理—新建（右边第一个图标）—选一个你记得住的文件夹</p>
+<p><img src="/post-images/3387d15d27e620b3ec037862f7e4a7a9.png" alt="" /></p>
+</li>
+</ul>
+<p>然后重启。</p>
+<p>这时，“我的电脑”里已经有了共享文件夹，在物理机内放的文件可以从共享文件夹复制到虚拟机上。</p>
+<p><img src="/post-images/ced94ea390491ebb4076b76fc2815bd3.png" alt="" /></p>
+<blockquote>
+<p>虚拟机有没有写入的权限，取决于上图中是否选择“只读分配”。</p>
+</blockquote>
+<p>也可以把文件拖入了：</p>
+<p><img src="/post-images/5e648057a40f63b961cf4f466aa8f74b.gif" alt="" /></p>
+<h3 id="223-激活系统仅对于原版"><a class="markdownIt-Anchor" href="#223-激活系统仅对于原版"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2.2.3</mn></mrow><annotation encoding="application/x-tex">2.2.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">.</span><span class="mord">2</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 激活系统（仅对于原版）</h3>
+<p><a href="https://hellowindows.cn/">HelloWindows.cn - 精校 完整 极致 Windows系统下载仓储站</a></p>
+<p>推荐网站里面激活工具的最后一个。网址放出来：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://www.lanzouw.com/ibVCwuzvt2h</span><br></pre></td></tr></table></figure>
+<p>运行 <code>HEU_KMS_Activator_v23.1.0.exe</code>：</p>
+<p><img src="/post-images/a45ad91556542733522944f369400611.png" alt="" /></p>
+<p>重启电脑后，系统已经被激活。</p>
+<p><img src="/post-images/eee837d0c82fd3a957b493230ae567d0.png" alt="" /></p>
+<p>至此，系统设置完工。</p>
+<hr />
+<h1 id="3-系统个性化设置"><a class="markdownIt-Anchor" href="#3-系统个性化设置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.</mn></mrow><annotation encoding="application/x-tex">3.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span></span></span></span> 系统个性化设置</h1>
+<h2 id="31-桌面图标设置"><a class="markdownIt-Anchor" href="#31-桌面图标设置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.1</mn></mrow><annotation encoding="application/x-tex">3.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">1</span></span></span></span> 桌面图标设置</h2>
+<p>由于个人审美，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows 7</mtext></mrow><annotation encoding="application/x-tex">\text{Windows 7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows 7</span></span></span></span></span> 系统我喜欢看到第一个是用户图标。如何找到？</p>
+<p>桌面—右键—个性化—更改桌面图标（左侧栏）—选你喜欢的—应用（确定）</p>
+<h2 id="32-鼠标指针设置"><a class="markdownIt-Anchor" href="#32-鼠标指针设置"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.2</mn></mrow><annotation encoding="application/x-tex">3.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">2</span></span></span></span> 鼠标指针设置</h2>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Windows 7</mtext></mrow><annotation encoding="application/x-tex">\text{Windows 7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Windows 7</span></span></span></span></span> 支持 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>XP</mtext></mrow><annotation encoding="application/x-tex">\text{XP}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">XP</span></span></span></span></span> 风格的鼠标指针，还能设置阴影。用上了成套的主题：</p>
+<p><img src="/post-images/30a4e45326b6419abff323439e82f51b.png" alt="" /></p>
+<p>如果都不喜欢，可以从网上能找到别的样式。</p>
+<h2 id="33-分辨率"><a class="markdownIt-Anchor" href="#33-分辨率"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.3</mn></mrow><annotation encoding="application/x-tex">3.3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">3</span></span></span></span> 分辨率</h2>
+<p>emm，分辨率全靠自己拖，我记得别的好像全屏的时候自动就全屏了……</p>
+<h2 id="34-显示拓展名"><a class="markdownIt-Anchor" href="#34-显示拓展名"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.4</mn></mrow><annotation encoding="application/x-tex">3.4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">4</span></span></span></span> 显示拓展名</h2>
+<p><img src="/post-images/4498be5114ca487a41ce5d7795f84a6e.png" alt="" /></p>
+<p><img src="/post-images/5635ffdfc065551392ac4a97a9e1d2d5.png" alt="" /></p>
+<p><img src="/post-images/8350935d1e95a49b9c52721e7ec86038.png" alt="" /></p>
+<h2 id="35-拍摄快照-恢复快照"><a class="markdownIt-Anchor" href="#35-拍摄快照-恢复快照"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3.5</mn></mrow><annotation encoding="application/x-tex">3.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">5</span></span></span></span> 拍摄快照、恢复快照</h2>
+<p>这个快照的功能就类似于影子系统，通过快照记录当前系统的状态，避免操作不当引起系统损坏，这时就可以一键恢复。</p>
+<p>点击右侧的“备份”：</p>
+<p><img src="/post-images/559b59ca38c55c7a467033a4ad224581.png" alt="image-20230120142756208" /></p>
+<p><img src="/post-images/d0185a4e5f8f3870f16391bd30dad560.png" alt="image-20230120144718711" /></p>
+<p><img src="/post-images/21f077867222b1836645d5c4606fb0bc.png" alt="image-20230120143110072" /></p>
+<p>如需恢复，需要先关闭虚拟机，然后：</p>
+<p><img src="/post-images/ac212239ffc20be0f54d227796233c7a.png" alt="image-20230120143319224" /></p>
+<p>恢复以后应该是这种状态。再次启动，即可恢复拍摄快照时的样子。</p>
+<p><img src="/post-images/2ff0b73f2282f261de343870e113709c.png" alt="image-20230120143338860" /></p>
+<hr />
+<p>……</p>
+<p>完结撒花！✨</p>
+<p>更多内容，欢迎关注：<a href="https://www.luogu.com.cn/user/593403"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Luogu @PanDaoxi</mtext></mrow><annotation encoding="application/x-tex">\text{Luogu @PanDaoxi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Luogu @PanDaoxi</span></span></span></span></span></a></p>
 ]]></content>
       <categories>
         <category>计算机</category>
@@ -1451,6 +1426,31 @@
 <p>再利用分号，就可以把它们全部压缩至一行。如下：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">(x1, y1), (x2, y2) = (f := <span class="keyword">lambda</span> l: [<span class="built_in">eval</span>(i) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">input</span>(<span class="string">f&quot;<span class="subst">&#123;l&#125;</span> &gt;&gt;&gt; &quot;</span>).split()])(<span class="string">&quot;A&quot;</span>), f(<span class="string">&quot;B&quot;</span>); x, z, y = <span class="string">&quot;-&quot;</span> <span class="keyword">if</span> (k := (f := <span class="keyword">lambda</span> x: <span class="built_in">int</span>(x) <span class="keyword">if</span> <span class="built_in">int</span>(x) == <span class="built_in">float</span>(x) <span class="keyword">else</span> x)(k := (y2 - y1) / (x2 - x1))) == -<span class="number">1</span> <span class="keyword">else</span> <span class="string">&quot;&quot;</span> <span class="keyword">if</span> k == <span class="number">1</span> <span class="keyword">else</span> k, <span class="string">&quot;&quot;</span> <span class="keyword">if</span> <span class="keyword">not</span> (b := f(b := y1 - k * x1)) <span class="keyword">else</span> b, [<span class="string">&quot;&quot;</span>, <span class="string">&quot;+&quot;</span>][b &gt; <span class="number">0</span>]; <span class="built_in">print</span>(<span class="string">f&quot;y=<span class="subst">&#123;x&#125;</span>x<span class="subst">&#123;y&#125;</span><span class="subst">&#123;z&#125;</span>&quot;</span>) <span class="keyword">if</span> k <span class="keyword">else</span> <span class="built_in">print</span>(<span class="string">f&quot;y=<span class="subst">&#123;b&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
 <p>Perfect!</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 下破解 Whale（VPN 白鲸加速器）的登录限制</title>
+    <url>/2024/01/28/windows-xia-po-jie-whalebai-jing-jia-su-qi-de-deng-lu-xian-zhi/</url>
+    <content><![CDATA[<blockquote>
+<p>声明：<br />
+本人不存在利用 VPN 进行诈骗等，涉及违反法律的任何行为。只是用来看 Gmail 的。<br />
+<strong>如果某人利用文章提供的信息实施法律所禁止的行为，与本文原作者 PanDaoxi 无关。</strong><br />
+法不可违！</p>
+</blockquote>
+<p><a href="https://m.bj1ch.com/">https://m.bj1ch.com/</a></p>
+<hr />
+<ol>
+<li>退出加速器。</li>
+<li>打开 <code>%programdata%</code> 目录。</li>
+<li>删除 <code>Whale</code> 文件夹。</li>
+<li>重新打开加速器，注册一个帐号即可白嫖。</li>
+</ol>
 ]]></content>
       <categories>
         <category>计算机</category>
