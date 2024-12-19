@@ -99,152 +99,6 @@
       </tags>
   </entry>
   <entry>
-    <title>C++ 排序和去重</title>
-    <url>/2023/09/15/c-pai-xu-he-qu-chong/</url>
-    <content><![CDATA[<p><ul class="markdownIt-TOC">
-<li><a href="#%E7%AE%80%E4%BB%8B-textttsort">简介 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">sort()</mtext></mrow><annotation encoding="application/x-tex">\texttt{sort()}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord text"><span class="mord texttt">sort()</span></span></span></span></span></a></li>
-<li><a href="#%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8">实际应用</a></li>
-<li><a href="#%E9%9B%86%E5%90%88textttset%E5%8D%87%E5%BA%8F%E6%8E%92%E5%BA%8F-%E5%8E%BB%E9%87%8D">集合（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">set</mtext></mrow><annotation encoding="application/x-tex">\texttt{set}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55358em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">set</span></span></span></span></span>）——升序排序 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>+</mo></mrow><annotation encoding="application/x-tex">+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">+</span></span></span></span> 去重</a></li>
-<li><a href="#textttunique-%E5%87%BD%E6%95%B0%E5%8F%AA%E5%8E%BB%E9%87%8D"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">unique</mtext></mrow><annotation encoding="application/x-tex">\texttt{unique}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.22222em;"></span><span class="mord text"><span class="mord texttt">unique</span></span></span></span></span> 函数——只去重</a></li>
-</ul>
-</p>
-<h1 id="排序"><a class="markdownIt-Anchor" href="#排序"></a> 排序</h1>
-<h2 id="简介-textttsort"><a class="markdownIt-Anchor" href="#简介-textttsort"></a> 简介 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">sort()</mtext></mrow><annotation encoding="application/x-tex">\texttt{sort()}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord text"><span class="mord texttt">sort()</span></span></span></span></span></h2>
-<p>在 <code>algorithm</code> 头文件里，有一个 <code>sort</code> 函数，十分的方便。<br />
-运用了快速排序，其基本思想是分治，也可以加上二分的优化；<br />
-速度很快，达到 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><msub><mo><mi>log</mi><mo>⁡</mo></mo><mn>2</mn></msub><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n\log_2 n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.20696799999999996em;"><span style="top:-2.4558600000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24414em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span>。<br />
-<s>至少比冒泡快多了。</s><br />
-<img src="/post-images/3af6e6f9497398d8b66c08b1def0b2ad.png" alt="" /><br />
-函数有三个参数：<code>sort(start, end, cmp)</code>。<br />
-<code>start</code> 是排序起始地址，<code>end</code> 是排序结束地址的<strong>下一位</strong>。<br />
-<code>cmp</code> 支持用户自定义排序方法，也可以不填，就默认升序。</p>
-<h2 id="实际应用"><a class="markdownIt-Anchor" href="#实际应用"></a> 实际应用</h2>
-<p>具体地，我有一个数组 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span>。对它进行以下操作：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> n, a[<span class="number">114514</span>];</span><br><span class="line">cin &gt;&gt; n;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">    cin &gt;&gt; a[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><s>没错，其实就是个输入。</s><br />
-现在，输入的这些数据无序，如何让他们升序排列？</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sort</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>);</span><br></pre></td></tr></table></figure>
-<p>起始下标是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>，所以第一个参数是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a+1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>。<br />
-终止下标是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>，所以第二个参数是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a + n + 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>。<br />
-当然你也可以多加一个取址：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sort</span>(&amp;a[<span class="number">1</span>], &amp;a[n + <span class="number">1</span>]);</span><br></pre></td></tr></table></figure>
-<p>两种方法<strong>等价</strong>。</p>
-<p>快速排序是通过<strong>比较</strong>的方式来排序。<br />
-类比于刚刚的方法，降序排列就需要使用自定义 <code>cmp</code> 来实现。<br />
-定义一个 <code>bool</code> 函数，名字随意，参数是要比较的两个东西：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">jntm</span><span class="params">(<span class="type">int</span> kun1, <span class="type">int</span> kun2)</span></span>&#123; <span class="comment">// 瞎起名字</span></span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	返回 true → 后面的放在前面</span></span><br><span class="line"><span class="comment">	返回 false → 不动</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	<span class="keyword">return</span> kun1 &gt; kun2; <span class="comment">// 较大的放在前面</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">sort</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>, jntm);</span><br></pre></td></tr></table></figure>
-<p>这个函数如果要是全部返回 <code>true</code> 值的话，整个数组将会以最中间的元素左右对称；如果全部返回 <code>false</code> 的话，整个数组不变。<code>bool</code> 的函数默认返回 <code>false</code>。<br />
-因此，如果想要实现排序的效果，需要比较前一个和后一个。</p>
-<hr />
-<p>问题来了，如果对于一个 <code>struct</code> 结构体，<code>cmp</code> 如何使用？<br />
-<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">Luogu</mtext><mtext> </mtext><mtext mathvariant="monospace">P1093</mtext><mtext> </mtext><mtext mathvariant="monospace">/</mtext><mtext> </mtext><mtext mathvariant="monospace">NOIp</mtext><mtext> </mtext><mtext mathvariant="monospace">2007</mtext><mtext> </mtext><mtext mathvariant="monospace">PJ</mtext></mrow><annotation encoding="application/x-tex">\texttt{Luogu P1093 / NOIp 2007 PJ}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9166599999999999em;vertical-align:-0.22222em;"></span><span class="mord text"><span class="mord texttt">Luogu P1093 / NOIp 2007 PJ</span></span></span></span></span>【奖学金】<br />
-<img src="/post-images/4187d389e9bf3c761103d941aad95fd1.png" alt="" /></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Author:PanDaoxi</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">typedef</span> <span class="type">long</span> <span class="type">long</span> ll;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> INF = <span class="number">301</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">stu</span>&#123;</span><br><span class="line">	<span class="type">int</span> id, total, s1, s2, s3;</span><br><span class="line">&#125; a[INF]; <span class="comment">// 结构体数组</span></span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">cmp</span><span class="params">(stu x, stu y)</span></span>&#123; <span class="comment">// 比较函数</span></span><br><span class="line">	<span class="keyword">if</span>(x.total != y.total) <span class="keyword">return</span> x.total &gt; y.total; <span class="comment">// 先按总分降序排列</span></span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(x.s1 != y.s1) <span class="keyword">return</span> x.s1 &gt; y.s1; <span class="comment">// 再按照语文成绩降序排列</span></span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> x.id &lt; y.id; <span class="comment">// 最后是学号</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	ios :: <span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">	</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">		a[i].id = i; <span class="comment">// 记录学号</span></span><br><span class="line">		cin &gt;&gt; a[i].s1 &gt;&gt; a[i].s2 &gt;&gt; a[i].s3;</span><br><span class="line">		a[i].total = a[i].s1 + a[i].s2 + a[i].s3; <span class="comment">// 计算总分</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">sort</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>, cmp); <span class="comment">// 排序</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++)&#123; <span class="comment">// 输出</span></span><br><span class="line">		cout &lt;&lt; a[i].id &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; a[i].total &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr />
-<h1 id="去重"><a class="markdownIt-Anchor" href="#去重"></a> 去重</h1>
-<h2 id="集合textttset升序排序-去重"><a class="markdownIt-Anchor" href="#集合textttset升序排序-去重"></a> 集合（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">set</mtext></mrow><annotation encoding="application/x-tex">\texttt{set}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55358em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">set</span></span></span></span></span>）——升序排序 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>+</mo></mrow><annotation encoding="application/x-tex">+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">+</span></span></span></span> 去重</h2>
-<p><a href="https://oi-wiki.org/string/hash/">什么是字符串 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">Hash</mtext></mrow><annotation encoding="application/x-tex">\texttt{Hash}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">Hash</span></span></span></span></span>？</a></p>
-<p>对于数据规模较小的一组数，我们可以通过<strong>桶排序</strong>的方法去重。简单快捷，好写。</p>
-<p>推广到一般情况，有的时候字符串 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">Hash</mtext></mrow><annotation encoding="application/x-tex">\texttt{Hash}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">Hash</span></span></span></span></span> 生成的数会很大（或者本身的数据规模就很大），这时候就不能再利用桶了，可能会爆空间。</p>
-<p>有一种数据集——集合 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">set</mtext></mrow><annotation encoding="application/x-tex">\texttt{set}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55358em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">set</span></span></span></span></span> 可以一边升序排序，一边去重。<br />
-头文件：<code>set</code>。<br />
-同样，我有一个数组 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span>，离线输入了一些数据。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> n, a[<span class="number">114514</span>];</span><br><span class="line">cin &gt;&gt; n;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">    cin &gt;&gt; a[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>我们就可以创建一个整数型集合储存、去重。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">set &lt;<span class="type">int</span>&gt; <span class="built_in">s</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> i : s)&#123;</span><br><span class="line">	cout &lt;&lt; i &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 也可以创建一个迭代器，但是我不喜欢，因为太麻烦，也可以直接用 auto 代替</span></span><br><span class="line"><span class="keyword">for</span>(set &lt;<span class="type">int</span>&gt; :: iterator i = s.<span class="built_in">begin</span>(); i != s.<span class="built_in">end</span>(); i++)&#123;</span><br><span class="line">	cout &lt;&lt; *i &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 倒着遍历</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> i = s.<span class="built_in">rbegin</span>(); i != s.<span class="built_in">rend</span>(); i++)&#123;</span><br><span class="line">	cout &lt;&lt; i &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 转存到 vector</span></span><br><span class="line">vector &lt;<span class="type">int</span>&gt; <span class="built_in">v</span>(s.<span class="built_in">begin</span>(), s.<span class="built_in">end</span>());</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> i : v)&#123;</span><br><span class="line">	cout &lt;&lt; i &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="textttunique-函数只去重"><a class="markdownIt-Anchor" href="#textttunique-函数只去重"></a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">unique</mtext></mrow><annotation encoding="application/x-tex">\texttt{unique}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.22222em;"></span><span class="mord text"><span class="mord texttt">unique</span></span></span></span></span> 函数——只去重</h2>
-<p>头文件：<code>algorithm</code>。<br />
-本质是将重复的元素移动到数组的末尾，最后再将迭代器指向第一个重复元素的下标。<br />
-这个移动的过程也需要比较。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> n, a[<span class="number">114514</span>];</span><br><span class="line">cin &gt;&gt; n;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123; <span class="comment">// 还是照常的输入</span></span><br><span class="line">    cin &gt;&gt; a[i];</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 一般使用前需要先排序！！</span></span><br><span class="line"><span class="built_in">sort</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>);</span><br><span class="line"><span class="comment">// 获取去重后数组的新长度</span></span><br><span class="line"><span class="type">int</span> len = <span class="built_in">unique</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>) - a - <span class="number">1</span>;</span><br><span class="line"><span class="comment">// 输出</span></span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= len; i++)&#123;</span><br><span class="line">	cout &lt;&lt; a[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>如果使用前需要先排序，那么就出现了一个新问题——如何按照输入顺序？<br />
-——可以通过<strong>结构体</strong>解决。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> INF = <span class="number">114514</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">node</span> &#123;<span class="type">int</span> num, id;&#125; a[INF];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">cmp</span><span class="params">(node kun1, node kun2)</span></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> kun<span class="number">1.</span>id &lt; kun<span class="number">2.</span>id; <span class="comment">// 输入早的放在前面</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ......</span></span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line">cin &gt;&gt; n;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">    cin &gt;&gt; a[i].num;</span><br><span class="line">    a[i].id = i; <span class="comment">// 记录输入顺序</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">sort</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>);</span><br><span class="line"><span class="type">int</span> len = <span class="built_in">unique</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>) - a - <span class="number">1</span>;</span><br><span class="line"><span class="comment">// 再次排序（按照输入顺序）</span></span><br><span class="line"><span class="built_in">sort</span>(a + <span class="number">1</span>, a + len + <span class="number">1</span>, cmp);</span><br><span class="line"><span class="comment">// 输出</span></span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= len; i++)&#123;</span><br><span class="line">	cout &lt;&lt; a[i].num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>美滋滋写完，发现编译器报错：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Error] no match for &#x27;operator==&#x27; (operand types are &#x27;node&#x27; and &#x27;node&#x27;)</span><br><span class="line">[Error] no match for &#x27;operator&lt;&#x27; (operand types are &#x27;node&#x27; and &#x27;node&#x27;)</span><br></pre></td></tr></table></figure>
-<p>为啥？咋嘛咋嘛滋味儿，我突然发现结构体有两个变量。<br />
-电脑和 <code>unique</code> 函数咋知道我要比较哪个？<br />
-好的，它不知道，那咱们帮它知道。<s>一拳头淦电脑上。</s><br />
-通过<strong>重载运算符</strong>：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">node</span> &#123;</span><br><span class="line">	<span class="type">int</span> num, id;</span><br><span class="line">	<span class="type">bool</span> <span class="keyword">operator</span> == (node k)&#123; <span class="comment">// 判等，判的是储存的数等</span></span><br><span class="line">		<span class="keyword">return</span> num == k.num;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">bool</span> <span class="keyword">operator</span> &lt; (node k)&#123; <span class="comment">// 排序，让数小的在前面，让输入编号小的在前</span></span><br><span class="line">		<span class="keyword">return</span> num &lt; k.num || num == k.num &amp;&amp; id &lt; k.id;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; a[INF];</span><br></pre></td></tr></table></figure>
-<p>如果有更多的结构体成员也没关系，核心就是两次排序和重载运算符。<br />
-<img src="/post-images/200985905d7a9c8d728b258174bf8380.png" alt="" /><br />
-现在就可以实现不排序的去重了。</p>
-<h1 id="题"><a class="markdownIt-Anchor" href="#题"></a> 题</h1>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext mathvariant="monospace">Luogu</mtext><mtext> </mtext><mtext mathvariant="monospace">P3370</mtext></mrow><annotation encoding="application/x-tex">\texttt{Luogu P3370}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.22222em;"></span><span class="mord text"><span class="mord texttt">Luogu P3370</span></span></span></span></span>【模板】字符串哈希<br />
-<img src="/post-images/9c05153cb08f706788df21f272a4d79f.png" alt="" /></p>
-<p>很简单的水了一道题。（喜）</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Author:PanDaoxi</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">typedef</span> <span class="type">long</span> <span class="type">long</span> ll;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> INF = <span class="number">1e4</span> + <span class="number">1</span>;</span><br><span class="line">set &lt;string&gt; s;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	ios :: <span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line"></span><br><span class="line">	<span class="type">int</span> n;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">while</span>(n--)&#123;</span><br><span class="line">		string str;</span><br><span class="line">		cin &gt;&gt; str;</span><br><span class="line">		s.<span class="built_in">insert</span>(str);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s.<span class="built_in">size</span>();</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>OI 系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
-    <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
-    <content><![CDATA[<p>本文适用情况：</p>
-<ul>
-<li>U 盘硬件正常，原来还能用；</li>
-<li>电脑能用，计算机管理没被禁用；</li>
-<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
-</ul>
-<p>具体的解决步骤如下：</p>
-<ol>
-<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
-<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
-<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
-<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
-<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
-<li>右键：卸载设备。<br />
-<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
-<li>重新插拔 U 盘，完成。<br />
-<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>南柯子·游甘肃</title>
-    <url>/2024/08/04/nan-ke-zi-you-gan-su/</url>
-    <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
-子美客天水，太白过南山。黄河石林竦峙千。马踏飞燕，过了小西天。</p>
-<p><img src="/post-images/49ba673d516a87dba324f5a4d8dd4391.jpg" alt="" /><br />
-<img src="/post-images/10dc457479ba5aec4f935c7a3745f7a2.jpg" alt="" /><br />
-<img src="/post-images/5bfcfacde800dd8ae08eda997432bea1.jpg" alt="" /><br />
-<img src="/post-images/0ec6be33b055c240ce9bf157ab95bd5d.jpg" alt="" /><br />
-<img src="/post-images/1b649567d66a799176d93ee8a7c9f969.jpg" alt="" /><br />
-<img src="/post-images/cc41107c42ad0f37df97b07111df06ae.jpg" alt="" /><br />
-<img src="/post-images/04338ab373d51416e88ac8901af3aae7.jpg" alt="" /><br />
-<img src="/post-images/2e95a6cf36d9f1c47094d5d9b29c1365.jpg" alt="" /><br />
-<img src="/post-images/c5fdcdaf67429abbcf54198fbc294bda.jpg" alt="" /></p>
-<hr />
-<p>吃货属性爆发！~</p>
-<p><img src="/post-images/9f95560534d0f4feb31d438d7b83f666.jpg" alt="" /><br />
-<img src="/post-images/f882dc6e20e9bff29c5578c18a8f3acb.jpg" alt="" /><br />
-<img src="/post-images/4a78b2a14521a9186d53c9c0d77a5593.jpg" alt="" /><br />
-<img src="/post-images/c356cbf6ae7a0278f75ee1e7c9fb8746.jpg" alt="" /><br />
-<img src="/post-images/696d314abcec52306907ca5e972df506.jpg" alt="" /><br />
-<img src="/post-images/ae02fbc2b1be7d0c45a585c377fff5a4.jpg" alt="" /><br />
-<img src="/post-images/f7681d254870049e3b6219d940e3da2b.jpg" alt="" /><br />
-<img src="/post-images/bfbe0eb421607b0eb63418e4ea122a20.jpg" alt="" /><br />
-<img src="/post-images/72b26710e6f0e77b89c861eefde009c0.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>冀少版七年级生物知识点思维导图</title>
     <url>/2023/07/30/ji-jiao-ban-qi-nian-ji-sheng-wu-zhi-shi-dian-si-wei-dao-tu/</url>
     <content><![CDATA[<p>仅供参考，对复习可能有一定效果。推荐使用下面的电子课本：</p>
@@ -298,7 +152,36 @@
         <category>计算机</category>
       </categories>
       <tags>
-        <tag>OI 系列</tag>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
+    <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
+    <content><![CDATA[<p>本文适用情况：</p>
+<ul>
+<li>U 盘硬件正常，原来还能用；</li>
+<li>电脑能用，计算机管理没被禁用；</li>
+<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
+</ul>
+<p>具体的解决步骤如下：</p>
+<ol>
+<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
+<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
+<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
+<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
+<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
+<li>右键：卸载设备。<br />
+<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
+<li>重新插拔 U 盘，完成。<br />
+<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
+</ol>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -356,6 +239,39 @@
       </categories>
       <tags>
         <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>南柯子·游甘肃</title>
+    <url>/2024/08/04/nan-ke-zi-you-gan-su/</url>
+    <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
+子美客天水，太白过南山。黄河石林竦峙千。马踏飞燕，过了小西天。</p>
+<p><img src="/post-images/49ba673d516a87dba324f5a4d8dd4391.jpg" alt="" /><br />
+<img src="/post-images/10dc457479ba5aec4f935c7a3745f7a2.jpg" alt="" /><br />
+<img src="/post-images/5bfcfacde800dd8ae08eda997432bea1.jpg" alt="" /><br />
+<img src="/post-images/0ec6be33b055c240ce9bf157ab95bd5d.jpg" alt="" /><br />
+<img src="/post-images/1b649567d66a799176d93ee8a7c9f969.jpg" alt="" /><br />
+<img src="/post-images/cc41107c42ad0f37df97b07111df06ae.jpg" alt="" /><br />
+<img src="/post-images/04338ab373d51416e88ac8901af3aae7.jpg" alt="" /><br />
+<img src="/post-images/2e95a6cf36d9f1c47094d5d9b29c1365.jpg" alt="" /><br />
+<img src="/post-images/c5fdcdaf67429abbcf54198fbc294bda.jpg" alt="" /></p>
+<hr />
+<p>吃货属性爆发！~</p>
+<p><img src="/post-images/9f95560534d0f4feb31d438d7b83f666.jpg" alt="" /><br />
+<img src="/post-images/f882dc6e20e9bff29c5578c18a8f3acb.jpg" alt="" /><br />
+<img src="/post-images/4a78b2a14521a9186d53c9c0d77a5593.jpg" alt="" /><br />
+<img src="/post-images/c356cbf6ae7a0278f75ee1e7c9fb8746.jpg" alt="" /><br />
+<img src="/post-images/696d314abcec52306907ca5e972df506.jpg" alt="" /><br />
+<img src="/post-images/ae02fbc2b1be7d0c45a585c377fff5a4.jpg" alt="" /><br />
+<img src="/post-images/f7681d254870049e3b6219d940e3da2b.jpg" alt="" /><br />
+<img src="/post-images/bfbe0eb421607b0eb63418e4ea122a20.jpg" alt="" /><br />
+<img src="/post-images/72b26710e6f0e77b89c861eefde009c0.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
