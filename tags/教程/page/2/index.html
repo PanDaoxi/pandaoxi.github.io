@@ -10,7 +10,7 @@
 <meta property="article:tag" content="PanDaoxi">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://daoxi365.pages.dev/img/butterfly-icon.jpg"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://daoxi365.pages.dev/tags/%E6%95%99%E7%A8%8B/page/2/index.html"><link rel="preconnect" href="//unpkg.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
+<meta name="twitter:image" content="https://daoxi365.pages.dev/img/butterfly-icon.jpg"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://daoxi365.pages.dev/tags/%E6%95%99%E7%A8%8B/page/2/index.html"><link rel="preconnect" href="//unpkg.com"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
     (() => {
       
     const saveToLocal = {
@@ -84,7 +84,7 @@
       const theme = saveToLocal.get('theme')
     
           const hour = new Date().getHours()
-          const isNight = hour <= 18 || hour >= 6
+          const isNight = hour <= 6 || hour >= 18
           if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
           else theme === 'light' ? activateLightMode() : activateDarkMode()
         
@@ -177,4 +177,4 @@ btf.addGlobalFn('pjaxSend', () => {
 
   btf.addGlobalFn('pjaxComplete', panguInit, 'pangu')
   document.addEventListener('DOMContentLoaded', panguInit)
-})()</script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
+})()</script><div class="js-pjax"></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>

