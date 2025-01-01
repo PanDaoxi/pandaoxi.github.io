@@ -3,20 +3,31 @@
 	--dark_bg_color: rgba(18, 18, 18, 0.9); /* 暗黑模式下的透明度 */
 }
 
-[data-theme="dark"] .post > .layout > #post,
-[data-theme="dark"] #recent-posts > .recent-post-item,
-[data-theme="dark"] .read-mode .layout > #post,
-[data-theme="dark"] #aside-content .card-widget,
+/* 通用设置，适用于所有模式 */
 .recent-post-item,
+#aside-content .card-widget,
 pre {
-	background: var(--dark_bg_color);
+	background: var(--light_bg_color) !important;
 }
 
+/* 暗黑模式下的特定设置 */
+[data-theme="dark"] {
+	.recent-post-item,
+	#aside-content .card-widget,
+	#page,
+	.page .type-artitalk,
+	pre {
+		background: var(--dark_bg_color) !important;
+	}
+}
+
+/* 如果文章卡片的背景需要特别设置，确保选择器正确 */
 [data-theme="light"] .post > .layout > #post,
-[data-theme="light"] #recent-posts > .recent-post-item,
-[data-theme="light"] .read-mode .layout > #post,
-[data-theme="light"] #aside-content .card-widget,
-.recent-post-item,
-pre {
-	background: var(--light_bg_color);
+[data-theme="light"] .read-mode .layout > #post {
+	background: var(--light_bg_color) !important;
+}
+
+[data-theme="dark"] .post > .layout > #post,
+[data-theme="dark"] .read-mode .layout > #post {
+	background: var(--dark_bg_color) !important;
 }
