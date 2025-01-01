@@ -7,6 +7,7 @@
 [data-theme="dark"] #recent-posts > .recent-post-item,
 [data-theme="dark"] .read-mode .layout > #post,
 [data-theme="dark"] #aside-content .card-widget,
+.recent-post-item,
 pre {
 	background: var(--dark_bg_color);
 }
@@ -15,6 +16,7 @@ pre {
 [data-theme="light"] #recent-posts > .recent-post-item,
 [data-theme="light"] .read-mode .layout > #post,
 [data-theme="light"] #aside-content .card-widget,
+.recent-post-item,
 pre {
 	background: var(--light_bg_color);
 }
