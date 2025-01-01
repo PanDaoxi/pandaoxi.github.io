@@ -5,8 +5,7 @@
 
 /* 通用设置，适用于所有模式 */
 .recent-post-item,
-#aside-content .card-widget,
-pre {
+#aside-content .card-widget {
 	background: var(--light_bg_color) !important;
 }
 
@@ -15,8 +14,7 @@ pre {
 	.recent-post-item,
 	#aside-content .card-widget,
 	#page,
-	.page .type-artitalk,
-	pre {
+	.page .type-artitalk {
 		background: var(--dark_bg_color) !important;
 	}
 }
