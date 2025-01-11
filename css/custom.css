@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "HYTMR";
+	src: url("/files/HYTangMeiRen-45W.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--light_bg_color: rgba(255, 255, 255, 0.9); /* 明亮模式下的透明度 */
+	--dark_bg_color: rgba(18, 18, 18, 0.9); /* 暗黑模式下的透明度 */
+}
+
+/* 通用设置，适用于所有模式 */
+.recent-post-item,
+#page,
+.page .type-artitalk,
+#aside-content .card-widget {
+	background: var(--light_bg_color) !important;
+}
+
+/* 暗黑模式下的特定设置 */
+[data-theme="dark"] {
+	.recent-post-item,
+	#page,
+	.page .type-artitalk,
+	#aside-content .card-widget {
+		background: var(--dark_bg_color) !important;
+	}
+}
+
+/* 如果文章卡片的背景需要特别设置，确保选择器正确 */
+[data-theme="light"] .post > .layout > #post,
+[data-theme="light"] .read-mode .layout > #post {
+	background: var(--light_bg_color) !important;
+}
+
+[data-theme="dark"] .post > .layout > #post,
+[data-theme="dark"] .read-mode .layout > #post {
+	background: var(--dark_bg_color) !important;
+}
