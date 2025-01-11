@@ -1,6 +1,8 @@
 @font-face {
 	font-family: "HYTMR";
-	src: url("/files/HYTangMeiRen-45W.woff2") format("woff2");
+	/* src: url("/files/HYTangMeiRen-45W.woff2") format("woff2"); */
+	src: url("https://npm.elemecdn.com/fontcdn-ariasaka@1.0.0/HYTangMeiRen55W.woff2")
+		format("woff2");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;

