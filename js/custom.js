@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		false
 	);
 	const hostCityCoords = { lat: 38.036, lon: 114.47 }; // 石家庄市的经纬度
-	const apiIp = "http://ip-api.com/json/";
+	const apiIp = "https://ip-api.com/json/";
 
 	fetch(apiIp)
 		.then((response) => response.json())
