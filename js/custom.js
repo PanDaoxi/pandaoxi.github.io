@@ -140,4 +140,19 @@ function f1() {
 
 document.addEventListener("DOMContentLoaded", function () {
 	f1();
+	var title = document.title;
+	document.addEventListener(
+		"visibilitychange",
+		function () {
+			if (document.hidden) {
+				document.title = "PanDaoxi | ಠ_ಠ";
+			} else {
+				document.title = "PanDaoxi | (๑>◡<๑)";
+				setTimeout(function () {
+					document.title = title;
+				}, 2000);
+			}
+		},
+		false
+	);
 });
