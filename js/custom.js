@@ -138,8 +138,7 @@ function f1() {
 	}
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-	f1();
+function f2() {
 	var title = document.title;
 	document.addEventListener(
 		"visibilitychange",
@@ -155,28 +154,50 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 		false
 	);
-	const hostCityCoords = { lat: 38.036, lon: 114.4654 }; // 石家庄市的经纬度
-	const apiIp = "https://api.ip.sb/geoip"; // 使用 ip.sb 的 API
+}
+
+function f3() {
+	function givePoems(distance) {
+		if (distance > 1000) {
+			return "海内存知己，天涯若比邻。";
+		} else if (distance > 500) {
+			return "莫愁前路无知己，天下谁人不识君。";
+		} else if (distance > 100) {
+			return "相逢意气为君饮，系马高楼垂柳边。";
+		} else if (distance > 50) {
+			return "近水楼台先得月，向阳花木易为春。";
+		} else if (distance > 10) {
+			return "绿树村边合，青山郭外斜。";
+		} else if (distance > 5) {
+			return "青山一道同云雨，明月何曾是两乡。";
+		} else {
+			return "千山万水总关情，步步近，心心相印。";
+		}
+	}
+
+	const hostCityCoords = { lat: 38.036, lon: 114.4654 };
+	const apiIp = "https://api.ip.sb/geoip";
 
 	fetch(apiIp)
 		.then((response) => response.json())
 		.then((data) => {
-			// 从 API 返回的数据中获取用户的经纬度
-			const userCoords = { lat: data.latitude, lon: data.longitude }; // 提取经纬度
-			console.log("用户经纬度:", userCoords); // 输出用户的经纬度，便于调试
-
+			const userCoords = { lat: data.latitude, lon: data.longitude };
 			const distance = calculateDistance(userCoords, hostCityCoords);
-			console.log("计算的距离:", distance); // 输出计算的距离，便于调试
-			document.getElementById("distance").textContent =
-				Math.round(distance); // 取整数
+			document.getElementById(
+				"distance"
+			).textContent = `与你相距 ${Math.round(distance)} 千米。${givePoems(
+				distance
+			)}`;
 		})
 		.catch((error) => {
-			console.error("获取地理位置信息失败:", error);
+			document.getElementById(
+				"distance"
+			).textContent = `青山一道同云雨，明月何曾是两乡。`;
+			console.warn("fetch 地理信息 API 失败。", error);
 		});
 
-	// Haversine 公式计算距离
 	function calculateDistance(coords1, coords2) {
-		const R = 6371; // 地球半径（公里）
+		const R = 6371;
 		const dLat = toRadians(coords2.lat - coords1.lat);
 		const dLon = toRadians(coords2.lon - coords1.lon);
 		const a =
@@ -186,11 +207,17 @@ document.addEventListener("DOMContentLoaded", function () {
 				Math.sin(dLon / 2) *
 				Math.sin(dLon / 2);
 		const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-		const distance = R * c; // 计算距离
+		const distance = R * c;
 		return distance;
 	}
 
 	function toRadians(degrees) {
 		return degrees * (Math.PI / 180);
 	}
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+	f1();
+	f2();
+	f3();
 });
