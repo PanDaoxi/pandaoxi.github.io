@@ -155,4 +155,39 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 		false
 	);
+	const hostCityCoords = { lat: 38.036, lon: 114.47 }; // 石家庄市的经纬度
+	const apiIp = "http://ip-api.com/json/";
+
+	fetch(apiIp)
+		.then((response) => response.json())
+		.then((data) => {
+			const userCoords = { lat: data.lat, lon: data.lon }; // 用户的经纬度
+
+			const distance = calculateDistance(userCoords, hostCityCoords);
+			document.getElementById("distance").textContent =
+				Math.round(distance); // 取整数
+		})
+		.catch((error) => {
+			console.error("获取地理位置信息失败:", error);
+		});
+
+	// Haversine 公式计算距离
+	function calculateDistance(coords1, coords2) {
+		const R = 6371; // 地球半径（公里）
+		const dLat = toRadians(coords2.lat - coords1.lat);
+		const dLon = toRadians(coords2.lon - coords1.lon);
+		const a =
+			Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+			Math.cos(toRadians(coords1.lat)) *
+				Math.cos(toRadians(coords2.lat)) *
+				Math.sin(dLon / 2) *
+				Math.sin(dLon / 2);
+		const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+		const distance = R * c; // 计算距离
+		return distance;
+	}
+
+	function toRadians(degrees) {
+		return degrees * (Math.PI / 180);
+	}
 });
