@@ -155,17 +155,27 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 		false
 	);
-	const hostCityCoords = { lat: 38.036, lon: 114.47 }; // 石家庄市的经纬度
-	const apiIp = "https://ip-api.com/json/";
+	const hostCityCoords = { lat: 38.05140772727272, lon: 114.53753786363635 }; // 石家庄市的经纬度
+	const apiKey = "J2GBZ-PAXWB-UBTU3-N6GJS-KWMXH-OOBQ7"; // 替换为您的腾讯位置服务的密钥
+	const apiIp = `https://apis.map.qq.com/ws/location/v1/ip?key=${apiKey}`; // 腾讯位置服务的 IP 查询 API
 
 	fetch(apiIp)
 		.then((response) => response.json())
 		.then((data) => {
-			const userCoords = { lat: data.lat, lon: data.lon }; // 用户的经纬度
+			if (data.status === 0) {
+				const userCoords = {
+					lat: data.result.location.lat,
+					lon: data.result.location.lng,
+				}; // 获取用户的经纬度
+				console.log("用户经纬度:", userCoords); // 输出用户的经纬度，便于调试
 
-			const distance = calculateDistance(userCoords, hostCityCoords);
-			document.getElementById("distance").textContent =
-				Math.round(distance); // 取整数
+				const distance = calculateDistance(userCoords, hostCityCoords);
+				console.log("计算的距离:", distance); // 输出计算的距离，便于调试
+				document.getElementById("distance").textContent =
+					Math.round(distance); // 取整数
+			} else {
+				console.error("获取地理位置信息失败:", data.message);
+			}
 		})
 		.catch((error) => {
 			console.error("获取地理位置信息失败:", error);
