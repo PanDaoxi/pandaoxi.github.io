@@ -157,6 +157,8 @@ function f2() {
 }
 
 function f3() {
+	if (document.getElementById("distance") == null) return;
+
 	function givePoems(distance) {
 		if (distance > 1000) {
 			return "海内存知己，天涯若比邻。";

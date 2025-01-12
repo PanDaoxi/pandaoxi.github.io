@@ -16,6 +16,9 @@
 /* 通用设置，适用于所有模式 */
 .recent-post-item,
 #page,
+#tag,
+#archive,
+#category,
 .page .type-artitalk,
 #aside-content .card-widget {
 	background: var(--light_bg_color) !important;
@@ -25,6 +28,9 @@
 [data-theme="dark"] {
 	.recent-post-item,
 	#page,
+	#tag,
+	#archive,
+	#category,
 	.page .type-artitalk,
 	#aside-content .card-widget {
 		background: var(--dark_bg_color) !important;
